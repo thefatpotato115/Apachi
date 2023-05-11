@@ -1,5 +1,3 @@
-//make github page title APACHI-APP
-
 function Apachi_Open() {
   var e = document.createElement("div");
 
@@ -19,23 +17,35 @@ function Apachi_Open() {
     <br>
 
   
-  <button id="games" style="background-color:black;border-color:green;color:green; width:60px;height:50px" onclick="<--- add XMLHTTP request --->"> 
+  <button id="games" style="background-color:black;border-color:green;color:green; width:60px;height:50px" onclick="req = new XMLHttpRequest(); 
+      req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/files/games.js'); 
+      req.onload = function() { eval(this.responseText); }; 
+      req.send();document.body.removeChild(e);"> 
   games
   
   </button>
   
-      <button id="system" style="background-color:black;border-color:green;color:green; width:60px;height:50px" onclick="<--- add XMLHTTP request --->"> 
+      <button id="system" style="background-color:black;border-color:green;color:green; width:60px;height:50px" onclick="req = new XMLHttpRequest(); 
+      req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/files/iframe.js'); 
+      req.onload = function() { eval(this.responseText); }; 
+      req.send();document.body.removeChild(e);"> 
   system
   
   </button>
   
-      <button id="iframe" style="background-color:black;border-color:green;color:green; width:60px;height:50px" onclick="<--- add XMLHTTP request --->"> 
+      <button id="iframe" style="background-color:black;border-color:green;color:green; width:60px;height:50px" onclick="req = new XMLHttpRequest(); 
+      req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/system.js'); 
+      req.onload = function() { eval(this.responseText); }; 
+      req.send();document.body.removeChild(e);"> 
   iframe
   
   </button>
       
       
-      <button id="proxy" style="background-color:black;border-color:green;color:green; width:60px;height:50px" onclick="<--- add XMLHTTP request --->"> 
+      <button id="proxy" style="background-color:black;border-color:green;color:green; width:60px;height:50px" onclick="req = new XMLHttpRequest(); 
+      req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/proxy.js'); 
+      req.onload = function() { eval(this.responseText); }; 
+      req.send();document.body.removeChild(e);"> 
   proxy
   
   </button>
