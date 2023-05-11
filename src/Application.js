@@ -55,5 +55,7 @@ function Apachi_Open() {
 
 
       `;
+      var tab = window.open();
+  tab.document.body.appendChild(e);
 }
 Apachi_Open();
