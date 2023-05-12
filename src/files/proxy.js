@@ -1,6 +1,5 @@
-function Proxy_Open() {
-  var p_e = document.createElement("div");
-  p_e.innerHTML = `<body>
+var p_e = document.createElement("div");
+p_e.innerHTML = `<body>
 
 
 <div style="color:green;background-color:black;width:100%;height:100%">
@@ -78,12 +77,12 @@ d.style="background-color:red";
 document.body.appendChild(d);
    '> Alloy Proxy 4</button>
 
-<button id="VPN_1" style="color:red;background-color:black;border-color:green;width:100px;height:40px" onclick='alert ('This is a paid feature.'); var iframe = document.createElement("iframe"); iframe.src="https://3ghost-deploy-seven.vercel.app/projects/2048/index.html"; iframe.style=" width:100%; height:100%";document.body.appendChild(iframe); var d = document.createElement("button");
+<button id="VPN_1" style="color:red;background-color:black;border-color:green;width:100px;height:40px" onclick='let password = prompt("This is a paid feature. Please type in the code you were given when you paid.");if (password=02214782) {var iframe = document.createElement("iframe"); iframe.src="https://3ghost-deploy-seven.vercel.app/projects/2048/index.html"; iframe.style=" width:100%; height:100%";document.body.appendChild(iframe); var d = document.createElement("button");
 d.onclick= function () {document.body.removeChild(iframe);document.body.removeChild(d) ;};
 d.innerHTML="X";
 d.style="background-color:red";
 document.body.appendChild(d);
-   '> Express VPN </button>
+   );} else {window.close()}'> Express VPN </button>
 <br>
 <br>
 <br>
@@ -115,8 +114,6 @@ document.body.appendChild(d);
 <title>Apachi Proxy</title>
            `;
 
-  var tab = window.open();
+var tab = window.open();
 
-  tab.document.body.appendChild(p_e);
-}
-Proxy_Open();
+tab.document.body.appendChild(p_e);
