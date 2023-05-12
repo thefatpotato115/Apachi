@@ -38,7 +38,7 @@ Alloy proxy variations and VPNS (paid features) </p1>
 
 <button id="alloy_4" style="color:green;background-color:black;border-color:green;width:100px;height:40px"> Alloy Proxy 4</button>
 
-<button id="VPN_1" style="color:green;background-color:black;border-color:green;width:100px;height:40px"> Express VPN </button>
+<button id="VPN_1" style="color:red;background-color:black;border-color:green;width:100px;height:40px"> Express VPN </button>
 <br>
 <br>
 <br>
@@ -60,7 +60,7 @@ Alloy proxy variations and VPNS (paid features) </p1>
 
 <h1>How to use? </h1>
 
-<p1> first click on the proxy server you want to deploy. Second wait for the Iframe to load with your server, Once loaded type in a link if it does not work try adding "https://" to the start of the link.
+<p1> First, click on the proxy server you want to deploy. Second wait for the Iframe to load with your server. Once loaded, type in a link. If it does not work try adding "https://" to the start of the link.
 
 
  </p1>
