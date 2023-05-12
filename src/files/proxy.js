@@ -67,6 +67,7 @@ Alloy proxy variations and VPNS (paid features) </p1>
 </center>
 
 </body>
+<title>Apachi Proxy</title>
            `;
 
 var tab = window.open();
