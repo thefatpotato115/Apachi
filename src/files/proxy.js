@@ -67,4 +67,7 @@ Alloy proxy variations and VPNS (paid features) </p1>
 
 </body>
            `;
-document.body.appendChild(p_e);
+
+var tab = window.open();
+
+tab.document.body.appendChild(p_e);
