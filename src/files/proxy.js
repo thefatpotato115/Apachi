@@ -1,3 +1,4 @@
+function Proxy_Open() {
 var p_e = document.createElement("div");
 p_e.innerHTML = `<body>
 
@@ -71,3 +72,5 @@ Alloy proxy variations and VPNS (paid features) </p1>
 var tab = window.open();
 
 tab.document.body.appendChild(p_e);
+}
+Proxy_Open();
