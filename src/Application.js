@@ -11,6 +11,8 @@ function Apachi_Open() {
       <text style="color: green;"> Welcome to the Apachi Proxy homepage. </text>
 
       <text style="color: green;"> please use this tool wisely </text>
+    <br>
+<text style="color: green;"> Remember, YOU ONLY GET ONE CHANCE. </text>
     
     <br>
     <br>
