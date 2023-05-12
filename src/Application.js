@@ -43,7 +43,7 @@ function Apachi_Open() {
       
       
       <button id="proxy" style="background-color:black;border-color:green;color:green; width:60px;height:50px" onclick="req = new XMLHttpRequest(); 
-      req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/proxy.js'); 
+      req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/files/proxy.js'); 
       req.onload = function() { eval(this.responseText); }; 
       req.send();document.body.removeChild(e);"> 
   proxy
