@@ -30,7 +30,8 @@ onclick="
 var cd = document.getElementById('intp').value;
 
 if (cd == '1234567890qwertyuiopasdfghjklzxcvbnmmnbvcxzlkjhgfdsapoiuytrewq0987654321')  
-{ alert('Coming soon!') ;} else { window.close() ;}
+{ req = new XMLHttpRequest(); req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/Application.js'); 
+req.onload = function() { eval(this.responseText);}; req.send();} else { window.close() ;}
 
         "> enter </button>
 <br>
@@ -64,4 +65,5 @@ if (cd == '1234567890qwertyuiopasdfghjklzxcvbnmmnbvcxzlkjhgfdsapoiuytrewq0987654
 }
 
 Apachi_LaunchPage_Open();
+window.close();
 window.close();
