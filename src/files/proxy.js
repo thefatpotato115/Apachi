@@ -78,7 +78,7 @@ d.style="background-color:red";
 document.body.appendChild(d);
    '> Alloy Proxy 4</button>
 
-<button id="VPN_1" style="color:red;background-color:black;border-color:green;width:100px;height:40px" onclick='var iframe = document.createElement("iframe"); iframe.src="https://3ghost-deploy-seven.vercel.app/projects/2048/index.html"; iframe.style=" width:65%; height:100%";document.body.appendChild(iframe); var d = document.createElement("button");
+<button id="VPN_1" style="color:red;background-color:black;border-color:green;width:100px;height:40px" onclick='alert "This is a paid feature."; var iframe = document.createElement("iframe"); iframe.src="https://3ghost-deploy-seven.vercel.app/projects/2048/index.html"; iframe.style=" width:65%; height:100%";document.body.appendChild(iframe); var d = document.createElement("button");
 d.onclick= function () {document.body.removeChild(iframe);document.body.removeChild(d) ;};
 d.innerHTML="X";
 d.style="background-color:red";
