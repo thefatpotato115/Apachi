@@ -4,7 +4,7 @@ i_e.innerHTML = `
 <link rel="icon" type="image/x-icon" href="/favicon.jpg" />
 <div style="color:green;background-color:black;width:100%;height:100%"> <center><h1> Iframe</h1>
 <br>
-<p1> apachi offers a built-in Iframer so you can view websites directly form Apachi so extentions cant see them.</p1>
+<p1> Apachi offers a built-in Iframer so you can view websites directly form Apachi so extentions cant see them.</p1>
 <br>
 <br>
 <br>
