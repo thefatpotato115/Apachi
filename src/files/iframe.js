@@ -1,5 +1,8 @@
 var i_e = document.createElement("div");
-i_e.innerHTML = ` <div style="color:green;background-color:black;width:100%;height:100%"> <center><h1> Iframe</h1>
+i_e.innerHTML = ` 
+<title>Apachi Iframe</title>
+<link rel="icon" type="image/x-icon" href="/favicon.jpg" />
+<div style="color:green;background-color:black;width:100%;height:100%"> <center><h1> Iframe</h1>
 <br>
 <p1> apachi offers a built-in Iframer so you can view websites directly form Apachi so extentions cant see them.</p1>
 <br>
@@ -26,8 +29,6 @@ o.style= "background-color:rgb(0,255,0)";
              document.body.appendChild(o);
               '> enter </button>
 </center>
-<title>Apachi Iframe</title>
-<link rel="icon" type="image/x-icon" href="/favicon.jpg" />
  </div>`;
  var tab = window.open();
  
