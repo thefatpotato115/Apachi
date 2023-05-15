@@ -26,6 +26,8 @@ o.style= "background-color:rgb(0,255,0)";
              document.body.appendChild(o);
               '> enter </button>
 </center>
+<title>Apachi Iframe</title>
+<link rel="icon" type="image/x-icon" href="/favicon.jpg" />
  </div>`;
  var tab = window.open();
  
