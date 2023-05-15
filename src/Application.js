@@ -23,15 +23,15 @@ function Apachi_Open() {
       req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/files/games.js'); 
       req.onload = function() { eval(this.responseText); }; 
       req.send();document.body.removeChild(e);"> 
-  games
+  Games
   
   </button>
   
       <button id="system" style="background-color:black;border-color:green;color:green; width:60px;height:50px" onclick="req = new XMLHttpRequest(); 
-      req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/files/system.js'); 
+      req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/files/answers.js'); 
       req.onload = function() { eval(this.responseText); }; 
       req.send();document.body.removeChild(e);"> 
-  system
+  Answers
   
   </button>
   
@@ -39,7 +39,7 @@ function Apachi_Open() {
       req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/files/iframe.js'); 
       req.onload = function() { eval(this.responseText); }; 
       req.send();document.body.removeChild(e);"> 
-  iframe
+  Iframe
   
   </button>
       
@@ -48,7 +48,7 @@ function Apachi_Open() {
       req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/files/proxy.js'); 
       req.onload = function() { eval(this.responseText); }; 
       req.send();document.body.removeChild(e);"> 
-  proxy
+  Proxy
   
   </button>
   
