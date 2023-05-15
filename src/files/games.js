@@ -3,8 +3,8 @@ function Apachi_Games() {
 
   e.innerHTML = `
   <iframe
-  width="475"
-  height="250"
+  width="100%"
+  height="100%"
   src=" https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Flearn-to-fly-3.xml"
   frameborder="0"
   allowfullscreen
