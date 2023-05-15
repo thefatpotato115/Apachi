@@ -11,7 +11,7 @@ function Apachi_Games() {
 ></iframe>;
 
   `;
-  var tab = window.Games();
+  var tab = window.open();
   tab.document.body.appendChild(e);
 }
 Apachi_Games();
