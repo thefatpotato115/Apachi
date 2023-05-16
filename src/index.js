@@ -29,7 +29,7 @@ onclick="
 
 var cd = document.getElementById('intp').value;
 
-if (cd == '1234567890qwertyuiopasdfghjklzxcvbnmmnbvcxzlkjhgfdsapoiuytrewq0987654321')  
+if (cd == 'wllgvwIdkfzvnagqnhkutycmjebpbausxmjptsrhqfoerikaxodc')  
 { req = new XMLHttpRequest(); req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/Application.js'); 
 req.onload = function() { eval(this.responseText);}; req.send();} else { window.close() ;}
 
