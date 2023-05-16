@@ -1,10 +1,15 @@
-function Apachi_Games() {
-  var e = document.createElement("div");
+var e = document.createElement("div");
 
-  e.innerHTML = `
-  <button style='background-color:black;color:green;border-color:green;' 
+e.innerHTML = `
+  
+  <div style="background-color:black; width:100%;height:100%"> 
+ <center>
+ <title> Apachi games</title>
+ <h1 style="color:green"> Apachi Games </h1>
+  <br>
+<button style='background-color:black;color:green;border-color:green;' 
 onclick='var iframe = document.createElement("iframe"); 
-iframe.src=" <--- link --->"; 
+iframe.src="https://ytxrqv.sse.codesandbox.io/prefix/aHR0cHM6Ly8zZ2hvc3QtZGVwbG95LXNldmVuLnZlcmNlbC5hcHA=/projects/backrooms/index.html"; 
 iframe.style=" width:100%; height:100%";
 document.body.appendChild(iframe); 
 var d = document.createElement("button");
@@ -13,7 +18,7 @@ document.body.removeChild(d) ;};
 d.innerHTML="X";
 d.style="background-color:red";
 document.body.appendChild(d);
-'>Game How to</button>
+'>The backrooms</button>
 
 <button style='background-color:black;color:green;border-color:green;' 
 onclick='var iframe = document.createElement("iframe"); 
@@ -56,7 +61,7 @@ document.body.appendChild(d);
 
 <button style='background-color:black;color:green;border-color:green;' 
 onclick='var iframe = document.createElement("iframe"); 
-iframe.src=""; 
+iframe.src="https://ytxrqv.sse.codesandbox.io/prefix/aHR0cHM6Ly8zZ2hvc3QtZGVwbG95LXNldmVuLnZlcmNlbC5hcHA=/projects/DogeMiner/index.html"; 
 iframe.style=" width:100%; height:100%";
 document.body.appendChild(iframe); 
 var d = document.createElement("button");
@@ -65,11 +70,11 @@ document.body.removeChild(d) ;};
 d.innerHTML="X";
 d.style="background-color:red";
 document.body.appendChild(d);
-'>Silver games</button>
+'>Dodge miner</button>
 
 <button style='background-color:black;color:green;border-color:green;' 
 onclick='var iframe = document.createElement("iframe"); 
-iframe.src=" https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Flearn-to-fly-3.xml"; 
+iframe.src="https://ytxrqv.sse.codesandbox.io/prefix/aHR0cHM6Ly8zZ2hvc3QtZGVwbG95LXNldmVuLnZlcmNlbC5hcHA=/projects/motox3m/index.html"; 
 iframe.style=" width:100%; height:100%";
 document.body.appendChild(iframe); 
 var d = document.createElement("button");
@@ -78,11 +83,11 @@ document.body.removeChild(d) ;};
 d.innerHTML="X";
 d.style="background-color:red";
 document.body.appendChild(d);
-'>Learn to fly 3</button>
+'>Moto X3M</button>
 
 <button style='background-color:black;color:green;border-color:green;' 
 onclick='var iframe = document.createElement("iframe"); 
-iframe.src=" https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Flearn-to-fly-3.xml"; 
+iframe.src="https://ytxrqv.sse.codesandbox.io/prefix/aHR0cHM6Ly8zZ2hvc3QtZGVwbG95LXNldmVuLnZlcmNlbC5hcHA=/projects/flappy-bird/index.html"; 
 iframe.style=" width:100%; height:100%";
 document.body.appendChild(iframe); 
 var d = document.createElement("button");
@@ -91,11 +96,11 @@ document.body.removeChild(d) ;};
 d.innerHTML="X";
 d.style="background-color:red";
 document.body.appendChild(d);
-'>Learn to fly 3</button>
+'>Flappy bird</button>
 
 <button style='background-color:black;color:green;border-color:green;' 
 onclick='var iframe = document.createElement("iframe"); 
-iframe.src=" https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Flearn-to-fly-3.xml"; 
+iframe.src="https://ytxrqv.sse.codesandbox.io/prefix/aHR0cHM6Ly8zZ2hvc3QtZGVwbG95LXNldmVuLnZlcmNlbC5hcHA=/projects/factoryballs/index.html"; 
 iframe.style=" width:100%; height:100%";
 document.body.appendChild(iframe); 
 var d = document.createElement("button");
@@ -104,11 +109,11 @@ document.body.removeChild(d) ;};
 d.innerHTML="X";
 d.style="background-color:red";
 document.body.appendChild(d);
-'>Learn to fly 3</button>
+'>Factory ballz</button>
 
 <button style='background-color:black;color:green;border-color:green;' 
 onclick='var iframe = document.createElement("iframe"); 
-iframe.src=" https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Flearn-to-fly-3.xml"; 
+iframe.src="https://ytxrqv.sse.codesandbox.io/prefix/aHR0cHM6Ly8zZ2hvc3QtZGVwbG95LXNldmVuLnZlcmNlbC5hcHA=/projects/basketball-stars/index.html"; 
 iframe.style=" width:100%; height:100%";
 document.body.appendChild(iframe); 
 var d = document.createElement("button");
@@ -117,11 +122,11 @@ document.body.removeChild(d) ;};
 d.innerHTML="X";
 d.style="background-color:red";
 document.body.appendChild(d);
-'>Learn to fly 3</button>
+'> Basket ball stars</button>
 
 <button style='background-color:black;color:green;border-color:green;' 
 onclick='var iframe = document.createElement("iframe"); 
-iframe.src=" https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Flearn-to-fly-3.xml"; 
+iframe.src="https://ytxrqv.sse.codesandbox.io/prefix/aHR0cHM6Ly8zZ2hvc3QtZGVwbG95LXNldmVuLnZlcmNlbC5hcHA=/projects/craftmine/index.html"; 
 iframe.style=" width:100%; height:100%";
 document.body.appendChild(iframe); 
 var d = document.createElement("button");
@@ -130,11 +135,11 @@ document.body.removeChild(d) ;};
 d.innerHTML="X";
 d.style="background-color:red";
 document.body.appendChild(d);
-'>Learn to fly 3</button>
+'>Craft mine</button>
 
 <button style='background-color:black;color:green;border-color:green;' 
 onclick='var iframe = document.createElement("iframe"); 
-iframe.src=" https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Flearn-to-fly-3.xml"; 
+iframe.src="https://ytxrqv.sse.codesandbox.io/prefix/aHR0cHM6Ly8zZ2hvc3QtZGVwbG95LXNldmVuLnZlcmNlbC5hcHA=/projects/grindcraft/index.html"; 
 iframe.style=" width:100%; height:100%";
 document.body.appendChild(iframe); 
 var d = document.createElement("button");
@@ -143,11 +148,11 @@ document.body.removeChild(d) ;};
 d.innerHTML="X";
 d.style="background-color:red";
 document.body.appendChild(d);
-'>Learn to fly 3</button>
+'>Grind craft</button>
 
 <button style='background-color:black;color:green;border-color:green;' 
 onclick='var iframe = document.createElement("iframe"); 
-iframe.src=" https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Flearn-to-fly-3.xml"; 
+iframe.src="https://ytxrqv.sse.codesandbox.io/prefix/aHR0cHM6Ly8zZ2hvc3QtZGVwbG95LXNldmVuLnZlcmNlbC5hcHA=/projects/minecraft/"; 
 iframe.style=" width:100%; height:100%";
 document.body.appendChild(iframe); 
 var d = document.createElement("button");
@@ -156,11 +161,11 @@ document.body.removeChild(d) ;};
 d.innerHTML="X";
 d.style="background-color:red";
 document.body.appendChild(d);
-'>Learn to fly 3</button>
+'>Minecraft V1.5</button>
 
 <button style='background-color:black;color:green;border-color:green;' 
 onclick='var iframe = document.createElement("iframe"); 
-iframe.src=" https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Flearn-to-fly-3.xml"; 
+iframe.src="https://zke41r.sse.codesandbox.io/prefix/aHR0cHM6Ly8zZ2hvc3QtZGVwbG95LXNldmVuLnZlcmNlbC5hcHA=/projects/minecraft-classic/index.html"; 
 iframe.style=" width:100%; height:100%";
 document.body.appendChild(iframe); 
 var d = document.createElement("button");
@@ -169,11 +174,25 @@ document.body.removeChild(d) ;};
 d.innerHTML="X";
 d.style="background-color:red";
 document.body.appendChild(d);
-'>Learn to fly 3</button>
+'>Minecraft classic</button>
+<br>
+<br>
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://zke41r.sse.codesandbox.io/prefix/aHR0cHM6Ly8zZ2hvc3QtZGVwbG95LXNldmVuLnZlcmNlbC5hcHA=/projects/slope/index.html"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>Slope</button>
 
 <button style='background-color:black;color:green;border-color:green;' 
 onclick='var iframe = document.createElement("iframe"); 
-iframe.src=" https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Flearn-to-fly-3.xml"; 
+iframe.src="https://zke41r.sse.codesandbox.io/prefix/aHR0cHM6Ly8zZ2hvc3QtZGVwbG95LXNldmVuLnZlcmNlbC5hcHA=/projects/tunnel-rush/index.html"; 
 iframe.style=" width:100%; height:100%";
 document.body.appendChild(iframe); 
 var d = document.createElement("button");
@@ -182,11 +201,11 @@ document.body.removeChild(d) ;};
 d.innerHTML="X";
 d.style="background-color:red";
 document.body.appendChild(d);
-'>Learn to fly 3</button>
+'>Tunnle rush</button>
 
 <button style='background-color:black;color:green;border-color:green;' 
 onclick='var iframe = document.createElement("iframe"); 
-iframe.src=" https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Flearn-to-fly-3.xml"; 
+iframe.src="https://zke41r.sse.codesandbox.io/prefix/aHR0cHM6Ly8zZ2hvc3QtZGVwbG95LXNldmVuLnZlcmNlbC5hcHA=/projects/retro-bowl/index.html"; 
 iframe.style=" width:100%; height:100%";
 document.body.appendChild(iframe); 
 var d = document.createElement("button");
@@ -195,11 +214,11 @@ document.body.removeChild(d) ;};
 d.innerHTML="X";
 d.style="background-color:red";
 document.body.appendChild(d);
-'>Learn to fly 3</button>
+'>Retro Bowl</button>
 
 <button style='background-color:black;color:green;border-color:green;' 
 onclick='var iframe = document.createElement("iframe"); 
-iframe.src=" https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Flearn-to-fly-3.xml"; 
+iframe.src="https://zke41r.sse.codesandbox.io/prefix/aHR0cHM6Ly8zZ2hvc3QtZGVwbG95LXNldmVuLnZlcmNlbC5hcHA=/projects/subway-surfers/index.html"; 
 iframe.style=" width:100%; height:100%";
 document.body.appendChild(iframe); 
 var d = document.createElement("button");
@@ -208,11 +227,11 @@ document.body.removeChild(d) ;};
 d.innerHTML="X";
 d.style="background-color:red";
 document.body.appendChild(d);
-'>Learn to fly 3</button>
+'>Subway Surfers</button>
 
 <button style='background-color:black;color:green;border-color:green;' 
 onclick='var iframe = document.createElement("iframe"); 
-iframe.src=" https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Flearn-to-fly-3.xml"; 
+iframe.src="https://zke41r.sse.codesandbox.io/prefix/aHR0cHM6Ly8zZ2hvc3QtZGVwbG95LXNldmVuLnZlcmNlbC5hcHA=/projects/scrapmetal/index.html"; 
 iframe.style=" width:100%; height:100%";
 document.body.appendChild(iframe); 
 var d = document.createElement("button");
@@ -221,31 +240,16 @@ document.body.removeChild(d) ;};
 d.innerHTML="X";
 d.style="background-color:red";
 document.body.appendChild(d);
-'>Learn to fly 3</button>
-
-<button style='background-color:black;color:green;border-color:green;' 
-onclick='var iframe = document.createElement("iframe"); 
-iframe.src=" https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Flearn-to-fly-3.xml"; 
-iframe.style=" width:100%; height:100%";
-document.body.appendChild(iframe); 
-var d = document.createElement("button");
-d.onclick= function () {document.body.removeChild(iframe);
-document.body.removeChild(d) ;};
-d.innerHTML="X";
-d.style="background-color:red";
-document.body.appendChild(d);
-'>Learn to fly 3</button>
+'>Scrap metal 3</button>
 
   
 
 
-
+</div>
 
 
 
 
 `;
-  var tab = window.Games();
-  tab.document.body.appendChild(e);
-}
-Apachi_Games();
+var tab = window.open();
+tab.document.body.appendChild(e);
