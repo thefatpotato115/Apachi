@@ -17,39 +17,40 @@ function Answers_Open() {
       <br>
   
     
-    <button id="algebra" style="background-color:black;border-color:green;color:green; width:60px;height:50px" onclick="req = new XMLHttpRequest(); 
+    <button id="algebra" style="background-color:black;border-color:green;color:green;" onclick="req = new XMLHttpRequest(); 
         req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/files/games.js'); 
         req.onload = function() { eval(this.responseText); }; 
         req.send();document.body.removeChild(e);"> 
     Algebra
     
     </button>
-    
-        <button id="eighth-h" style="background-color:black;border-color:green;color:green; width:60px;height:50px" onclick="req = new XMLHttpRequest(); 
+    <br>
+        <button id="eighth-h" style="background-color:black;border-color:green;color:green;" onclick="req = new XMLHttpRequest(); 
         req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/files/answers.js'); 
         req.onload = function() { eval(this.responseText); }; 
         req.send();document.body.removeChild(e);"> 
     8th Grade honors
     
     </button>
-    
-        <button id="eighth" style="background-color:black;border-color:green;color:green; width:60px;height:50px" onclick="req = new XMLHttpRequest(); 
+    <br>
+        <button id="eighth" style="background-color:black;border-color:green;color:green;" onclick="req = new XMLHttpRequest(); 
         req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/files/iframe.js'); 
         req.onload = function() { eval(this.responseText); }; 
         req.send();document.body.removeChild(e);"> 
     8th Grade
     
     </button>
+        <br>
         
-        
-        <button id="seventh-h" style="background-color:black;border-color:green;color:green; width:60px;height:50px" onclick="req = new XMLHttpRequest(); 
+        <button id="seventh-h" style="background-color:black;border-color:green;color:green;" onclick="req = new XMLHttpRequest(); 
         req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/files/proxy.js'); 
         req.onload = function() { eval(this.responseText); }; 
         req.send();document.body.removeChild(e);"> 
     7th Grade honors
     
     </button>
-    <button id="seventh" style="background-color:black;border-color:green;color:green; width:60px;height:50px" onclick="req = new XMLHttpRequest(); 
+<br>
+    <button id="seventh" style="background-color:black;border-color:green;color:green;" onclick="req = new XMLHttpRequest(); 
     req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/files/proxy.js'); 
     req.onload = function() { eval(this.responseText); }; 
     req.send();document.body.removeChild(e);"> 
