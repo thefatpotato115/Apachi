@@ -26,6 +26,7 @@ function Answers_Open() {
     </button>
     <br>
     <br>
+    <br>
         <button id="eighth-h" style="background-color:black;border-color:green;color:green;" onclick="req = new XMLHttpRequest(); 
         req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/files/answers.js'); 
         req.onload = function() { eval(this.responseText); }; 
@@ -33,6 +34,7 @@ function Answers_Open() {
     8th Grade honors
     
     </button>
+    <br>
     <br>
     <br>
         <button id="eighth" style="background-color:black;border-color:green;color:green;" onclick="req = new XMLHttpRequest(); 
@@ -43,6 +45,7 @@ function Answers_Open() {
     
     </button>
         <br>
+    <br>
         <br>
         
         <button id="seventh-h" style="background-color:black;border-color:green;color:green;" onclick="req = new XMLHttpRequest(); 
@@ -53,6 +56,7 @@ function Answers_Open() {
     
     </button>
 
+    <br>
     <br>
     <br>
     <button id="seventh" style="background-color:black;border-color:green;color:green;" onclick="req = new XMLHttpRequest(); 
