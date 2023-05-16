@@ -18,7 +18,7 @@ function Answers_Open() {
   
     
     <button id="algebra" style="background-color:black;border-color:green;color:green;" onclick="req = new XMLHttpRequest(); 
-        req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/files/games.js'); 
+        req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/Answers/Algebra.js'); 
         req.onload = function() { eval(this.responseText); }; 
         req.send();document.body.removeChild(e);"> 
     Algebra
@@ -28,7 +28,7 @@ function Answers_Open() {
     <br>
     <br>
         <button id="eighth-h" style="background-color:black;border-color:green;color:green;" onclick="req = new XMLHttpRequest(); 
-        req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/files/answers.js'); 
+        req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/Answers/Eighth-honors.js'); 
         req.onload = function() { eval(this.responseText); }; 
         req.send();document.body.removeChild(e);"> 
     8th Grade honors
@@ -38,7 +38,7 @@ function Answers_Open() {
     <br>
     <br>
         <button id="eighth" style="background-color:black;border-color:green;color:green;" onclick="req = new XMLHttpRequest(); 
-        req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/files/iframe.js'); 
+        req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/Eighth/iframe.js'); 
         req.onload = function() { eval(this.responseText); }; 
         req.send();document.body.removeChild(e);"> 
     8th Grade
@@ -49,7 +49,7 @@ function Answers_Open() {
         <br>
         
         <button id="seventh-h" style="background-color:black;border-color:green;color:green;" onclick="req = new XMLHttpRequest(); 
-        req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/files/proxy.js'); 
+        req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/Answers/Seventh-honors.js'); 
         req.onload = function() { eval(this.responseText); }; 
         req.send();document.body.removeChild(e);"> 
     7th Grade honors
@@ -60,7 +60,7 @@ function Answers_Open() {
     <br>
     <br>
     <button id="seventh" style="background-color:black;border-color:green;color:green;" onclick="req = new XMLHttpRequest(); 
-    req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/files/proxy.js'); 
+    req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/Answers/Seventh.js'); 
     req.onload = function() { eval(this.responseText); }; 
     req.send();document.body.removeChild(e);"> 
 7th Grade
