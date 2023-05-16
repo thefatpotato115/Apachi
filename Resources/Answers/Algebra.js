@@ -12,8 +12,12 @@ function Algebra_Open() {
 <br>
        <text style="color: green;"> <p>If this gets shut down, it will not be re-made. Please be careful.</p></text>
   <br>
-  <text style="color: red;"> <p>*Please note that answers are not guaranteed to be correct and may not be updated.</p></text>
-        
+  <text style="color: red;"> <p>*Please note that answers are not guarenteed to be correct and may not be updated.</p></text>
+        <br>
+<br>
+<br>
+<br>
+<a href="PDF">HW 4</a>
         </div>
   
         </center>
