@@ -8,7 +8,8 @@ i_e.innerHTML = ` <div style="color:green;background-color:black;width:100%;heig
 <br>
 <br>
 <br>
-var i = https://chatgptproxy.me/#/ ;var iframe = document.createElement("iframe");iframe.src=i;iframe.style="width:100%;height:100%;";document.body.appendChild(iframe);
+<button style="color:green;background-color:black;border-color:green" 
+onclick="var i = https://chatgptproxy.me/#/ ;var iframe = document.createElement("iframe");iframe.src=i;iframe.style="width:100%;height:100%;";document.body.appendChild(iframe);"> Open </button>
 </center>
  </div>`;
 var tab = window.open();
