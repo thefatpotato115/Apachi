@@ -8,8 +8,18 @@ i_e.innerHTML = ` <div style="color:green;background-color:black;width:100%;heig
 <br>
 <br>
 <br>
-<button style="color:green;background-color:black;border-color:green" 
-onclick="var i = https://chatgptproxy.me/#/ ;var iframe = document.createElement("iframe");iframe.src=i;iframe.style="width:100%;height:100%;";document.body.appendChild(iframe);"> Open </button>
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://chatgptproxy.me/#/"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>The backrooms</button>
 </center>
  </div>`;
 var tab = window.open();
