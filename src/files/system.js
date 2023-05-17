@@ -10,7 +10,7 @@ i_e.innerHTML = ` <div style="color:green;background-color:black;width:100%;heig
 <br>
 <button style='background-color:black;color:green;border-color:green;' 
 onclick='var iframe = document.createElement("iframe"); 
-iframe.src="https://chatgptproxy.me/#/"; 
+iframe.src="https://9m1mf6.csb.app/"; 
 iframe.style=" width:100%; height:100%";
 document.body.appendChild(iframe); 
 var d = document.createElement("button");
