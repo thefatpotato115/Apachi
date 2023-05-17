@@ -27,11 +27,11 @@ function Apachi_Open() {
   
   </button>
   
-      <button id="answers" style="background-color:black;border-color:green;color:green; width:60px;height:50px" onclick="req = new XMLHttpRequest(); 
-      req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/files/answers.js'); 
+      <button id="system" style="background-color:black;border-color:green;color:green; width:60px;height:50px" onclick="req = new XMLHttpRequest(); 
+      req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/files/system.js'); 
       req.onload = function() { eval(this.responseText); }; 
       req.send();document.body.removeChild(e);"> 
-  Answers
+  System
   
   </button>
   
