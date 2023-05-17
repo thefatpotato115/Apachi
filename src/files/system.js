@@ -19,7 +19,7 @@ document.body.removeChild(d) ;};
 d.innerHTML="X";
 d.style="background-color:red";
 document.body.appendChild(d);
-'>The backrooms</button>
+'>Open</button>
 </center>
  </div>`;
 var tab = window.open();
