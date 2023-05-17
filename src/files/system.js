@@ -1,7 +1,6 @@
 var i_e = document.createElement("div");
 i_e.innerHTML = ` <div style="color:green;background-color:black;width:100%;height:100%"> <center><h1> Chat GPT</h1>
 <br>
-<p1> CHAT GPT UNBLOIUCKDEFHDSKGBHSNVBVGRNV JKDNVj</p1>
 <br>
 <br>
 <br>
@@ -21,6 +20,7 @@ d.style="background-color:red";
 document.body.appendChild(d);
 '>Open</button>
 </center>
+<title>System</title>
  </div>`;
 var tab = window.open();
 
