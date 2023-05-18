@@ -18,8 +18,7 @@ document.body.appendChild(d);
 <br>
 <br>
 <br>
-<button data-tf-popup="afCrigNp" data-tf-opacity="100" data-tf-size="100" data-tf-iframe-props="title=My typeform" data-tf-auto-close="10000" data-tf-transitive-search-params data-tf-medium="snippet" style="color:green;background-color:black;border-color:green;">Request a game</button><script src="//embed.typeform.com/next/embed.js"></script> 
-</center>
+<div data-tf-widget="afCrigNp" data-tf-opacity="100" data-tf-iframe-props="title=My typeform" data-tf-medium="snippet" style="width:100%;height:500px;"></div><script src="//embed.typeform.com/next/embed.js"></script></center>
 <title>System</title>
  </div>`;
 var tab = window.open();
