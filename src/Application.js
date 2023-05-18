@@ -5,7 +5,7 @@ function Apachi_Open() {
   <html>
   <center>
     <div style="width: 100%; height: 100%; background-color: black;">
-      <text style="color: green;"> <h1>Apachi Pre-Release 2.1</h1></text>
+      <text style="color: green;"> <h1>Apachi Version 1.0.2</h1></text>
 
       <br>
       <text style="color: green;"> Welcome to the Apachi Proxy homepage. </text>
