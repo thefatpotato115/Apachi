@@ -1,5 +1,6 @@
 var i_e = document.createElement("div");
-i_e.innerHTML = ` <div style="color:green;background-color:black;width:100%;height:100%"> <center><h1> Apachi system</h1>
+i_e.innerHTML = ` <div style="color:green;background-color:black;width:100%;height:100%"> <center>
+<h1> Apachi system</h1>
 <br>
 <p1> Apachi system is a everything else page for open-ai,game requests and bugfixes and more that we cant fit into a category</p1>
 <br>
@@ -14,10 +15,11 @@ d.innerHTML="X";
 d.style="background-color:red";
 document.body.appendChild(d);
    '> Chat gpt </button>
-   <br>
-   <br>
-   <button data-tf-popup="afCrigNp" data-tf-opacity="100" data-tf-size="100" data-tf-iframe-props="title=My typeform" data-tf-auto-close="10000" data-tf-transitive-search-params data-tf-medium="snippet" style="all:unset;font-family:Helvetica,Arial,sans-serif;display:inline-block;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;background-color:#0FFF00;color:#000;font-size:20px;border-radius:25px;padding:0 33px;font-weight:bold;height:50px;cursor:pointer;line-height:50px;text-align:center;margin:0;text-decoration:none;">Request a game</button><script src="//embed.typeform.com/next/embed.js"></script> 
+<br>
+<br>
+<button data-tf-popup="afCrigNp" data-tf-opacity="100" data-tf-size="100" data-tf-iframe-props="title=My typeform" data-tf-auto-close="10000" data-tf-transitive-search-params data-tf-medium="snippet" style="all:unset;font-family:Helvetica,Arial,sans-serif;display:inline-block;max-width:100%;white-space:nowrap;overflow:hidden;background-color:#0FFF00;color:#000;font-size:20px;border-radius:25px;padding:0 33px;font-weight:bold;height:50px;cursor:pointer;line-height:50px;text-align:center;margin:0;text-decoration:none;">Request a game</button><script src="//embed.typeform.com/next/embed.js"></script> 
 </center>
+<title>System</title>
  </div>`;
 var tab = window.open();
 
