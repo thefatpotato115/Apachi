@@ -2,7 +2,7 @@ var i_e = document.createElement("div");
 i_e.innerHTML = ` <div style="color:green;background-color:black;width:100%;height:100%"> <center>
 <h1> Apachi system</h1>
 <br>
-<p1> Apachi system is a everything else page for open-ai,game requests and bugfixes and more that we cant fit into a category</p1>
+<p1> Apachi system is an 'everything else' page, and we currently only have chat GPT, and a game request form that we couldn't fit into another category.</p1>
 <br>
 <br>
 <br>
