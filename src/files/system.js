@@ -16,8 +16,12 @@ d.style="background-color:red";
 document.body.appendChild(d);
    '> Chat gpt </button>
 <br>
-<br>
-<br>
+<button style="color:green;background-color:black;border-color:green;width:100px;height:40px" onclick='var iframe = document.createElement("iframe"); iframe.src="https://form.typeform.com/to/afCrigNp"; iframe.style=" width:100%; height:100%";document.body.appendChild(iframe); var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+   '> Game request </button>
 <div data-tf-widget="afCrigNp" data-tf-opacity="100" data-tf-iframe-props="title=My typeform" data-tf-medium="snippet" style="width:100%;height:500px;"></div><script src="//embed.typeform.com/next/embed.js"></script></center>
 <title>System</title>
  </div>`;
