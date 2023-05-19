@@ -188,7 +188,7 @@ document.body.removeChild(d) ;};
 d.innerHTML="X";
 d.style="background-color:red";
 document.body.appendChild(d);
-'>Slope</button>
+'>slope</button>
 
 <button style='background-color:black;color:green;border-color:green;' 
 onclick='var iframe = document.createElement("iframe"); 
@@ -384,6 +384,220 @@ d.innerHTML="X";
 d.style="background-color:red";
 document.body.appendChild(d);
 '>Bubble pop</button>
+
+<br>
+<br>
+
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://m4qh56.sse.codesandbox.io/prefix/aHR0cHM6Ly9qY3c4Ny5naXRodWIuaW8=/c2-sans-fight/"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>Sans fight</button>
+
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://doodle-pile.gitlab.io/unfair-undyne/v0.99"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>Undyne</button>
+
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://reinsmidt.com/"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>Fullscreen mario</button>
+
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://grandcanyonshuttles.com/uploads/5/5/6/7/5567194/custom_themes/315300867982782623/1v1_lol.html"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>1v1.lol</button>
+
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://www.mathplayground.com/pg_lows_adventures2.html"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>Lows adventure</button>
+
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://www.mathplayground.com/pg_x_trench_run.html"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>X-trench run</button>
+
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://www.mathplayground.com/pg_drift_boss.html"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>Drift boss</button>
+
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://littlealchemy2.com/"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>Little alchemy 2</button>
+
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://www.mathplayground.com/pg_rise_higher.html"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>Rise higher</button>
+
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://www.mathplayground.com/pp_big_tall_small.html"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>Big tall small</button>
+
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://www.mathplayground.com/pg_lows_adventures.html"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>Lows adventure 1</button>
+
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://www.mathplayground.com/pg_epic_city_driver_game.html"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>City driver</button>
+
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://www.mathplayground.com/pg_escape_from_aztec.html"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>Temple run</button>
+
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://gregcameron.com/infinite-wordle/"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>Wordle ∞</button>
+
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://www.google.com/fbx?fbx=snake_arcade"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>Snake</button>
+
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://slf17r.sse.codesandbox.io/prefix/aHR0cHM6Ly9zYW1teWNoZWV6LmNvbQ==/drive-mad/"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>Drive mad >:(</button>
+
+
+
 
 </div>
 
