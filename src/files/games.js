@@ -7,6 +7,7 @@ e.innerHTML = `
  <title> Apachi games</title>
  <h1 style="color:green"> Apachi Games </h1>
   <br>
+  <p>To use, simply click on a button and scroll down.</p>
 <button style='background-color:black;color:green;border-color:green;' 
 onclick='var iframe = document.createElement("iframe"); 
 iframe.src="https://ytxrqv.sse.codesandbox.io/prefix/aHR0cHM6Ly8zZ2hvc3QtZGVwbG95LXNldmVuLnZlcmNlbC5hcHA=/projects/backrooms/index.html"; 
