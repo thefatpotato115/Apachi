@@ -1,7 +1,7 @@
 var i_e = document.createElement("div");
 i_e.innerHTML = ` <div style="color:green;background-color:black;width:100%;height:100%"> <center><h1> Apachi system</h1>
 <br>
-<p1> Apachi system is a everything else page for open-ai,game requests and bugfixes and more that we cant fit into a category</p1>
+<p1> Apachi system is an 'everything else' page were we put things that we cant fit into another category. currently we have Chat GPT, a game request form, and a bug report form.</p1>
 <br>
 <br>
 <br>
@@ -20,7 +20,7 @@ document.body.appendChild(d);
    d.innerHTML="X";
    d.style="background-color:red";
    document.body.appendChild(d);
-      '> Chat gpt </button> 
+      '> Request a game </button> 
    
    <button style="color:green;background-color:black;border-color:green;width:100px;height:40px" onclick='var iframe = document.createElement("iframe"); iframe.src="https://form.typeform.com/to/TmtkSH1E"; iframe.style=" width:100%; height:100%";document.body.appendChild(iframe); var d = document.createElement("button");
    d.onclick= function () {document.body.removeChild(iframe);document.body.removeChild(d) ;};
