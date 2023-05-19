@@ -6,7 +6,6 @@ e.innerHTML = `
  <center>
  <title> Apachi games</title>
  <h1 style="color:green"> Apachi Games </h1>
- <p style="color:green">To use, simply click on a button and scroll down.</p>
   <br>
 <button style='background-color:black;color:green;border-color:green;' 
 onclick='var iframe = document.createElement("iframe"); 
@@ -140,7 +139,7 @@ document.body.appendChild(d);
 
 <button style='background-color:black;color:green;border-color:green;' 
 onclick='var iframe = document.createElement("iframe"); 
-iframe.src="https://ytxrqv.sse.codesandbox.io/prefix/aHR0cHM6Ly8zZ2hvc3QtZGVwbG95LXNldmVuLnZlcmNlbC5hcHA=/projects/grindcraft/index.html"; 
+iframe.src="https://ytxrqv.sse.codesandbox.io/prefix/aHR0cHM6Ly91YmczNjUuZ2l0aHViLmlv/grindcraft/"; 
 iframe.style=" width:100%; height:100%";
 document.body.appendChild(iframe); 
 var d = document.createElement("button");
@@ -206,7 +205,7 @@ document.body.appendChild(d);
 
 <button style='background-color:black;color:green;border-color:green;' 
 onclick='var iframe = document.createElement("iframe"); 
-iframe.src="https://zke41r.sse.codesandbox.io/prefix/aHR0cHM6Ly8zZ2hvc3QtZGVwbG95LXNldmVuLnZlcmNlbC5hcHA=/projects/retro-bowl/index.html"; 
+iframe.src="https://ytxrqv.sse.codesandbox.io/prefix/aHR0cHM6Ly9yZXRyby1ib3dsLm5ldA==/"; 
 iframe.style=" width:100%; height:100%";
 document.body.appendChild(iframe); 
 var d = document.createElement("button");
@@ -243,6 +242,148 @@ d.style="background-color:red";
 document.body.appendChild(d);
 '>Scrap metal 3</button>
 
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://ytxrqv.sse.codesandbox.io/prefix/aHR0cHM6Ly91YmczNjUuZ2l0aHViLmlv/monkey-mart/"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>Monkey mart</button>
+
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://ytxrqv.sse.codesandbox.io/prefix/aHR0cHM6Ly9kaWVwaW8tMi5jb20=/"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'> Diep io 2</button>
+
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://raw.githack.com/theclashman2/GBA-Emulator/gh-pages/launcher.html#monopoly"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>Monopoly</button>
+
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://raw.githack.com/CBGamesdev/chilibowlflash/main/appleshoot.html"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>Apple shoot</button>
+
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://raw.githack.com/Piplup7575/bitlife/main/index.html"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>Bitlife</button>
+
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://raw.githack.com/geuddd/Hole.io/main/index.html"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>Hole.io</button>
+
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://jmw.strangled.net/gs/stickman-hook/"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>Stickman Hook</button>
+
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://raw.githack.com/CBGamesdev/chilibowlflash/main/ducklife3.html"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>Ducklife 3</button>
+
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://raw.githack.com/CBGamesdev/chilibowlflash/main/assroid.html"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>Astroid</button>
+
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://raw.githack.com/Mafia-Goose/minecraft/main/pong.html"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>Pong</button>
+
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://raw.githack.com/CBGamesdev/chilibowlflash/main/bubble.html"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>Bubble pop</button>
 
 </div>
 
