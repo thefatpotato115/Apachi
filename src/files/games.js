@@ -243,20 +243,6 @@ d.style="background-color:red";
 document.body.appendChild(d);
 '>Scrap metal 3</button>
 
-<button style='background-color:black;color:green;border-color:green;' 
-onclick='var iframe = document.createElement("iframe"); 
-iframe.src="https://j4k2x.csb.app/"; 
-iframe.style=" width:100%; height:100%";
-document.body.appendChild(iframe); 
-var d = document.createElement("button");
-d.onclick= function () {document.body.removeChild(iframe);
-document.body.removeChild(d) ;};
-d.innerHTML="X";
-d.style="background-color:red";
-document.body.appendChild(d);
-'>Snake</button>
-  
-
 
 </div>
 
