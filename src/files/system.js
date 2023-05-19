@@ -29,6 +29,7 @@ document.body.appendChild(d);
    document.body.appendChild(d);
       '> Report a bug </button>
 </center>
+<title>System</title>
  </div>`;
 var tab = window.open();
 
