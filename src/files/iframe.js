@@ -4,7 +4,7 @@ i_e.innerHTML = `
 <link rel="icon" type="image/x-icon" href="/favicon.jpg" />
 <div style="color:green;background-color:black;width:100%;height:100%"> <center><h1> Iframe</h1>
 <br>
-<p1> Apachi offers a built-in Iframer so you can view websites directly form Apachi so extentions cant see them.</p1>
+<p1> Apachi offers a built-in Iframer so you can view websites directly form Apachi so extentions cant see them. This is not a proxy and will NOT work for some websites like google classroom so please dont complain  </p1>
 <br>
 <br>
 <br>
@@ -30,6 +30,6 @@ o.style= "background-color:rgb(0,255,0)";
               '> enter </button>
 </center>
  </div>`;
- var tab = window.open();
- 
- tab.document.body.appendChild(i_e);
+var tab = window.open();
+
+tab.document.body.appendChild(i_e);
