@@ -43,6 +43,13 @@ d.style="background-color:red";
 document.body.appendChild(d);
    '> Morse code </button>
    
+   <button style="color:green;background-color:black;border-color:green;width:100px;height:40px" onclick='var iframe = document.createElement("iframe"); iframe.src="https://instafonts.io/font/binery-code-encoderw"; iframe.style=" width:100%; height:100%";document.body.appendChild(iframe); var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+   '> Binery code </button>
+   
 </center>
 <title> Apachi system</title>
  </div>`;
