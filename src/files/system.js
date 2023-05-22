@@ -42,7 +42,9 @@ d.innerHTML="X";
 d.style="background-color:red";
 document.body.appendChild(d);
    '> Morse code </button>
+   
 </center>
+<title> Apachi system</title>
  </div>`;
 var tab = window.open();
 
