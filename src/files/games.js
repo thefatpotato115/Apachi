@@ -7,7 +7,6 @@ e.innerHTML = `
  <title> Apachi games</title>
  <h1 style="color:green"> Apachi Games </h1>
   <br>
-  <p>To use, simply click on a button and scroll down.</p>
 <button style='background-color:black;color:green;border-color:green;' 
 onclick='var iframe = document.createElement("iframe"); 
 iframe.src="https://ytxrqv.sse.codesandbox.io/prefix/aHR0cHM6Ly8zZ2hvc3QtZGVwbG95LXNldmVuLnZlcmNlbC5hcHA=/projects/backrooms/index.html"; 
@@ -596,15 +595,90 @@ d.innerHTML="X";
 d.style="background-color:red";
 document.body.appendChild(d);
 '>Drive mad >:(</button>
+ <br>
+ <br> 
+ <button style='background-color:black;color:green;border-color:green;' 
+ onclick='var iframe = document.createElement("iframe"); 
+ iframe.src="https://slf17r.sse.codesandbox.io/prefix/aHR0cHM6Ly9zYW1teWNoZWV6LmNvbQ==/drive-mad/"; 
+ iframe.style=" width:100%; height:100%";
+ document.body.appendChild(iframe); 
+ var d = document.createElement("button");
+ d.onclick= function () {document.body.removeChild(iframe);
+ document.body.removeChild(d) ;};
+ d.innerHTML="X";
+ d.style="background-color:red";
+ document.body.appendChild(d);
+ '>Fnaf 1</button>
+
+ <button style='background-color:black;color:green;border-color:green;' 
+ onclick='var iframe = document.createElement("iframe"); 
+ iframe.src="https://raw.githack.com/CBGamesdev/chilibowlflash/main/run.html"; 
+ iframe.style=" width:100%; height:100%";
+ document.body.appendChild(iframe); 
+ var d = document.createElement("button");
+ d.onclick= function () {document.body.removeChild(iframe);
+ document.body.removeChild(d) ;};
+ d.innerHTML="X";
+ d.style="background-color:red";
+ document.body.appendChild(d);
+ '> Run</button>
+
+ <button style='background-color:black;color:green;border-color:green;' 
+ onclick='var iframe = document.createElement("iframe"); 
+ iframe.src="https://raw.githack.com/CBGamesdev/chilibowlflash/main/Pacman.html"; 
+ iframe.style=" width:100%; height:100%";
+ document.body.appendChild(iframe); 
+ var d = document.createElement("button");
+ d.onclick= function () {document.body.removeChild(iframe);
+ document.body.removeChild(d) ;};
+ d.innerHTML="X";
+ d.style="background-color:red";
+ document.body.appendChild(d);
+ '>Man pac</button>
+
+ <button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://raw.githack.com/CBGamesdev/chilibowlflash/main/stickrpg.html"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>Stick rpg </button>
+
+  <button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://raw.githack.com/CBGamesdev/chilibowlflash/main/tetris.html"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>Tetris</button>
+
+ <button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://raw.githack.com/theclashman2/GBA-Emulator/gh-pages/launcher.html#mariokart"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>Mario cart</button>
 
 
 
-
+</center>
 </div>
-
-
-
-
 `;
 var tab = window.open();
 tab.document.body.appendChild(e);
