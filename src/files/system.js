@@ -41,7 +41,7 @@ d.onclick= function () {document.body.removeChild(iframe);document.body.removeCh
 d.innerHTML="X";
 d.style="background-color:red";
 document.body.appendChild(d);
-   '> Morse code encoder </button>
+   '> Morse code </button>
 </center>
  </div>`;
 var tab = window.open();
