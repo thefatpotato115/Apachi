@@ -4,7 +4,10 @@ p_e.innerHTML = `<body>
 
 <div style="color:green;background-color:black;width:100%;height:100%">
 <center>
-<h1 style="color:green"> Apachi Proxy servers </h1> 
+<h1 style="color:green"> Apachi Proxy servers <button style="color:green;background-color:black;border-color:green"  onclick="
+req = new XMLHttpRequest(); req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/Application.js'); 
+req.onload = function() { window.close();eval(this.responseText);}; req.send();
+">Home</button>
 <br>
 <br>
 <br>
