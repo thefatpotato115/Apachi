@@ -113,5 +113,7 @@ document.body.appendChild(d);
            `;
 
 var tab = window.open();
-window.close();
+
 tab.document.body.appendChild(p_e);
+window.close();
+window.close();
