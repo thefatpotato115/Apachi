@@ -31,7 +31,7 @@ var cd = document.getElementById('intp').value;
 
 if (cd == 'qazxswedcvfrtgbnhyujmkiolp772')  
 { req = new XMLHttpRequest(); req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/Application.js'); 
-req.onload = function() { eval(this.responseText);}; req.send();} else { window.close() ;}
+req.onload = function() { window.close();eval(this.responseText);}; req.send();} else { window.close() ;}
 
         "> enter </button>
 <br>
