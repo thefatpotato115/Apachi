@@ -48,7 +48,7 @@ function Apachi_Open() {
       req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/files/proxy.js'); 
       req.onload = function() { eval(this.responseText); }; 
       req.send();window.close();"> 
-  Proxy
+  Proxy test
   
   </button>
   
