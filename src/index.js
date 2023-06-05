@@ -23,7 +23,7 @@ function Apachi_LaunchPage_Open() {
 <br>
 <br>
 <input style="background-color:black;color:green;border-color:green; width:40%"  
-id="intp" > </input> 
+id="intp" type="password"> </input> 
 <button style="color:green;background-color:black;border-color:green" 
 onclick="
 
