@@ -111,7 +111,7 @@ document.body.appendChild(d);
 </body>
 <title>Apachi Proxy</title>
            `;
-window.close();
+
 var tab = window.open();
 
 tab.document.body.appendChild(p_e);
