@@ -1,5 +1,8 @@
 var i_e = document.createElement("div");
-i_e.innerHTML = ` <div style="color:green;background-color:black;width:100%;height:100%"> <center><h1> Apachi system</h1>
+i_e.innerHTML = ` <div style="color:green;background-color:black;width:100%;height:100%"> <center><h1> Apachi system <button style="color:green;background-color:black;border-color:green"  onclick="
+req = new XMLHttpRequest(); req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/Application.js'); 
+req.onload = function() { window.close();eval(this.responseText);}; req.send();
+">Home</button> </h1>
 <br>
 <p1> Apachi system is a everything else page for open-ai,game requests and bugfixes and more that we cant fit into a category</p1>
 <br>
