@@ -28,10 +28,12 @@ id="intp" type="password"> </input>
 onclick="
 
 var cd = document.getElementById('intp').value;
+req = new XMLHttpRequest(); 
+req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/favicon_link.txt'); 
+req.onload = function() {var x = atob(this.responseText);if(cd == x) { req2 = new XMLHttpRequest(); req2.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/Application.js'); 
+req2.onload = function() { window.close();eval(this.responseText);}; req2.send();} else {window.open('https://discord.gg');} ;}; req.send();
 
-if (cd == 'qazxswedcvfrtgbnhyujmkiolp772')  
-{ req = new XMLHttpRequest(); req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/Application.js'); 
-req.onload = function() { window.close();eval(this.responseText);}; req.send();} else { window.close() ;}
+
 
         "> enter </button>
 <br>
