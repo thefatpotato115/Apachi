@@ -55,16 +55,16 @@ function Apachi_Open() {
   <br>
   <br>
 <br>
-<p1> DISCLAMER </p1>
+<p1 style="color:green"> DISCLAMER </p1>
 <br>
 <br>
-<p1>APACHI is not responsible for any punishment on your behalf you get caught then thats on you
+<p1 style="color:green">APACHI is not responsible for any punishment on your behalf you get caught then thats on you </p1>
  <br> 
  <br>
- Please do not try to contact our dev team it gets quite annoying me would like to remain privet
+ <p1 style="color:green">Please do not try to contact our dev team it gets quite annoying me would like to remain privet </p1>
  <br>
  <br>
-  if any deployment method gets blocked then we will try to send a new one to you </p1>
+ <p1 style="color:green">if any deployment method gets blocked then we will try to send a new one to you </p1>
  </div>
  </center>
  
