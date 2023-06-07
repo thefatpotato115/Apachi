@@ -57,10 +57,6 @@ function Apachi_Open() {
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
 <p1> DISCLAMER </p1>
 <br>
 <br>
