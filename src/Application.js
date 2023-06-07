@@ -51,11 +51,9 @@ function Apachi_Open() {
   Proxy
   
   </button>
-  
-    </div>
-<br>
-<br>
-<br>
+  <br>
+  <br>
+  <br>
 <br>
 <p1> DISCLAMER </p1>
 <br>
@@ -67,7 +65,9 @@ function Apachi_Open() {
  <br>
  <br>
   if any deployment method gets blocked then we will try to send a new one to you </p1>
+ </div>
  </center>
+ 
    
  
   
