@@ -53,7 +53,24 @@ function Apachi_Open() {
   </button>
   
     </div>
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p1> DISCLAMER </p1>
+<br>
+<br>
+<p1>APACHI is not responsible for any punishment on your behalf you get caught then thats on you
+ <br> 
+ <br>
+ Please do not try to contact our dev team it gets quite annoying me would like to remain privet
+ <br>
+ <br>
+  if any deployment method gets blocked then we will try to send a new one to you </p1>
  </center>
    
  
