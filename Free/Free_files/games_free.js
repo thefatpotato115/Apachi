@@ -115,8 +115,7 @@ d.innerHTML="X";
 d.style="background-color:red";
 document.body.appendChild(d);
 '>Minecraft classic</button>
-<br>
-<br>
+
 <button style='background-color:black;color:green;border-color:green;' 
 onclick='var iframe = document.createElement("iframe"); 
 iframe.src="https://hscowe.sse.codesandbox.io/prefix/aHR0cHM6Ly9zbG9wZWdhbWUuaW8=/"; 
