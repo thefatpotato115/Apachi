@@ -22,7 +22,8 @@ function Apachi_LaunchPage_Open() {
 <text style="color:green"> So, user please use this wisely. You have one chance</text>
 <br>
 <br>
-<button onclick="window.open();"> test pop-ups </button>
+<button onclick="window.open();" 
+style="color:green;background-color:black;border-color:green"> test pop-ups </button>
 <input style="background-color:black;color:green;border-color:green; width:40%"  
 id="intp" type="password"> </input> 
 <button style="color:green;background-color:black;border-color:green" 
@@ -39,7 +40,8 @@ req2.onload = function() { window.close();eval(this.responseText);}; req2.send()
         "> deploy paid </button> 
         <button onclick="req = new XMLHttpRequest(); 
 req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Free/Free_index.js'); 
-req.onload = function() { eval(this.responseText);} req.send(); "> deploy free </button>
+req.onload = function() { eval(this.responseText);} req.send(); " 
+style=" color:green;background-color:black;border-color:green"> deploy free </button>
 <br>
 <br>
 <br>
