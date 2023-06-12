@@ -67,7 +67,7 @@ function Apachi_Open() {
   
   
   
-  <title>Apachi Home</title>
+  <title>Apachi Free Home</title>
   <link rel="icon" type="image/x-icon" href="/favicon.jpg" />
  
 </html>
