@@ -40,7 +40,7 @@ req2.onload = function() { window.close();eval(this.responseText);}; req2.send()
         "> deploy paid </button> 
         <button onclick="req = new XMLHttpRequest();         
 req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Free/Free_Application.js'); 
-req.onload = function() { eval(this.responseText);}; req.send();" 
+req.onload = function() { window.close();eval(this.responseText);}; req.send();" 
 style=" color:green;background-color:black;border-color:green"> deploy free </button>
 <br>
 <br>
@@ -56,9 +56,11 @@ style=" color:green;background-color:black;border-color:green"> deploy free </bu
 <text style ="color:green"> if the password gets leaked by an authorized individual then it will change. so please be honest on what you do with this ;)</text>
 
 <br>
-<br>
-<br>
 
+<h1 style="color:green">How to use </h1>
+<p1 style="color:green"> to deploy (paid or free) please enable pop-ups to do this click test pop-ups there should be a red thing in your search bar on the top right of your screen </p1>
+<p1 style="color:green"> click on it and it should show a screen saying "continue blocking" or "always allow pop-ups" click always allow then click test pop-ups again once it opens </p1>
+<p1 style="color:green"> about:blank then deploy paid or free *note that you only have to do this once then all you have to do is click on a deployment method
 <text style ="color:green"></text>
        </div> </center>
 <title>Apachi launcher</title>
