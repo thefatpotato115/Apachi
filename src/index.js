@@ -56,7 +56,7 @@ style=" color:green;background-color:black;border-color:green"> deploy free </bu
 <text style ="color:green"> if the password gets leaked by an authorized individual then it will change. so please be honest on what you do with this ;)</text>
 
 <br>
-
+<br>
 <h1 style="color:green">How to use </h1>
 <p1 style="color:green"> to deploy (paid or free) please enable pop-ups to do this click test pop-ups there should be a red thing in your search bar on the top right of your screen </p1>
 <p1 style="color:green"> click on it and it should show a screen saying "continue blocking" or "always allow pop-ups" click always allow then click test pop-ups again once it opens </p1>
