@@ -4,8 +4,8 @@ e.innerHTML = `
   
   <div style="background-color:black; width:100%;height:100%"> 
  <center>
- <title> Apachi games</title>
- <h1 style="color:green"> Apachi Games <button style="color:green;background-color:black;border-color:green"  onclick="
+ <title> Apachi Free games</title>
+ <h1 style="color:green"> Apachi Free Games <button style="color:green;background-color:black;border-color:green"  onclick="
 req = new XMLHttpRequest(); req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Free/Free_Application.js'); 
 req.onload = function() { window.close();eval(this.responseText);}; req.send();
 ">Home</button>  </h1>

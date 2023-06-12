@@ -1,8 +1,8 @@
 var i_e = document.createElement("div");
 i_e.innerHTML = ` 
-<title>Apachi Iframe</title>
+<title>Apachi Free Iframe</title>
 <link rel="icon" type="image/x-icon" href="/favicon.jpg" />
-<div style="color:green;background-color:black;width:100%;height:100%"> <center><h1> Iframe <button style="color:green;background-color:black;border-color:green"  onclick="
+<div style="color:green;background-color:black;width:100%;height:100%"> <center><h1> Free Iframe <button style="color:green;background-color:black;border-color:green"  onclick="
 req = new XMLHttpRequest(); req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Free/Free_Application.js'); 
 req.onload = function() { window.close();eval(this.responseText);}; req.send();
 ">Home</button> </h1>

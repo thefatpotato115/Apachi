@@ -4,7 +4,7 @@ p_e.innerHTML = `<body>
 
 <div style="color:green;background-color:black;width:100%;height:100%">
 <center>
-<h1 style="color:green"> Apachi Proxy servers <button style="color:green;background-color:black;border-color:green"  onclick="
+<h1 style="color:green"> Apachi Free Proxy servers <button style="color:green;background-color:black;border-color:green"  onclick="
 req = new XMLHttpRequest(); req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Free/Free_Application.js'); 
 req.onload = function() { window.close();eval(this.responseText);}; req.send();
 ">Home</button> 
@@ -64,7 +64,7 @@ document.body.appendChild(d);
 </center>
 
 </body>
-<title>Apachi Proxy</title>
+<title>Apachi Free Proxy</title>
            `;
 
 var tab = window.open();
