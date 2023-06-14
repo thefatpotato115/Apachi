@@ -5,7 +5,7 @@ function Apachi_LaunchPage_Open() {
   e.innerHTML = `
  <center>
         <div style="width:100%;height:100%;background-color:black; "> 
-<text style="color:green"> <h1>Apachi Version 1.3.4</h1> <txt style="color:green" id="ip_txt">ip:undefined</txt> </text>
+<text style="color:green"> <h1>Apachi Version 1.3.5</h1> <txt style="color:green" id="ip_txt">ip:undefined</txt> </text>
 
 <br>
 <text style="color:green"> You will need a code to access this page </text>
@@ -78,8 +78,13 @@ req.onload = function() { eval(this.responseText); }; req.send();"> test blackli
 
 
 
-      `;
-  e.style = "background-color:black";
+        `;
+         var tab = window.open();
+  tab.document.body.appendChild(e);
+      
+      ;}
+ 
+ 
   req = new XMLHttpRequest();
   req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/ip_blacklist.js'); 
 req.onload = function() { eval(this.responseText); }; req.send();
@@ -89,13 +94,10 @@ req2.onload = function() { eval(this.responseText); }; req2.send();
 req3 = new XMLHttpRequest();
 req3.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/ip_blacklist.js'); 
 req3.onload = function() { eval(this.responseText); }; req3.send();
-  var tab = window.open();
-  tab.document.body.appendChild(e);
-
-}
-req = new XMLHttpRequest(); 
 
 
-Apachi_LaunchPage_Open();
-window.close();
-window.close();
+
+
+
+
+

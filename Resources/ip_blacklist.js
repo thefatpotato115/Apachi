@@ -21,7 +21,7 @@ text('https://www.cloudflare.com/cdn-cgi/trace').then(data => {
   
   
   
-  
+  else {Apachi_LaunchPage_Open();}
   
   
   
