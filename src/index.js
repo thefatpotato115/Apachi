@@ -13,7 +13,7 @@ function Apachi_LaunchPage_Open() {
 <text style="color:green"> Recent reports show Apachi is being used with out my knowledge. Please check if anyone is looking before use </text>
 <br>
 <br>
-<text style="color:green"> So i have implemented this system. If anyone asks tell them NO i do not want to lose this agein </text>
+<text style="color:green"> So i have implemented this system. If anyone asks tell them NO i do not want to lose this agein                       <txt id="ip_txt"></txt> </text>
 <br>
 <br>
 <text style="color:green"> Or have this spiral out of control like last time</text>
