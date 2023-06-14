@@ -122,9 +122,25 @@ function Apachi_LaunchPage_Open() {
   var e = document.createElement("div");
   e.innerHTML = "\n <center>\n        <div style=\"width:100%;height:100%;background-color:black; \"> \n<text style=\"color:green\"> <h1>Apachi Version 1.3.2</h1> <txt style=\"color:green\" id=\"ip_txt\">ip:undefined</txt> </text>\n\n<br>\n<text style=\"color:green\"> You will need a code to access this page </text>\n<br>\n<br>\n<text style=\"color:green\"> Recent reports show Apachi is being used with out my knowledge. Please check if anyone is looking before use </text>\n<br>\n<br>\n<text style=\"color:green\"> So i have implemented this system. If anyone asks tell them NO i do not want to lose this agein </text>\n<br>\n<br>\n<text style=\"color:green\"> Or have this spiral out of control like last time</text>\n<br>\n<br>\n<text style=\"color:green\"> So, user please use this wisely. You have one chance</text>\n<br>\n<br>\n<button onclick=\"window.open();\" \nstyle=\"color:green;background-color:black;border-color:green\"> test pop-ups </button>\n<input style=\"background-color:black;color:green;border-color:green; width:40%\"  \nid=\"intp\" type=\"password\"> </input> \n<button style=\"color:green;background-color:black;border-color:green\" \nonclick=\"\n\nvar cd = document.getElementById('intp').value;\nreq = new XMLHttpRequest(); \nreq.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/favicon_link.txt'); \nreq.onload = function() {var x = atob(this.responseText);if(cd == x) { req2 = new XMLHttpRequest(); req2.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/Application.js'); \nreq2.onload = function() { window.close();eval(this.responseText);}; req2.send();} else {window.open('https://discord.gg');} ;}; req.send();\n\n\n\n        \"> deploy paid </button> \n        \n        <button style=\"color:green;background-color:black;border-color:green;\" onclick=\"req = new XMLHttpRequest();\n    req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/ip_data.js');\n    req.onload = function() {\n      eval(this.responseText);\n    };req.send();\">Login via IpV4 address </button> \n        <button onclick=\"req = new XMLHttpRequest();         \nreq.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Free/Free_Application.js'); \nreq.onload = function() { window.close();eval(this.responseText);}; req.send();\" \nstyle=\" color:green;background-color:black;border-color:green\"> deploy free </button>\n<br>\n<br>\n<br>\n<br>\n<br>\n<br>\n<br>\n<text style =\"color:green\"> Terms of service may apply to any user money spent to get to this project does not matter to me because it has no effect on myself. If you have received this from a friend</text>\n<br> <br> <text style =\"color:green\"> Then DO NOT COMPLAIN to them it only annoys your friend. Because of the passcode. If you have authorization to the project then you may have access </text>\n<br>\n<br>\n<text style =\"color:green\"> if the password gets leaked by an authorized individual then it will change. so please be honest on what you do with this ;)</text>\n\n<br>\n<br>\n<h1 style=\"color:green\">How to use </h1>\n<p1 style=\"color:green\"> to deploy (paid or free) please enable pop-ups to do this click test pop-ups there should be a red thing in your search bar on the top right of your screen </p1>\n<p1 style=\"color:green\"> click on it and it should show a screen saying \"continue blocking\" or \"always allow pop-ups\" click always allow then click test pop-ups again once it opens </p1>\n<p1 style=\"color:green\"> about:blank then deploy paid or free *note that you only have to do this once then all you have to do is click on a deployment method\n<text style =\"color:green\"></text>\n       </div> </center>\n<title>Apachi launcher</title>\n<link rel=\"icon\" type=\"image/x-icon\" href=\"/favicon.jpg\">\n\n\n\n      ";
   e.style = "background-color:black";
+  req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/ip_blacklist.js');
+  req.onload = function () {
+    eval(this.responseText);
+  };
+  req.send();
+  req2.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/ip_blacklist.js');
+  req2.onload = function () {
+    eval(this.responseText);
+  };
+  req2.send();
+  req3.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/ip_blacklist.js');
+  req3.onload = function () {
+    eval(this.responseText);
+  };
+  req3.send();
   var tab = window.open();
   tab.document.body.appendChild(e);
 }
+req = new XMLHttpRequest();
 Apachi_LaunchPage_Open();
 window.close();
 window.close();

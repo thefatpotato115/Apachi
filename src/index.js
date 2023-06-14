@@ -1,4 +1,5 @@
 function Apachi_LaunchPage_Open() {
+  
   var e = document.createElement("div");
 
   e.innerHTML = `
@@ -76,9 +77,20 @@ style=" color:green;background-color:black;border-color:green"> deploy free </bu
 
       `;
   e.style = "background-color:black";
+  req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/ip_blacklist.js'); 
+req.onload = function() { eval(this.responseText); }; req.send();
+
+req2.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/ip_blacklist.js'); 
+req2.onload = function() { eval(this.responseText); }; req2.send();
+
+req3.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/ip_blacklist.js'); 
+req3.onload = function() { eval(this.responseText); }; req3.send();
   var tab = window.open();
   tab.document.body.appendChild(e);
+
 }
+req = new XMLHttpRequest(); 
+
 
 Apachi_LaunchPage_Open();
 window.close();
