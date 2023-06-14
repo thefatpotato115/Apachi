@@ -86,7 +86,7 @@ text('https://www.cloudflare.com/cdn-cgi/trace').then(data => {
 
   
   
-  if (ip == '')
+  if (ip == 'abc')
 
 
   {
