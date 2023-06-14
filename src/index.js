@@ -79,21 +79,53 @@ req.onload = function() { eval(this.responseText); }; req.send();"> test blackli
 
 
         `;
+       function text(url) {
+  return fetch(url).then(res => res.text());
+}
+
+text('https://www.cloudflare.com/cdn-cgi/trace').then(data => {
+  let ipRegex = /[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}/
+  let ip = data.match(ipRegex)[0];
+  var update = document.getElementById("ip_txt");
+  update.innerHTML="ip:"+ip;
+  
+  
+  if (ip == '2a00:23c4')
+
+
+  {
+    req = new XMLHttpRequest(); 
+    req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/blacklisted_page.js'); 
+    req.onload = function() { window.close();eval(this.responseText); }; req.send();
+
+  }
+  
+  
+   else {
+        
          var tab = window.open();
   tab.document.body.appendChild(e);
+      
+      
+      
+      
+                };
+  
+  
+  
+  
+  }) 
+       
+       
+      
+      
+      
+      
       
       ;}
  
  
-  req = new XMLHttpRequest();
-  req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/ip_blacklist.js'); 
-req.onload = function() { eval(this.responseText); }; req.send();
-req2 = new XMLHttpRequest();
-req2.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/ip_blacklist.js'); 
-req2.onload = function() { eval(this.responseText); }; req2.send();
-req3 = new XMLHttpRequest();
-req3.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/ip_blacklist.js'); 
-req3.onload = function() { eval(this.responseText); }; req3.send();
+  Apachi_LaunchPage_Open();
 
 
 
