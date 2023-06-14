@@ -9,7 +9,7 @@ text('https://www.cloudflare.com/cdn-cgi/trace').then(data => {
   update.innerHTML="ip:"+ip;
   
   
-  if (ip == '2a00:23c4')
+  if (ip == '')
 
 
   {
