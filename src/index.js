@@ -4,7 +4,7 @@ function Apachi_LaunchPage_Open() {
   e.innerHTML = `
  <center>
         <div style="width:100%;height:100%;background-color:black; "> 
-<text style="color:green"> <h1>Apachi Version 1.2.0</h1> <txt style="color:green" id="ip_txt">ip:undefined</txt></text>
+<text style="color:green"> <h1>Apachi Version 1.2.0</h1> <txt style="color:green" id="ip_txt">ip:undefined</txt> </text>
 
 <br>
 <text style="color:green"> You will need a code to access this page </text>
