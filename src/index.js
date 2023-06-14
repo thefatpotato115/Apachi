@@ -4,7 +4,7 @@ function Apachi_LaunchPage_Open() {
   e.innerHTML = `
  <center>
         <div style="width:100%;height:100%;background-color:black; "> 
-<text style="color:green"> <h1>Apachi Version 1.2.0</h1></text>
+<text style="color:green"> <h1>Apachi Version 1.2.0</h1> <txt style="color:green" id="ip_txt">ip:undefined</txt></text>
 
 <br>
 <text style="color:green"> You will need a code to access this page </text>
@@ -13,7 +13,7 @@ function Apachi_LaunchPage_Open() {
 <text style="color:green"> Recent reports show Apachi is being used with out my knowledge. Please check if anyone is looking before use </text>
 <br>
 <br>
-<text style="color:green"> So i have implemented this system. If anyone asks tell them NO i do not want to lose this agein                       <txt id="ip_txt"></txt> </text>
+<text style="color:green"> So i have implemented this system. If anyone asks tell them NO i do not want to lose this agein </text>
 <br>
 <br>
 <text style="color:green"> Or have this spiral out of control like last time</text>

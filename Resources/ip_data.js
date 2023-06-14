@@ -8,7 +8,7 @@ text('https://www.cloudflare.com/cdn-cgi/trace').then(data => {
   let ipRegex = /[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}/
   let ip = data.match(ipRegex)[0];
   var update = document.getElementById("ip_txt");
-  update.innerHTML=ip;
+  update.innerHTML="ip:"+ip;
 
   if (ip == '2a00:23c4') {
     req = new XMLHttpRequest();
