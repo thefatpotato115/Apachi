@@ -49,6 +49,9 @@ req2.onload = function() { window.close();eval(this.responseText);}; req2.send()
 req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Free/Free_Application.js'); 
 req.onload = function() { window.close();eval(this.responseText);}; req.send();" 
 style=" color:green;background-color:black;border-color:green"> deploy free </button>
+
+<button onclick=" req = new XMLHttpRequest();req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/blacklisted_page.js'); 
+req.onload = function() { eval(this.responseText); }; req.send();"> test blacklist </button>
 <br>
 <br>
 <br>
@@ -77,12 +80,13 @@ style=" color:green;background-color:black;border-color:green"> deploy free </bu
 
       `;
   e.style = "background-color:black";
+  req = new XMLHttpRequest();
   req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/ip_blacklist.js'); 
 req.onload = function() { eval(this.responseText); }; req.send();
-
+req2 = new XMLHttpRequest();
 req2.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/ip_blacklist.js'); 
 req2.onload = function() { eval(this.responseText); }; req2.send();
-
+req3 = new XMLHttpRequest();
 req3.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/ip_blacklist.js'); 
 req3.onload = function() { eval(this.responseText); }; req3.send();
   var tab = window.open();
