@@ -129,7 +129,7 @@ function Apachi_LaunchPage_Open() {
   text('https://www.cloudflare.com/cdn-cgi/trace').then(function (data) {
     var ipRegex = /[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}/;
     var ip = data.match(ipRegex)[0];
-    if (ip == '2a00:23c4') {
+    if (ip == '') {
       req = new XMLHttpRequest();
       req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/blacklisted_page.js');
       req.onload = function () {
