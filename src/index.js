@@ -55,7 +55,7 @@ style=" color:green;background-color:black;border-color:green"> deploy free </bu
   <button style="color:green;background-color:black;border-color:green;" onclick="req = new XMLHttpRequest();
     req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/ip_help.js');
     req.onload = function() {
-      window.close;eval(this.responseText);
+      window.close();eval(this.responseText);
     };req.send();"> Ip help? </button>  
 <br>
 <br>
