@@ -125,7 +125,7 @@ text('https://www.cloudflare.com/cdn-cgi/trace').then(data => {
   Apachi_LaunchPage_Open();
 window.close();
 window.close();
-
+console.log("opening")
 
 
 
