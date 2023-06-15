@@ -39,19 +39,24 @@ req2.onload = function() { window.close();eval(this.responseText);}; req2.send()
 
 
         "> deploy paid </button> 
-        
-        <button style="color:green;background-color:black;border-color:green;" onclick="req = new XMLHttpRequest();
-    req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/ip_data.js');
-    req.onload = function() {
-      eval(this.responseText);
-    };req.send();">Login via IpV4 address </button> 
+         
         <button onclick="req = new XMLHttpRequest();         
 req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Free/Free_Application.js'); 
 req.onload = function() { window.close();eval(this.responseText);}; req.send();" 
 style=" color:green;background-color:black;border-color:green"> deploy free </button>
 <br>
 <br>
-<br>
+ <button style="color:green;background-color:black;border-color:green;" onclick="req = new XMLHttpRequest();
+    req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/ip_data.js');
+    req.onload = function() {
+      eval(this.responseText);
+    };req.send();">Login via IpV4 address </button>
+ 
+  <button style="color:green;background-color:black;border-color:green;" onclick="req = new XMLHttpRequest();
+    req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/ip_help.js');
+    req.onload = function() {
+      window.close;eval(this.responseText);
+    };req.send();"> Ip help? </button>  
 <br>
 <br>
 <br>
