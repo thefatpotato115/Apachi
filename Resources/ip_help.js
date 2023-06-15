@@ -4,17 +4,12 @@ e.innerHTML=`
 <center>
 <h1 style="color:green"> Ip help </h1>
 <br>
+<br>
 <p1 style="color:green"><font size="5"> problems with Apachis IpV4 verification? </font> </p1> 
-<p1 color:green>if you are having problems you have came to the right place. </p1>
-</center>
-<div style="padding:15px">
- 
- <p1> <font size="4"> Ip debug </font> </p1>
- <font size="3">
-  ip:<txt id="ip"> </txt>
- </font>
-</div>
-<center>
+<br>
+<br>
+<p1 style="color:green">if you are having problems you have came to the right place. </p1>
+
 
 <p style="color:green"> if you are having problems with the ip system that might mean that its getting the wrong ip. </p>
 <br>
