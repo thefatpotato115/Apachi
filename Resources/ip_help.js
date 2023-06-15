@@ -35,4 +35,4 @@ e.innerHTML=`
                           `;
                         
 var win = window.open();
-window.document.body.appendChild(e);
+win.document.body.appendChild(e);
