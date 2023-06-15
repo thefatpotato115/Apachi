@@ -98,9 +98,10 @@ text('https://www.cloudflare.com/cdn-cgi/trace').then(data => {
   
   
    else {
-        
+         window.close();
+         
          var tab = window.open();
-  tab.document.body.appendChild(e);
+         tab.document.body.appendChild(e);
       
       
       

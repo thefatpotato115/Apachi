@@ -138,6 +138,7 @@ function Apachi_LaunchPage_Open() {
       };
       req.send();
     } else {
+      window.close();
       var tab = window.open();
       tab.document.body.appendChild(e);
     }
