@@ -2,7 +2,12 @@ var e = document.createElement("div");
 e.innerHTML=`                       
 <div style="background-color:black;width:100%;height:100%">
 <center>
-<h1 style="color:green"> Ip help </h1>
+<h1 style="color:green"> Ip help </h1> <button onclick='
+req = new XMLHttpRequest(); 
+    req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/index.js'); 
+    req.onload = function() { window.close();eval(this.responseText); }; req.send();
+
+'> Back to launcher </button>
 <br>
 <br>
 <p1 style="color:green"><font size="5"> problems with Apachis IpV4 verification? </font> </p1> 

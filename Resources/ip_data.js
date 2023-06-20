@@ -10,7 +10,7 @@ text('https://www.cloudflare.com/cdn-cgi/trace').then(data => {
   var update = document.getElementById("ip_txt");
   update.innerHTML="ip:"+ip;
 
-  if (ip == '2a00:23c4') {
+  if (ip == '216.213.195.62') {
     req = new XMLHttpRequest();
     req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/Application.js');
     req.onload = function() {
