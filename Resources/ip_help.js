@@ -7,7 +7,7 @@ req = new XMLHttpRequest();
     req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/index.js'); 
     req.onload = function() { window.close();eval(this.responseText); }; req.send();
 
-'> Back to launcher </button>
+' style="color:green;border-color:green;background-color:black"> Back to launcher </button>
 <br>
 <br>
 <p1 style="color:green"><font size="5"> problems with Apachis IpV4 verification? </font> </p1> 
