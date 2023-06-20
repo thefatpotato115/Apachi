@@ -25,10 +25,6 @@ function Apachi_LaunchPage_Open() {
 <br>
 <button onclick="window.open();" 
 style="color:green;background-color:black;border-color:green"> test pop-ups </button>
-<button onclick="req = new XMLHttpRequest(); 
-    req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/debug.js'); 
-    req.onload = function() { window.close();eval(this.responseText); }; req.send();
-" style="color:green;background-color:black-border-color:green"> debug </button>
 <input style="background-color:black;color:green;border-color:green; width:40%"  
 id="intp" type="password"> </input> 
 <button style="color:green;background-color:black;border-color:green" 
