@@ -33,17 +33,73 @@ onclick="
 var cd = document.getElementById('intp').value;
 req = new XMLHttpRequest(); 
 req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/favicon_link.txt'); 
-req.onload = function() {var x = atob(this.responseText);if(cd == x) { req2 = new XMLHttpRequest(); req2.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/Application.js'); 
-req2.onload = function() { window.close();eval(this.responseText);}; req2.send();} else {window.open('https://discord.gg');} ;}; req.send();
+req.onload = function() {var x = atob(this.responseText);if(cd == x) { 
+       req2 = new XMLHttpRequest(); req2.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/Application.js'); 
+req2.onload = function() { 
+   var g = document.getElementById('Launch_Options');
+var value = g.value;
+var type = g.options[g.selectedIndex].text;
+if( type == 'Close Launcherpage On Open')
+{ 
+ window.close();eval(this.responseText);
+
+
+        ;}
+
+
+else if (type == 'Keep Launcherpage On Open' )
+
+{ 
+    eval(this.responseText);
+ 
+        ;}
+  }; 
+  
+  
+  req2.send();} else {window.open('https://discord.gg');} ;}; req.send();
 
 
 
         "> deploy paid </button> 
          
-        <button onclick="req = new XMLHttpRequest();         
+        <button onclick="
+        
+        req = new XMLHttpRequest();         
 req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Free/Free_Application.js'); 
-req.onload = function() { window.close();eval(this.responseText);}; req.send();" 
-style=" color:green;background-color:black;border-color:green"> deploy free </button>
+
+
+req.onload = function() { 
+  var g = document.getElementById('Launch_Options');
+var value = g.value;
+var type = g.options[g.selectedIndex].text;
+if( type == 'Close Launcherpage On Open')
+{ 
+
+ window.close();eval(this.responseText);
+
+        ;}
+
+
+else if (type == 'Keep Launcherpage On Open')
+
+{ 
+   eval(this.responseText);
+ 
+        ;}
+  
+  
+  
+ }; req.send();
+
+" 
+style=" color:green;background-color:black;border-color:green"> deploy free </button> 
+
+
+<select id="Launch_Options" style="color:green;background-color:black;border-color:green">
+  <option value="1" selected="selected"> Close Launcherpage On Open</option>
+  <option value="2"> Keep Launcherpage On Open</option>
+</select>
+
 <br>
 <br>
  <button style="color:green;background-color:black;border-color:green;" onclick="req = new XMLHttpRequest();
