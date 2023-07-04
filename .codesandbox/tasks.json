@@ -22,10 +22,7 @@
     "nmp-star": {
       "name": "nmp-star",
       "command": "nmp-star"
-    },
-    "node server.js": {
-      "name": "node server.js",
-      "command": "node server.js"
     }
+    
   }
 }
