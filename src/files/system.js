@@ -32,6 +32,7 @@ document.body.appendChild(d);
    document.body.appendChild(d);
       '> Report a bug </button>
 <br>
+<br>
       <button style="color:green;background-color:black;border-color:green;width:150px;height:40px" onclick='var iframe = document.createElement("iframe"); iframe.src="https://wikipedia.org"; iframe.style=" width:100%; height:100%";document.body.appendChild(iframe); var d = document.createElement("button");
 d.onclick= function () {document.body.removeChild(iframe);document.body.removeChild(d) ;};
 d.innerHTML="X";
