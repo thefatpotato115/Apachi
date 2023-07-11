@@ -1,4 +1,4 @@
-var e = document.createElement("div");
+ var e = document.createElement("div");
 e.innerHTML=`                       
 <div style="background-color:black;width:100%;height:100%">
 <center>
@@ -10,20 +10,20 @@ req = new XMLHttpRequest();
 ' style="color:green;border-color:green;background-color:black"> Back to launcher </button>
 <br>
 <br>
-<p1 style="color:green"><font size="5"> problems with Apachis IpV4 verification? </font> </p1> 
+<p1 style="color:green"><font size="5"> Problems with Apachi's IpV4 verification? </font> </p1> 
 <br>
 <br>
-<p1 style="color:green">if you are having problems you have came to the right place. </p1>
+<p1 style="color:green">If so, you have came to the right place. </p1>
 
 
-<p style="color:green"> if you are having problems with the ip system that might mean that its getting the wrong ip. </p>
+<p style="color:green"> If you are having problems with the ip verification system that may mean that it is getting the wrong ip. </p>
 <br>
-<p style="color:green"> To fix this simply launch Apachi again and try. If this problem occurs again just spam the button untill it works :/</p>
-<p style="color:green">  And launch Apachi again</p>
+<p style="color:green"> To fix this simply launch Apachi again and try. If this problem occurs again just spam the button until it works :/</p>
+<p style="color:green">  then, launch Apachi again. We apologize if you are not able to get in, and we will try to get it fixed.</p>
 <br>
 <br>
-<p style="color:green"> <font size="3">IF YOU ARE BLACKLISTED</font></p>
-<p style="color:green"> DO NOT TRY TO GET BACK IN YOU ARE LOCKED OUT FOR A RESON AND WILL NOT UNDER ANY CURCUMSTANCES BE LET BACK IN </p>
+<p style="color:red"> <font size="3">IF YOU ARE BLACKLISTED</font></p>
+<p style="color:red"> DO NOT TRY TO GET BACK IN. YOU ARE LOCKED OUT FOR A RESON AND WILL NOT UNDER ANY CURCUMSTANCES BE LET BACK IN </p>
 
 
 
