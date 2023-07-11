@@ -10,7 +10,7 @@ req = new XMLHttpRequest();
 ' style="color:green;border-color:green;background-color:black"> Back to launcher </button>
 <br>
 <br>
-<p1 style="color:green"><font size="5"> Problems with Apachi's IpV4 verification? </font> </p1> 
+<p1 style="color:green"><font size="5"> Problems with Apachi's IP verification? </font> </p1> 
 <br>
 <br>
 <p1 style="color:green">If so, you have came to the right place. </p1>
