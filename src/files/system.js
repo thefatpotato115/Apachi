@@ -4,7 +4,7 @@ req = new XMLHttpRequest(); req.open('GET', 'https://raw.githubusercontent.com/t
 req.onload = function() { window.close();eval(this.responseText);}; req.send();
 ">Home</button> </h1>
 <br>
-<p1> Apachi system is a everything else page for open-ai,game requests and bugfixes and more that we cant fit into a category</p1>
+<p1> Apachi system is an 'everything else' page for Chat GPT, game requests and bugfixes, and more stuff that we can't fit into a category.</p1>
 <br>
 <br>
 <br>
