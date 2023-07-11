@@ -18,7 +18,7 @@ req = new XMLHttpRequest();
 
 <p style="color:green"> If you are having problems with the ip verification system that may mean that it is getting the wrong ip. </p>
 <br>
-<p style="color:green"> To fix this simply launch Apachi again and try. If this problem occurs again just spam the button until it works :/</p>
+<p style="color:green"> To fix this, simply launch Apachi again and try. If this problem occurs again just spam the button until it works :/</p>
 <p style="color:green">  then, launch Apachi again. We apologize if you are not able to get in, and we will try to get it fixed.</p>
 <br>
    <button style="color:green;background-color:black;border-color:green;width:300px;height:40px" onclick='var iframe = document.createElement("iframe"); iframe.src="https://form.typeform.com/to/TmtkSH1E"; iframe.style=" width:100%; height:100%";document.body.appendChild(iframe); var d = document.createElement("button");
