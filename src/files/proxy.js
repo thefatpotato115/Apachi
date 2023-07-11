@@ -81,7 +81,7 @@ d.style="background-color:red";
 document.body.appendChild(d);
    '> Alloy Proxy 4</button>
 
-<button id="VPN_1" style="color:red;background-color:black;border-color:green;width:100px;height:40px" onclick='window.alert(Express VPN is a product that the Apachi dev team needs to pay for. To help us get this feature, we will need to earn a steady profit.You can help us do this by donating a few dollars. Thank you!)
+<button id="VPN_1" style="color:red;background-color:black;border-color:green;width:100px;height:40px" onclick='window.alert("Express VPN is a product that the Apachi dev team needs to pay for. To help us get this feature, we will need to earn a steady profit.You can help us do this by donating a few dollars. Thank you!")
 '> Express VPN </button>
 <br>
 <br>
