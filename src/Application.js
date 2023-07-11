@@ -10,9 +10,9 @@ function Apachi_Open() {
       <br>
       <text style="color: green;"> Welcome to the Apachi Proxy homepage. </text>
 
-      <text style="color: green;"> please use this tool wisely. We the APACHI dev team believe in the freedom of internet browsering without content filtering</text>
+      <text style="color: green;"> Please use this tool wisely. We the APACHI dev team believe in the freedom of internet browsering without content filtering</text>
     <br>
-<text style="color: green;"> Remember, YOU ONLY GET ONE CHANCE. There are no refunds in apachi so if you leak then buddy you just lost 5$ </text>
+<text style="color: green;"> Remember, YOU ONLY GET ONE CHANCE. There are no refunds in Apachi so if you leak then buddy you just lost 5$ </text>
     
     <br>
     <br>
