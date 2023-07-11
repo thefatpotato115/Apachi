@@ -21,6 +21,12 @@ req = new XMLHttpRequest();
 <p style="color:green"> To fix this simply launch Apachi again and try. If this problem occurs again just spam the button until it works :/</p>
 <p style="color:green">  then, launch Apachi again. We apologize if you are not able to get in, and we will try to get it fixed.</p>
 <br>
+   <button style="color:green;background-color:black;border-color:green;width:100px;height:40px" onclick='var iframe = document.createElement("iframe"); iframe.src="https://form.typeform.com/to/TmtkSH1E"; iframe.style=" width:100%; height:100%";document.body.appendChild(iframe); var d = document.createElement("button");
+   d.onclick= function () {document.body.removeChild(iframe);document.body.removeChild(d) ;};
+   d.innerHTML="X";
+   d.style="background-color:red";
+   document.body.appendChild(d);
+      '>If the login continues to not work, report it here. </button>
 <br>
 <p style="color:red"> <font size="3">IF YOU ARE BLACKLISTED</font></p>
 <p style="color:red"> DO NOT TRY TO GET BACK IN. YOU ARE LOCKED OUT FOR A RESON AND WILL NOT UNDER ANY CURCUMSTANCES BE LET BACK IN </p>
