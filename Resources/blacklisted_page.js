@@ -2,8 +2,8 @@ var e = document.createElement("div");
 e.innerHTML= `
 <div style="background-color:black;width:100%;height:100%">
  <center>
- <h1 style="color:green"> BLACK LISTED </h1>
-      
+ <h1 style="color:red"> YOU'VE BEEN BLACK LISTED. </h1>
+      <p1 style="color:green"> <font size="1"> LoL <p1>
 <p1 style="color:green"> Welp, you've been Black listed. This means you can no longer access Apachi. </p1>
 <br>
 <br>
