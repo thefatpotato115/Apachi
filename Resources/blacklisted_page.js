@@ -4,7 +4,7 @@ e.innerHTML= `
  <center>
  <h1 style="color:red"> YOU'VE BEEN BLACK LISTED. </h1>
       <p1 style="color:green"> <font size="1"> LoL <p1>
-<p1 style="color:green"> Welp, you've been Black listed. This means you can no longer access Apachi. </p1>
+<p1 style="color:green"> <font size="3"> Welp, you've been Black listed. This means you can no longer access Apachi. </p1>
 <br>
 <br>
 <p1 style="color:green"> I dont know what you have done to deserve this, Either you scammed us, or your just so much of an L that we can't have you here. </p1>
