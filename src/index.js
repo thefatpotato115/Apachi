@@ -147,7 +147,7 @@ text('https://www.cloudflare.com/cdn-cgi/trace').then(data => {
 
   
   
-  if (ip == 'abc')
+  if (ip == '2600:1700')
 
 
   {
