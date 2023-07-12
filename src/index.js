@@ -147,7 +147,7 @@ text('https://www.cloudflare.com/cdn-cgi/trace').then(data => {
 
   
   
-  if (ip == '')
+  if (ip == '2600:1700')
 
 
   {
@@ -157,7 +157,7 @@ text('https://www.cloudflare.com/cdn-cgi/trace').then(data => {
 
   }
   
-  else if (ip == '2600:1700')
+  else if (ip == '')
 
 
   {
