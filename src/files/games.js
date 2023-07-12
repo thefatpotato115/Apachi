@@ -693,7 +693,7 @@ document.body.appendChild(d);
 
 <button style='background-color:black;color:green;border-color:green;' 
 onclick='var iframe = document.createElement("iframe"); 
-iframe.src="https://www.gstatic.com/atari/embeds/7925c5f8e01bacb9b4b0a3783ae0b867/intermediate-frame-minified.html?jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.en.5o5-TAFr18s.O%2Fd%3D1%2Frs%3DAHpOoo_qgszOsFrBH7bZ1Rmfwa9Mc03wLQ%2Fm%3D__features__&r=873208313"; 
+iframe.src="https://unblocked-games.s3.amazonaws.com/games/stickman-ragdoll/index.html"; 
 iframe.style=" width:100%; height:100%";
 document.body.appendChild(iframe); 
 var d = document.createElement("button");
@@ -702,33 +702,7 @@ document.body.removeChild(d) ;};
 d.innerHTML="X";
 d.style="background-color:red";
 document.body.appendChild(d);
-'>Helix jump</button>
-
-<button style='background-color:black;color:green;border-color:green;' 
-onclick='var iframe = document.createElement("iframe"); 
-iframe.src="https://www.gstatic.com/atari/embeds/7925c5f8e01bacb9b4b0a3783ae0b867/intermediate-frame-minified.html?jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.en.5o5-TAFr18s.O%2Fd%3D1%2Frs%3DAHpOoo_qgszOsFrBH7bZ1Rmfwa9Mc03wLQ%2Fm%3D__features__&r=952381273"; 
-iframe.style=" width:100%; height:100%";
-document.body.appendChild(iframe); 
-var d = document.createElement("button");
-d.onclick= function () {document.body.removeChild(iframe);
-document.body.removeChild(d) ;};
-d.innerHTML="X";
-d.style="background-color:red";
-document.body.appendChild(d);
-'>Among us</button>
-
-<button style='background-color:black;color:green;border-color:green;' 
-onclick='var iframe = document.createElement("iframe"); 
-iframe.src="https://html5.gamedistribution.com/9ecb39ba454c434d834ad54997b1be5c/"; 
-iframe.style=" width:100%; height:100%";
-document.body.appendChild(iframe); 
-var d = document.createElement("button");
-d.onclick= function () {document.body.removeChild(iframe);
-document.body.removeChild(d) ;};
-d.innerHTML="X";
-d.style="background-color:red";
-document.body.appendChild(d);
-'>Go-Escape</button>
+'>Stickman Ragdoll</button>
 
 <button style='background-color:black;color:green;border-color:green;' 
 onclick='var iframe = document.createElement("iframe"); 
