@@ -3,7 +3,10 @@ e.innerHTML= `
 <div style="background-color:black;width:100%;height:100%">
  <center>
  <h1 style="color:red"> YOU'VE BEEN BLACK LISTED. </h1>
-      <p1 style="color:green"> <font size="1"> LoL <p1>
+ <br>
+      <p1 style="color:green"> <font size="1"> lol <p1>
+      <br>
+      <br>
 <p1 style="color:green"> <font size="3"> Welp, you've been Black listed. This means you can no longer access Apachi. </p1>
 <br>
 <br>
