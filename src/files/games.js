@@ -678,7 +678,18 @@ d.style="background-color:red";
 document.body.appendChild(d);
 '>Mario Kart</button>
 
-
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/fr6ks8ab/vi9syd1rm@28385476653e724a811795dff60a8ef6fa652bcf/h5j7dg3s/death_run.xml"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>Death run</button>
 
 </center>
 </div>
