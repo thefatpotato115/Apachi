@@ -2,12 +2,12 @@
 e.innerHTML=`                       
 <div style="background-color:black;width:100%;height:100%">
 <center>
-<h1 style="color:green"> Ip help </h1> <button onclick='
+<h1 style="color:green"> Ip help </h1> <button onclick="
 req = new XMLHttpRequest(); 
     req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/index.js'); 
     req.onload = function() { window.close();eval(this.responseText); }; req.send();
 
-' style="color:green;border-color:green;background-color:black"> Back to launcher </button>
+" style="color:green;border-color:green;background-color:black"> Back to launcher </button>
 <br>
 <br>
 <p1 style="color:green"><font size="5"> Problems with Apachi's IP verification? </font> </p1> 
