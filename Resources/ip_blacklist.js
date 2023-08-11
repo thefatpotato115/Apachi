@@ -9,7 +9,7 @@ text('https://www.cloudflare.com/cdn-cgi/trace').then(data => {
 
   // ip blacklist listings
   
-  if (ip == '')
+  if (ip == '557f179')
 
 
   {
