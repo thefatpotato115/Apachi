@@ -20,7 +20,7 @@ text('https://www.cloudflare.com/cdn-cgi/trace').then(data => {
 
   }
 
-  else if (ip == '47.185.119.4') {
+  else if (ip == '47.185.47.174') {
     req = new XMLHttpRequest();
     req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/Application.js');
     req.onload = function() {
@@ -29,7 +29,7 @@ text('https://www.cloudflare.com/cdn-cgi/trace').then(data => {
     req.send();
   }
 
-  else if (ip == '') {
+  else if (ip == '47.185.119.4') {
     req = new XMLHttpRequest();
     req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/Application.js');
     req.onload = function() {
