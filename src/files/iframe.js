@@ -3,8 +3,16 @@ i_e.innerHTML = `
 <title>Apachi Iframe</title>
 <link rel="icon" type="image/x-icon" href="/favicon.jpg" />
 <div style="color:green;background-color:black;width:100%;height:100%"> <center><h1> Iframe <button style="color:green;background-color:black;border-color:green"  onclick="
+
+req1 = new XMLHttpRequest(); 
+    req1.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/ip_blacklist.js'); 
+    req1.onload = function() { window.close();eval(this.responseText); }; req1.send();
+else {
+
 req = new XMLHttpRequest(); req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/Application.js'); 
-req.onload = function() { window.close();eval(this.responseText);}; req.send();
+req.onload = function() { window.close();eval(this.responseText);}; req.send();}
+
+
 ">Home</button> </h1>
 <br>
 <p1> Apachi offers a built-in Iframer so you can view websites directly form Apachi so extentions cant see them. This is not a proxy and will NOT work for some websites like google classroom so please dont complain  </p1>

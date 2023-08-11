@@ -19,35 +19,72 @@ function Apachi_Open() {
     <br>
 
   
-  <button id="games" style="background-color:black;border-color:green;color:green; width:60px;height:50px" onclick="req = new XMLHttpRequest(); 
+  <button id="games" style="background-color:black;border-color:green;color:green; width:60px;height:50px" onclick="
+  req1 = new XMLHttpRequest(); 
+    req1.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/ip_blacklist.js'); 
+    req1.onload = function() { window.close();eval(this.responseText); }; req1.send();
+  else {
+  req = new XMLHttpRequest(); 
       req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/files/games.js'); 
       req.onload = function() { window.close();eval(this.responseText); }; 
-      req.send();document.body.removeChild(e);"> 
+      req.send();document.body.removeChild(e); }
+      
+      
+      "> 
   Games
   
   </button>
   
-      <button id="system" style="background-color:black;border-color:green;color:green; width:60px;height:50px" onclick="req = new XMLHttpRequest(); 
+      <button id="system" style="background-color:black;border-color:green;color:green; width:60px;height:50px" onclick="
+      req1 = new XMLHttpRequest(); 
+    req1.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/ip_blacklist.js'); 
+    req1.onload = function() { window.close();eval(this.responseText); }; req1.send();
+      else{
+      
+      req = new XMLHttpRequest(); 
       req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/files/system.js'); 
       req.onload = function() { window.close();eval(this.responseText); }; 
-      req.send();document.body.removeChild(e);"> 
+      req.send();document.body.removeChild(e);}
+      
+      
+      "> 
   System
   
   </button>
   
-      <button id="iframe" style="background-color:black;border-color:green;color:green; width:60px;height:50px" onclick="req = new XMLHttpRequest(); 
+      <button id="iframe" style="background-color:black;border-color:green;color:green; width:60px;height:50px" onclick="
+      
+      req1 = new XMLHttpRequest(); 
+    req1.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/ip_blacklist.js'); 
+    req1.onload = function() { window.close();eval(this.responseText); }; req1.send();
+
+    else {  
+
+      req = new XMLHttpRequest(); 
       req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/files/iframe.js'); 
       req.onload = function() { window.close();eval(this.responseText); }; 
-      req.send();document.body.removeChild(e);"> 
+      req.send();document.body.removeChild(e);}
+      
+      "> 
   Iframe
   
   </button>
       
       
-      <button id="proxy" style="background-color:black;border-color:green;color:green; width:60px;height:50px" onclick="req = new XMLHttpRequest(); 
+      <button id="proxy" style="background-color:black;border-color:green;color:green; width:60px;height:50px" onclick="
+      
+      req1 = new XMLHttpRequest(); 
+    req1.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/ip_blacklist.js'); 
+    req1.onload = function() { window.close();eval(this.responseText); }; req1.send();
+      
+    else {
+      
+      req = new XMLHttpRequest(); 
       req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/files/proxy.js');
       req.onload = function() { window.close();eval(this.responseText); }; 
-      req.send();"> 
+      req.send();}
+      
+      "> 
   Proxy
   
   </button>

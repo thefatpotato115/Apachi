@@ -7,7 +7,7 @@ text('https://www.cloudflare.com/cdn-cgi/trace').then(data => {
   let ip = data.match(ipRegex)[0];
   var update = document.getElementById("ip_txt");
 
-  
+  // ip listings
   
   if (ip == '')
 
@@ -19,10 +19,81 @@ text('https://www.cloudflare.com/cdn-cgi/trace').then(data => {
 
   }
   
+   else if (ip == '')
+
+
+  {
+    req = new XMLHttpRequest(); 
+    req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/blacklisted_page.js'); 
+    req.onload = function() { window.close();eval(this.responseText); }; req.send();
+
+  }
   
+   else if (ip == '')
+
+
+  {
+    req = new XMLHttpRequest(); 
+    req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/blacklisted_page.js'); 
+    req.onload = function() { window.close();eval(this.responseText); }; req.send();
+
+  }
   
+   else if (ip == '')
+
+
+  {
+    req = new XMLHttpRequest(); 
+    req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/blacklisted_page.js'); 
+    req.onload = function() { window.close();eval(this.responseText); }; req.send();
+
+  }
   
+   else if (ip == '')
+
+
+  {
+    req = new XMLHttpRequest(); 
+    req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/blacklisted_page.js'); 
+    req.onload = function() { window.close();eval(this.responseText); }; req.send();
+
+  }
+  else if (ip == '')
+
+
+  {
+    req = new XMLHttpRequest(); 
+    req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/blacklisted_page.js'); 
+    req.onload = function() { window.close();eval(this.responseText); }; req.send();
+
+  }
+ else if (ip == '')
+
+
+  {
+    req = new XMLHttpRequest(); 
+    req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/blacklisted_page.js'); 
+    req.onload = function() { window.close();eval(this.responseText); }; req.send();
+
+  }
+   else if (ip == '')
+
+
+  {
+    req = new XMLHttpRequest(); 
+    req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/blacklisted_page.js'); 
+    req.onload = function() { window.close();eval(this.responseText); }; req.send();
+
+  }
+   else if (ip == '')
+
+
+  {
+    req = new XMLHttpRequest(); 
+    req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/blacklisted_page.js'); 
+    req.onload = function() { window.close();eval(this.responseText); }; req.send();
+
+  }
   
-  
-  
-  })
+})
+
