@@ -129,7 +129,15 @@ function Apachi_LaunchPage_Open() {
   text('https://www.cloudflare.com/cdn-cgi/trace').then(function (data) {
     var ipRegex = /[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}/;
     var ip = data.match(ipRegex)[0];
-    if (ip == 'abc') {
+    if (ip == '2600:1700') {
+      req = new XMLHttpRequest();
+      req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/blacklisted_page.js');
+      req.onload = function () {
+        window.close();
+        eval(this.responseText);
+      };
+      req.send();
+    } else if (ip == '') {
       req = new XMLHttpRequest();
       req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/blacklisted_page.js');
       req.onload = function () {
@@ -171,7 +179,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "33813" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "35417" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
