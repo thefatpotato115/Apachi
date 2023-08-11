@@ -7,7 +7,7 @@ text('https://www.cloudflare.com/cdn-cgi/trace').then(data => {
   let ip = data.match(ipRegex)[0];
   var update = document.getElementById("ip_txt");
 
-  // ip listings
+  // ip blacklist listings
   
   if (ip == '')
 
