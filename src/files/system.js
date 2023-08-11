@@ -1,7 +1,15 @@
 var i_e = document.createElement("div");
 i_e.innerHTML = ` <div style="color:green;background-color:black;width:100%;height:100%"> <center><h1> Apachi system <button style="color:green;background-color:black;border-color:green"  onclick="
+
+req1 = new XMLHttpRequest(); 
+    req1.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/ip_blacklist.js'); 
+    req1.onload = function() { window.close();eval(this.responseText); }; req1.send();
+else {
+
 req = new XMLHttpRequest(); req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/Application.js'); 
-req.onload = function() { window.close();eval(this.responseText);}; req.send();
+req.onload = function() { window.close();eval(this.responseText);}; req.send();}
+
+
 ">Home</button> </h1>
 <br>
 <p1> Apachi system is an 'everything else' page for Chat GPT, game requests and bugfixes, and more stuff that we can't fit into a category.</p1>
