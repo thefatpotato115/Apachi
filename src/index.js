@@ -128,7 +128,9 @@ style=" color:green;background-color:black;border-color:green"> deploy free </bu
 <h1 style="color:green">How to use </h1>
 <p1 style="color:green"> To deploy Apachi Pro: Click "Login Via IpV4 address." This will pull a key from your computer and match it with our servers to identify you and log you in</p1>
 <br>
+<br>
 <p1 style="color:green"> If this button does not work, use the password you were given when you purchased Apachi Pro. </p1>
+<br>
 <br>
 <p1 style="color:green"> To deply free: click the button labeled "Deply Free" this will deply a free version of Apachi that has fewer features. To purchase Apachi Pro, go to the System page.
 <text style ="color:green"></text>
