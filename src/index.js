@@ -126,9 +126,10 @@ style=" color:green;background-color:black;border-color:green"> deploy free </bu
 <br>
 <br>
 <h1 style="color:green">How to use </h1>
-<p1 style="color:green"> to deploy (paid or free) please enable pop-ups to do this click test pop-ups there should be a red thing in your search bar on the top right of your screen </p1>
-<p1 style="color:green"> click on it and it should show a screen saying "continue blocking" or "always allow pop-ups" click always allow then click test pop-ups again once it opens </p1>
-<p1 style="color:green"> about:blank then deploy paid or free *note that you only have to do this once then all you have to do is click on a deployment method
+<p1 style="color:green"> To deploy Apachi Pro: Click "Login Via IpV4 address." This will pull a key from your computer and match it with our servers to identify you and log you in</p1>
+<p1 style="color:green"> If this button does not work, use the password you were given when you purchased Apachi Pro. </p1>
+<br>
+<p1 style="color:green"> To deply free: click the button labeled "Deply Free" this will deply a free version of Apachi that has fewer features. To purchase Apachi Pro, go to the System page.
 <text style ="color:green"></text>
        </div> </center>
 <title>Apachi launcher</title>
