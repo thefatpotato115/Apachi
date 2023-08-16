@@ -9,7 +9,11 @@ text('https://www.cloudflare.com/cdn-cgi/trace').then(data => {
 
   // ip blacklist listings
   
+<<<<<<< HEAD
   if (ip == '')
+=======
+  if (ip == '557f179')
+>>>>>>> 49d20be6c57e76643c0485012ccea5e0b5264640
 
 
   {

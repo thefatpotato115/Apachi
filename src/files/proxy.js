@@ -6,6 +6,7 @@ p_e.innerHTML = `<body>
 <center>
 <h1 style="color:green"> Apachi Proxy servers <button style="color:green;background-color:black;border-color:green"  onclick="
 
+<<<<<<< HEAD
 req1 = new XMLHttpRequest(); 
     req1.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/ip_blacklist.js'); 
     req1.onload = function() { window.close();eval(this.responseText); }; req1.send();
@@ -13,6 +14,12 @@ else {
 
 req = new XMLHttpRequest(); req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/Application.js'); 
 req.onload = function() { window.close();eval(this.responseText);}; req.send();}
+=======
+
+
+req = new XMLHttpRequest(); req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/Application.js'); 
+req.onload = function() { window.close();eval(this.responseText);}; req.send();
+>>>>>>> 49d20be6c57e76643c0485012ccea5e0b5264640
 
 
 ">Home</button> 

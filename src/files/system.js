@@ -1,6 +1,7 @@
 var i_e = document.createElement("div");
 i_e.innerHTML = ` <div style="color:green;background-color:black;width:100%;height:100%"> <center><h1> Apachi system <button style="color:green;background-color:black;border-color:green"  onclick="
 
+<<<<<<< HEAD
 req1 = new XMLHttpRequest(); 
     req1.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/ip_blacklist.js'); 
     req1.onload = function() { window.close();eval(this.responseText); }; req1.send();
@@ -8,6 +9,12 @@ else {
 
 req = new XMLHttpRequest(); req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/Application.js'); 
 req.onload = function() { window.close();eval(this.responseText);}; req.send();}
+=======
+
+
+req = new XMLHttpRequest(); req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/Application.js'); 
+req.onload = function() { window.close();eval(this.responseText);}; req.send();
+>>>>>>> 49d20be6c57e76643c0485012ccea5e0b5264640
 
 
 ">Home</button> </h1>
@@ -41,12 +48,12 @@ document.body.appendChild(d);
       '> Report a bug </button>
 <br>
 <br>
-      <button style="color:green;background-color:black;border-color:green;width:150px;height:40px" onclick='var iframe = document.createElement("iframe"); iframe.src="https://wikipedia.org"; iframe.style=" width:100%; height:100%";document.body.appendChild(iframe); var d = document.createElement("button");
+      <button style="color:green;background-color:black;border-color:green;width:150px;height:40px" onclick='let id = prompt("Enter Video ID"); var iframe = document.createElement("iframe"); iframe.src=""https://www.youtube.com/embed/" + id"; iframe.style=" width:100%; height:100%";document.body.appendChild(iframe); var d = document.createElement("button");
 d.onclick= function () {document.body.removeChild(iframe);document.body.removeChild(d) ;};
 d.innerHTML="X";
 d.style="background-color:red";
 document.body.appendChild(d);
-   '> Wikipedia </button>
+   '> Ad- free Youtube </button>
 
    <button style="color:green;background-color:black;border-color:green;width:150px;height:40px" onclick='var iframe = document.createElement("iframe"); iframe.src="https://instafonts.io/font/morse-code-lol"; iframe.style=" width:100%; height:100%";document.body.appendChild(iframe); var d = document.createElement("button");
 d.onclick= function () {document.body.removeChild(iframe);document.body.removeChild(d) ;};
