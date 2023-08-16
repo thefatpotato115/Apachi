@@ -60,6 +60,26 @@ function Apachi_Open() {
  <br>
  <p1 style="color:green">if any deployment method gets blocked then we will try to send a new one to you </p1>
  </div>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <p style="color:yellow"> <font size="5">TO UPGRADE TO APACHI PAID 
+ <br>
+ <br>
+ EMAIL:apachipro328@gmail.com
+
+ TRANSACTION METHOD: YOU WILL BE EMAILD THE METHOD
+ 
+ PRICE:5$ *note prices may change depending on demmand
+ 
+ DISCLAMER: IF APACHI PRO IS LEAKED TO NON-PAID USERS FILE WILL BECOME VOIDED
+ AND YOU WILL BECOME BLACKLISTED. 
+
+ </font>
+</p> 
+ 
  </center>
  
    
