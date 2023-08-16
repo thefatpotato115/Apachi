@@ -38,7 +38,7 @@ text('https://www.cloudflare.com/cdn-cgi/trace').then(data => {
     req.send();
   }
 
-  else if (ip == '') {
+  else if (ip == '557f172') {
     req = new XMLHttpRequest();
     req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/Application.js');
     req.onload = function() {
