@@ -3,6 +3,7 @@ function Apachi_Open() {
 
   e.innerHTML = `
   <html>
+  <body style="background: url(/Resources/background.png);">
   <center>
     <div style="width: 100%; height: 100%; background-color: black;">
       <text style="color: green;"> <h1>Apachi Version 1.3.0 secure</h1></text>
@@ -112,7 +113,7 @@ function Apachi_Open() {
   
   <title>Apachi Home</title>
   <link rel="icon" type="image/x-icon" href="/favicon.jpg" />
- 
+ </body>
 </html>
 
 
