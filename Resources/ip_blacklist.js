@@ -12,7 +12,7 @@ text('https://www.cloudflare.com/cdn-cgi/trace').then(data => {
 <<<<<<< HEAD
   if (ip == '')
 =======
-  if (ip == '557f179')
+  if (ip == '')
 >>>>>>> 49d20be6c57e76643c0485012ccea5e0b5264640
 
 
