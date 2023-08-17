@@ -140,7 +140,6 @@ style=" color:green;background-color:black;border-color:green"> deploy free </bu
 <link rel="icon" type="image/x-icon" href="/favicon.jpg">
 </body>
 
-</body>
 
         `;
        function text(url) {
@@ -153,7 +152,7 @@ text('https://www.cloudflare.com/cdn-cgi/trace').then(data => {
 
   
   
-  if (ip == '2600:1700')
+  if (ip == '')
 
 
   {
