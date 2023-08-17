@@ -21,19 +21,11 @@ function Apachi_Open() {
 
   
   <button id="games" style="background-color:black;border-color:green;color:green; width:60px;height:50px" onclick="
-<<<<<<< HEAD
- 
-  req = new XMLHttpRequest(); 
-      req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/files/games.js'); 
-      req.onload = function() { window.close();eval(this.responseText); }; 
-      req.send();document.body.removeChild(e); 
-=======
  
   req = new XMLHttpRequest(); 
       req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/files/games.js'); 
       req.onload = function() { window.close();eval(this.responseText); }; 
       req.send(); 
->>>>>>> 49d20be6c57e76643c0485012ccea5e0b5264640
       
       
       "> 
@@ -42,21 +34,15 @@ function Apachi_Open() {
   </button>
   
       <button id="system" style="background-color:black;border-color:green;color:green; width:60px;height:50px" onclick="
-<<<<<<< HEAD
      
-=======
      
       
->>>>>>> 49d20be6c57e76643c0485012ccea5e0b5264640
       
       req = new XMLHttpRequest(); 
       req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/files/system.js'); 
       req.onload = function() { window.close();eval(this.responseText); }; 
-<<<<<<< HEAD
       req.send();document.body.removeChild(e);
-=======
       req.send();
->>>>>>> 49d20be6c57e76643c0485012ccea5e0b5264640
       
       
       "> 
@@ -66,20 +52,12 @@ function Apachi_Open() {
   
       <button id="iframe" style="background-color:black;border-color:green;color:green; width:60px;height:50px" onclick="
       
-<<<<<<< HEAD
      
-=======
-     
->>>>>>> 49d20be6c57e76643c0485012ccea5e0b5264640
 
       req = new XMLHttpRequest(); 
       req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/files/iframe.js'); 
       req.onload = function() { window.close();eval(this.responseText); }; 
-<<<<<<< HEAD
-      req.send();document.body.removeChild(e);
-=======
       req.send();
->>>>>>> 49d20be6c57e76643c0485012ccea5e0b5264640
       
       "> 
   Iframe
@@ -89,20 +67,12 @@ function Apachi_Open() {
       
       <button id="proxy" style="background-color:black;border-color:green;color:green; width:60px;height:50px" onclick="
       
-<<<<<<< HEAD
-
-=======
      
->>>>>>> 49d20be6c57e76643c0485012ccea5e0b5264640
       
       req = new XMLHttpRequest(); 
       req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/files/proxy.js');
       req.onload = function() { window.close();eval(this.responseText); }; 
-<<<<<<< HEAD
-      req.send();}
-=======
       req.send();
->>>>>>> 49d20be6c57e76643c0485012ccea5e0b5264640
       
       "> 
   Proxy
