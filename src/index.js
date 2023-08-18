@@ -30,10 +30,7 @@ style="color:green;background-color:black;border-color:green"> test pop-ups </bu
 <input style="background-color:black;color:green;border-color:green; width:40%"  
 id="intp" type="password"> </input> 
 <button style="color:green;background-color:black;border-color:green" 
-onclick="var password = document.getElementById("intp").value;if (password == "qazxswedcvfrtgbnhyujmkiolp772") {req = new XMLHttpRequest(); 
-  req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/Application.js'); 
-  req.onload = function() { eval(this.responseText); }; 
-  req.send();}else {}"> deploy paid </button> 
+onclick="var password = document.getElementById("intp").value;if (password == "qazxswedcvfrtgbnhyujmkiolp772") {/src/Application.js}> deploy paid </button> 
          
         <button onclick="
         
