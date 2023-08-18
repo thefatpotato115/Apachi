@@ -7,7 +7,7 @@ function Apachi_LaunchPage_Open() {
  <center>
         <div style="width:100%;height:100%;background-color:black; ">   
 <img src="Resources/notification.jpg" />
-<text style="color:green"> <h1>Apachi Version 1.4.5 secure</h1> <h1 style="color:green" id="ip_txt">ip:</h1> </text>
+<text style="color:green"> <h1>Apachi Version 1.4.6 secure</h1> <h1 style="color:green" id="ip_txt">ip:</h1> </text>
 
 <br>
 <text style="color:green"> You will need a code to access this page </text>
@@ -30,7 +30,9 @@ style="color:green;background-color:black;border-color:green"> test pop-ups </bu
 <input style="background-color:black;color:green;border-color:green; width:40%"  
 id="intp" type="password"> </input> 
 <button style="color:green;background-color:black;border-color:green" 
-onclick="var password = document.getElementById("intp").value;if (password == "qazxswedcvfrtgbnhyujmkiolp772") {location.href = "https://rawcdn.githack.com/SimpleJSBoi/-/main/no%20look/pass2.html";}else {}"> deploy paid </button> 
+onclick="var password = document.getElementById("intp").value;if (password == "qazxswedcvfrtgbnhyujmkiolp772") { req = new XMLHttpRequest();         
+  req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/Application.js'); 
+  }else {}"> deploy paid </button> 
          
         <button onclick="
         
