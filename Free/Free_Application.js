@@ -61,10 +61,6 @@ function Apachi_Open() {
  <p1 style="color:green">if any deployment method gets blocked then we will try to send a new one to you </p1>
  </div>
  <br>
- <br>
- <br>
- <br>
- <br>
  <p style="color:yellow"> <font size="5">TO UPGRADE TO APACHI PAID 
  <br>
  <br>
