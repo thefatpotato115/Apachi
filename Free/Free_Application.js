@@ -74,7 +74,7 @@ function Apachi_Open() {
 <br>
 <br>
 <br>
- <p style="color:yellow"> <font size="5">TO UPGRADE TO APACHI PAID 
+ <p style="color:yellow"> <font size="3">TO UPGRADE TO APACHI PAID 
  <br>
  <br>
  EMAIL:apachipro328@gmail.com
