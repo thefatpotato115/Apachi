@@ -10,7 +10,7 @@ req = new XMLHttpRequest();
 " style="color:green;border-color:green;background-color:black"> Back to launcher </button>
 <br>
 <br>
-<img src="/Resources/Notification.jpg" />
+<img src="/Resources/notification.jpg" />
 <br>
 <br>
 <p1 style="color:green"><font size="5"> Problems with Apachi's IP verification? </font> </p1> 
