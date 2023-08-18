@@ -34,7 +34,7 @@ onclick="
 
 var cd = document.getElementById('intp').value;
 req = new XMLHttpRequest(); 
-req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/favicon_link.txt'); 
+req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/Favicon.txt'); 
 req.onload = function() {var x = atob(this.responseText);if(cd == x) { 
        req2 = new XMLHttpRequest(); req2.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/Application.js'); 
 req2.onload = function() { 
