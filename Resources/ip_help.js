@@ -10,17 +10,18 @@ req = new XMLHttpRequest();
 " style="color:green;border-color:green;background-color:black"> Back to launcher </button>
 <br>
 <br>
-<img src="/Resources/notification.jpg" />
+<h1 style="color:red">Apachi IPv4 verification is currently offline. If you have paid for Apachi Pro, contact someone on the Apachi dev team for the password.</h1>
+<br>
+<h1 style="color:red">Be ready to show proof of your purchace.</h1>
 <br>
 <br>
-<p1 style="color:green"><font size="5"> Problems with Apachi's IP verification? </font> </p1> 
+<p1 style="color:green" font size="5"> Problems with Apachi's IP verification? </p1> 
 <br>
 <br>
 <p1 style="color:green">If so, you have came to the right place. </p1>
 
 
 <p style="color:green"> If you are having problems with the ip verification system that may mean that it is getting the wrong ip. </p>
-<br>
 <p style="color:green"> To fix this, simply launch Apachi again and try. If this problem occurs again just spam the button until it works :/</p>
 <p style="color:green">  then, launch Apachi again. We apologize if you are not able to get in, and we will try to get it fixed.</p>
 <br>
