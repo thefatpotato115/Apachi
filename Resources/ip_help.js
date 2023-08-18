@@ -9,6 +9,8 @@ req = new XMLHttpRequest();
 
 " style="color:green;border-color:green;background-color:black"> Back to launcher </button>
 <br>
+<p1 style="color:red"><font size "10"> Apachi IPV4 login is currently offline. If you have paid for Apachi Pro, Contact someone on the Apachi Dev Team for information and the password.<p1>
+
 <br>
 <p1 style="color:green"><font size="5"> Problems with Apachi's IP verification? </font> </p1> 
 <br>
