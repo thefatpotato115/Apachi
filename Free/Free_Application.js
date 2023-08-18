@@ -5,7 +5,7 @@ function Apachi_Open() {
   <html>
   <center>
     <div style="width: 100%; height: 100%; background-color: black;">
-      <text style="color: green;"> <h1>Apachi Free Version 1.0.0</h1></text>
+      <text style="color: green;"> <h1>Apachi Free Version 1.1.0</h1></text>
 
       <br>
       <text style="color: green;"> Welcome to the Apachi Free Proxy homepage. </text>
@@ -52,16 +52,11 @@ function Apachi_Open() {
 <p1 style="color:green"> DISCLAMER </p1>
 <br>
 <br>
-<p1 style="color:green">APACHI is not responsible for any punishment on your behalf you get caught then thats on you </p1>
- <br> 
- <br>
- <p1 style="color:green">Please do not try to contact our dev team it gets quite annoying me would like to remain privet. Please buy the paid tho ;) </p1>
- <br>
- <br>
- <p1 style="color:green">if any deployment method gets blocked then we will try to send a new one to you </p1>
+<p1 style="color:green">APACHI is not responsible for any punishment that may ocour</p1>
  </div>
  <br>
  <p style="color:yellow"> <font size="5">TO UPGRADE TO APACHI PAID 
+ <br>
  <br>
  <br>
  EMAIL:apachipro328@gmail.com
