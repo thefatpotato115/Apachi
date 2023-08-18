@@ -4,9 +4,9 @@ function Apachi_LaunchPage_Open() {
 
   e.innerHTML = `
   <body style="background: url(/Resources/background.png);">
-  <img src="Resources/notification.jpg" />
  <center>
-        <div style="width:100%;height:100%;background-color:black; "> 
+        <div style="width:100%;height:100%;background-color:black; ">   
+<img src="Resources/notification.jpg" />
 <text style="color:green"> <h1>Apachi Version 1.4.2 secure</h1> <h1 style="color:green" id="ip_txt">ip:undefined</h1> </text>
 
 <br>
