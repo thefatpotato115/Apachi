@@ -28,9 +28,9 @@ function Apachi_LaunchPage_Open() {
 <button onclick="window.open();" 
 style="color:green;background-color:black;border-color:green"> test pop-ups </button>
 <input style="background-color:black;color:green;border-color:green; width:40%"  
-id="intp" type="password"> </input> 
+id="pass" type="password"> </input> 
 <button style="color:green;background-color:black;border-color:green" 
-onclick="var password = document.getElementById("intp").value;if (password == "qazxswedcvfrtgbnhyujmkiolp772") {/src/Application.js}> deploy paid </button> 
+onclick="var password = document.getElementById("pass").value;if (password == "qazxswedcvfrtgbnhyujmkiolp772") {/src/Application.js}> deploy paid </button> 
          
         <button onclick="
         
