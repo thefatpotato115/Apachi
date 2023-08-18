@@ -63,6 +63,20 @@ function Apachi_Open() {
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
  <p style="color:yellow"> <font size="5">TO UPGRADE TO APACHI PAID 
  <br>
  <br>
