@@ -53,10 +53,17 @@ function Apachi_Open() {
 <br>
 <br>
 <p1 style="color:green">APACHI is not responsible for any punishment that may ocour</p1>
- </div>
- <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
  <p style="color:yellow"> <font size="5">TO UPGRADE TO APACHI PAID 
- <br>
  <br>
  <br>
  EMAIL:apachipro328@gmail.com
@@ -73,7 +80,7 @@ function Apachi_Open() {
  
  </center>
  
-   
+   </div>
  
   
   
