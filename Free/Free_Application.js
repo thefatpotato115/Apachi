@@ -99,7 +99,7 @@ Find an Apachi sales representative and give them $5.
   
   
   
-  <title>Apachi Free Home</title>
+  <title>Apachi Free</title>
   <link rel="icon" type="image/x-icon" href="/favicon.jpg" />
  
 </html>
