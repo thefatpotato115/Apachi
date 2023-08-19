@@ -52,7 +52,7 @@ function Apachi_Open() {
 <p1 style="color:green"> DISCLAMER </p1>
 <br>
 <br>
-<p1 style="color:green">APACHI is not responsible for any punishment that may ocour</p1>
+<p1 style="color:green">Apachi is not responsible for any punishment that may occur because of our product.</p1>
 <br>
 <br>
 <br>
