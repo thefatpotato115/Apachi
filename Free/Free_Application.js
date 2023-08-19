@@ -71,21 +71,13 @@ function Apachi_Open() {
  <br>
  Method 1: Email
  <br>
- Email 
- </p> <p style="color:yellow" text-decoration-line:underline>
- GetApachiPro@gmail.com
- </p> <p style="color:yellow">
-for more information on how to purchase Apachi Pro.
+ Email GetApachiPro@gmail.com for more information on how to purchase Apachi Pro.
 <br>
 Option 2: Discord
 <br>
-On another device, go to 
-</p> <p style="color:yellow" text-decoration-line:underline>
-discord.gg/nxFtjs4jH9
-</p> <p style="color:yellow">
-And navigate to the 'Buy Apachi Pro' Channel for more information.
+On another device, go to discord.gg/nxFtjs4jH9 and navigate to the 'Buy Apachi Pro' Channel for more information.
 <br>
-Option 3: In Person
+Option 3: In-Person
 <br>
 Find an Apachi sales representative and give them $5.
 <br>
