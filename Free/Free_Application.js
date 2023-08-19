@@ -66,23 +66,37 @@ function Apachi_Open() {
 <br>
 <br>
 <br>
- <p style="color:yellow"> <font size="3">TO UPGRADE TO APACHI PAID 
+ <p style="color:yellow"> <font size="3">TO UPGRADE TO APACHI PAID </p>
  <br>
  <br>
  Method 1: Email
+ </p>
  <br>
+ <p style="color:yellow">
  Email GetApachiPro@gmail.com for more information on how to purchase Apachi Pro.
-<br>
-Option 2: Discord
-<br>
-On another device, go to discord.gg/nxFtjs4jH9 and navigate to the 'Buy Apachi Pro' Channel for more information.
-<br>
-Option 3: In-Person
-<br>
-Find an Apachi sales representative and give them $5.
-<br>
- PRICE:5$ *note prices may change depending on demand
+ </p>
  <br>
+ <p style="color:yellow">
+Option 2: Discord
+</p>
+<br>
+<p style="color:yellow">
+On another device, go to discord.gg/nxFtjs4jH9 and navigate to the 'Buy Apachi Pro' Channel for more information.
+</p>
+<br>
+<p style="color:yellow">
+Option 3: In-Person
+</p>
+<br>
+<p style="color:yellow">
+Find an Apachi sales representative and give them $5.
+</p>
+<br>
+<p style="color:yellow">
+ PRICE:5$ *note prices may change depending on demand
+ </p>
+ <br>
+ <p style="color:yellow">
  DISCLAMER: IF APACHI PRO IS LEAKED TO NON-PAID USERS FILE WILL BECOME VOIDED
  AND YOU WILL BECOME BLACKLISTED. 
 
