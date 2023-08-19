@@ -86,8 +86,8 @@ Find an Apachi sales representative and give them $5.
  PRICE:5$ *note prices may change depending on demand
  </p>
  <p style="color:yellow">
- DISCLAMER: IF APACHI PRO IS LEAKED TO NON-PAID USERS FILE WILL BECOME VOIDED
- AND YOU WILL BECOME BLACKLISTED. 
+ DISCLAMER: IF APACHI PRO IS LEAKED TO NON-PAID USERS, PASSWORD WILL BE CHANGED 
+ AND YOU WILL BE BLACKLISTED. 
 
  </font>
 </p> 
