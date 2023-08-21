@@ -6,7 +6,7 @@ function Apachi_LaunchPage_Open() {
   <body style="background: url(/Resources/background.png);">
  <center>
         <div style="width:100%;height:100%;background-color:black; ">   
-<img src="Resources/notification.jpg" />
+<img src="https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/notification.jpg" />
 <text style="color:green"> <h1>Apachi Version 1.4.6 secure</h1> <h1 style="color:green" id="ip_txt">ip:</h1> </text>
 
 <br>
