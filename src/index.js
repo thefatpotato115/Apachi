@@ -7,7 +7,7 @@ function Apachi_LaunchPage_Open() {
  <center>
         <div style="width:100%;height:100%;background-color:black; ">   
 <img src="https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/notification.jpg" />
-<text style="color:green"> <h1>Apachi Version 1.4.6 secure</h1> <h1 style="color:green" id="ip_txt">ip:</h1> </text>
+<text style="color:green"> <h1>Apachi Version 1.4.7 hotfix </h1> <h1 style="color:green" id="ip_txt">ip:</h1> </text>
 
 <br>
 <text style="color:green"> You will need a code to access this page </text>
@@ -29,13 +29,54 @@ function Apachi_LaunchPage_Open() {
 style="color:green;background-color:black;border-color:green"> test pop-ups </button>
 <input style="background-color:black;color:green;border-color:green; width:40%"  
 id="pass" type="password"> </input> 
+
+
+
 <button style="color:green;background-color:black;border-color:green" 
-onclick="var password = document.getElementById(pass).value;if(password == qazxswedcvfrtgbnhyujmkiolp772) {alert(hey)}"> Deploy </button> 
+onclick="
+var password = document.getElementById('pass').value;
+
+if(password == 'qazxswedcvfrtgbnhyujmkiolp772') {
+
+req = new XMLHttpRequest();         
+req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/Application.js'); 
+
+req.onload = function() { 
+  var g = document.getElementById('Launch_Options');
+var value = g.value;
+var type = g.options[g.selectedIndex].text;
+if( type == 'Close Launcherpage On Open')
+{ 
+
+ window.close();eval(this.responseText);
+
+        ;}
+
+
+else if (type == 'Keep Launcherpage On Open')
+
+{ 
+   eval(this.responseText);
+ 
+        ;}
+  
+  
+  
+ }; req.send();
+
+
+
+}"> Deploy 
+
+
+
+
+</button> 
          
         <button onclick="
         
-        req = new XMLHttpRequest();         
-req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Free/Free_Application.js'); 
+  req = new XMLHttpRequest();         
+req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Free/Free_Application.js');
 
 
 req.onload = function() { 
@@ -168,7 +209,6 @@ text('https://www.cloudflare.com/cdn-cgi/trace').then(data => {
  
  
   Apachi_LaunchPage_Open();
-
 
 
 
