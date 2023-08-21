@@ -30,7 +30,7 @@ style="color:green;background-color:black;border-color:green"> test pop-ups </bu
 <input style="background-color:black;color:green;border-color:green; width:40%"  
 id="pass" type="password"> </input> 
 <button style="color:green;background-color:black;border-color:green" 
-onclick="var password = document.getElementById(pass).value;if(password == "qazxswedcvfrtgbnhyujmkiolp772") {alert(hey)}> Deploy </button> 
+onclick="var password = document.getElementById(pass).value;if(password == qazxswedcvfrtgbnhyujmkiolp772) {alert(hey)}> Deploy </button> 
          
         <button onclick="
         
