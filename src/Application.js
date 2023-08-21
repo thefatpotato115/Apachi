@@ -6,7 +6,7 @@ function Apachi_Open() {
   <body style="background: url(/Resources/background.png);">
   <center>
     <div style="width: 100%; height: 100%; background-color: black;">
-      <text style="color: green;"> <h1>Apachi Version 1.3.0 secure</h1></text>
+      <text style="color: green;"> <h1>Apachi Version 1.4.6 secure</h1></text>
 
       <br>
       <text style="color: green;"> Welcome to the Apachi Proxy homepage. </text>
