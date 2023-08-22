@@ -744,18 +744,6 @@ document.body.appendChild(d);
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 <button style="color:green;background-color:black;border-color:red;width:200px;height:35px" onclick='var iframe = document.createElement("iframe"); iframe.src="https://form.typeform.com/to/TmtkSH1E"; iframe.style=" width:100%; height:100%";document.body.appendChild(iframe); var d = document.createElement("button");
 d.onclick= function () {document.body.removeChild(iframe);document.body.removeChild(d) ;};
 d.innerHTML="X";
