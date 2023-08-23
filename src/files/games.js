@@ -57,9 +57,9 @@ d.style="background-color:red";
 document.body.appendChild(d);
 '>baldis basics</button>
 
-<button style='background-color:black;color:green;border-color:red;' 
+<button style='background-color:black;color:green;border-color:green;' 
 onclick='var iframe = document.createElement("iframe"); 
-iframe.src="https://www.2048.org/"; 
+iframe.src="https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/r3tq6l1/to9d2if1dv@f245b5d104814d56632fdf3c5e7845c3a1633a94/k39xn5j/d8g3s.xml"; 
 iframe.style=" width:100%; height:100%";
 document.body.appendChild(iframe); 
 var d = document.createElement("button");
@@ -83,9 +83,9 @@ d.style="background-color:red";
 document.body.appendChild(d);
 '>Dodge miner</button>
 
-<button style='background-color:black;color:green;border-color:red;' 
+<button style='background-color:black;color:green;border-color:green;' 
 onclick='var iframe = document.createElement("iframe"); 
-iframe.src="https://99kclv.csb.app/"; 
+iframe.src="https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://486017395-735910036185936427.preview.editmysite.com/uploads/b/139890129-378637188943279878/files/mx3m3.xml"; 
 iframe.style=" width:100%; height:100%";
 document.body.appendChild(iframe); 
 var d = document.createElement("button");
@@ -109,9 +109,9 @@ d.style="background-color:red";
 document.body.appendChild(d);
 '>Flappy bird</button>
 
-<button style='background-color:black;color:green;border-color:red;' 
+<button style='background-color:black;color:green;border-color:green;' 
 onclick='var iframe = document.createElement("iframe"); 
-iframe.src="https://ytxrqv.sse.codesandbox.io/prefix/aHR0cHM6Ly8zZ2hvc3QtZGVwbG95LXNldmVuLnZlcmNlbC5hcHA=/projects/factoryballs/index.html"; 
+iframe.src="https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Ffactory-balls.xml"; 
 iframe.style=" width:100%; height:100%";
 document.body.appendChild(iframe); 
 var d = document.createElement("button");
@@ -122,9 +122,9 @@ d.style="background-color:red";
 document.body.appendChild(d);
 '>Factory ballz</button>
 
-<button style='background-color:black;color:green;border-color:red;' 
+<button style='background-color:black;color:green;border-color:green;' 
 onclick='var iframe = document.createElement("iframe"); 
-iframe.src="https://ytxrqv.sse.codesandbox.io/prefix/aHR0cHM6Ly8zZ2hvc3QtZGVwbG95LXNldmVuLnZlcmNlbC5hcHA=/projects/basketball-stars/index.html"; 
+iframe.src="-	https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/r3tq6l1/to9d2if3dv@6a3aa6b5b121c4c1f7da6cc5bfd9e71b40f1262b/zm48hw/bs.xml"; 
 iframe.style=" width:100%; height:100%";
 document.body.appendChild(iframe); 
 var d = document.createElement("button");
