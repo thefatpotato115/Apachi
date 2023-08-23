@@ -80,7 +80,7 @@ function Apachi_Open() {
  
  
  
-  > theme</button>
+  > Theme</button>
  
   <br>
   <br>
