@@ -92,8 +92,8 @@ function Apachi_Open() {
    
   var c1 = prompt('BG color');
   var c2 = prompt('Text color');
-  var c3 = prompt('border color');
-  var c4 = prompt('button inner color');
+  var c3 = prompt('Button border color');
+  var c4 = prompt('Button inner color');
  
  
   color.style='width:100%;height:100%;background-color:' + c1
