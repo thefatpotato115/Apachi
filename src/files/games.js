@@ -135,9 +135,9 @@ d.style="background-color:red";
 document.body.appendChild(d);
 '> Basket ball stars</button>
 
-<button style='background-color:black;color:green;border-color:red;' 
+<button style='background-color:black;color:green;border-color:green;' 
 onclick='var iframe = document.createElement("iframe"); 
-iframe.src="https://ytxrqv.sse.codesandbox.io/prefix/aHR0cHM6Ly8zZ2hvc3QtZGVwbG95LXNldmVuLnZlcmNlbC5hcHA=/projects/craftmine/index.html"; 
+iframe.src="https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/r3tq6l1/to9d2if5dv@32f5e8d96044c679901af34b956be812e8e7253f/f82kes7/craftmine.xml"; 
 iframe.style=" width:100%; height:100%";
 document.body.appendChild(iframe); 
 var d = document.createElement("button");
@@ -148,9 +148,9 @@ d.style="background-color:red";
 document.body.appendChild(d);
 '>Craft mine</button>
 
-<button style='background-color:black;color:green;border-color:red;' 
+<button style='background-color:black;color:green;border-color:green;' 
 onclick='var iframe = document.createElement("iframe"); 
-iframe.src="https://ytxrqv.sse.codesandbox.io/prefix/aHR0cHM6Ly91YmczNjUuZ2l0aHViLmlv/grindcraft/"; 
+iframe.src="https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/r3tq6l1/to9d2if2dv@040102de939133290db9b52abd1a0c8f2804b49d/zbk36g7/d8g3s.xml"; 
 iframe.style=" width:100%; height:100%";
 document.body.appendChild(iframe); 
 var d = document.createElement("button");
@@ -279,9 +279,9 @@ d.style="background-color:red";
 document.body.appendChild(d);
 '> Diep io 2</button>
 
-<button style='background-color:black;color:green;border-color:red;' 
+<button style='background-color:black;color:green;border-color:green;' 
 onclick='var iframe = document.createElement("iframe"); 
-iframe.src="https://raw.githack.com/theclashman2/GBA-Emulator/gh-pages/launcher.html#monopoly"; 
+iframe.src="https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/8c491f21-7353-4f1f-b2a0-9544824c4d28%2Fmonopoly_idle.xml"; 
 iframe.style=" width:100%; height:100%";
 document.body.appendChild(iframe); 
 var d = document.createElement("button");
@@ -292,9 +292,9 @@ d.style="background-color:red";
 document.body.appendChild(d);
 '>Monopoly</button>
 
-<button style='background-color:black;color:green;border-color:red;' 
+<button style='background-color:black;color:green;border-color:green;' 
 onclick='var iframe = document.createElement("iframe"); 
-iframe.src="https://raw.githack.com/CBGamesdev/chilibowlflash/main/appleshoot.html"; 
+iframe.src="https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/8c491f21-7353-4f1f-b2a0-9544824c4d28%2Fapple-shooter-champ.xml"; 
 iframe.style=" width:100%; height:100%";
 document.body.appendChild(iframe); 
 var d = document.createElement("button");
@@ -305,9 +305,9 @@ d.style="background-color:red";
 document.body.appendChild(d);
 '>Apple shoot</button>
 
-<button style='background-color:black;color:green;border-color:red;' 
+<button style='background-color:black;color:green;border-color:green;' 
 onclick='var iframe = document.createElement("iframe"); 
-iframe.src="https://raw.githack.com/Piplup7575/bitlife/main/index.html"; 
+iframe.src="https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/r3tq6l1/to9d2if10dv@13ab1571f45774e15fa3adec99ee2b951e81594a/g7kh63s/bitlife.xml"; 
 iframe.style=" width:100%; height:100%";
 document.body.appendChild(iframe); 
 var d = document.createElement("button");
@@ -318,9 +318,9 @@ d.style="background-color:red";
 document.body.appendChild(d);
 '>Bitlife</button>
 
-<button style='background-color:black;color:green;border-color:red;' 
+<button style='background-color:black;color:green;border-color:green;' 
 onclick='var iframe = document.createElement("iframe"); 
-iframe.src="https://raw.githack.com/geuddd/Hole.io/main/index.html"; 
+iframe.src="https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/fr6ks8ab/vi9syd1rm@b72ce32e265120aa3060e756da84279ab9a862e0/9fjdsd4h/hole-io.xml"; 
 iframe.style=" width:100%; height:100%";
 document.body.appendChild(iframe); 
 var d = document.createElement("button");
@@ -344,9 +344,9 @@ d.style="background-color:red";
 document.body.appendChild(d);
 '>Stickman Hook</button>
 
-<button style='background-color:black;color:green;border-color:red;' 
+<button style='background-color:black;color:green;border-color:green;' 
 onclick='var iframe = document.createElement("iframe"); 
-iframe.src="https://raw.githack.com/CBGamesdev/chilibowlflash/main/ducklife3.html"; 
+iframe.src="https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fduck-life-4.xml"; 
 iframe.style=" width:100%; height:100%";
 document.body.appendChild(iframe); 
 var d = document.createElement("button");
@@ -355,7 +355,7 @@ document.body.removeChild(d) ;};
 d.innerHTML="X";
 d.style="background-color:red";
 document.body.appendChild(d);
-'>Ducklife 3</button>
+'>Ducklife 4</button>
 
 <button style='background-color:black;color:green;border-color:green;' 
 onclick='var iframe = document.createElement("iframe"); 
@@ -370,9 +370,9 @@ d.style="background-color:red";
 document.body.appendChild(d);
 '>Astroid</button>
 
-<button style='background-color:black;color:green;border-color:red;' 
+<button style='background-color:black;color:green;border-color:green;' 
 onclick='var iframe = document.createElement("iframe"); 
-iframe.src="https://raw.githack.com/Mafia-Goose/minecraft/main/pong.html"; 
+iframe.src="https://www.gstatic.com/atari/embeds/7925c5f8e01bacb9b4b0a3783ae0b867/intermediate-frame-minified.html?jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.en.S9zOXUg9rrA.O%2Fd%3D1%2Frs%3DAHpOoo-AXjUK4hNAaKzui0P9Fr9nG2_yZQ%2Fm%3D__features__&r=817413054"; 
 iframe.style=" width:100%; height:100%";
 document.body.appendChild(iframe); 
 var d = document.createElement("button");
@@ -381,7 +381,7 @@ document.body.removeChild(d) ;};
 d.innerHTML="X";
 d.style="background-color:red";
 document.body.appendChild(d);
-'>Pong</button>
+'>Pong 3d</button>
 
 <button style='background-color:black;color:green;border-color:red;' 
 onclick='var iframe = document.createElement("iframe"); 
@@ -712,9 +712,9 @@ d.style="background-color:red";
 document.body.appendChild(d);
 '>Stickman Ragdoll</button>
 
-<button style='background-color:black;color:green;border-color:red;' 
+<button style='background-color:black;color:green;border-color:green;' 
 onclick='var iframe = document.createElement("iframe"); 
-iframe.src="https://html5.gamedistribution.com/e8b30f50fe364d2389ef4668dac776f9/?gd_sdk_referrer_url=https%3A%2F%2Fwww.y8.com%2Fgames%2Fcs_online&key=y8&value=default"; 
+iframe.src="https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/fr6ks8ab/vi9syd1rm@a72a12890a66a6708db57cd155e45ec5740d7cb1/4td05jdy2cxl5/ts3.xml"; 
 iframe.style=" width:100%; height:100%";
 document.body.appendChild(iframe); 
 var d = document.createElement("button");
@@ -723,7 +723,7 @@ document.body.removeChild(d) ;};
 d.innerHTML="X";
 d.style="background-color:red";
 document.body.appendChild(d);
-'>CS-GO online 0-0</button>
+'>Times shooter 3</button>
 <br>
 <br>
 <br>
