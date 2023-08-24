@@ -123,14 +123,9 @@ function Apachi_Open() {
 <p1> DISCLAMER </p1>
 <br>
 <br>
-<p1 >APACHI is not responsible for any punishment on your behalf you get caught then thats on you </p1>
- <br>
- <br>
- <p1 >Please do not try to contact our dev team it gets quite annoying me would like to remain privet </p1>
- <br>
- <br>
- <p1 >if any deployment method gets blocked then we will try to send a new one to you </p1>
- </p2>
+<p1 >APACHI is not responsible for any punishment that may come from using our site.</p1>
+<p1> If this gets banned, it may not be recoverable. So watch yourself.
+</p2>
  </div>
  </center>
  
