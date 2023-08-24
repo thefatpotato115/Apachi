@@ -440,7 +440,7 @@ document.body.appendChild(d);
 
 <button style='background-color:black;color:green;border-color:red;' 
 onclick='var iframe = document.createElement("iframe"); 
-iframe.src="https://grandcanyonshuttles.com/uploads/5/5/6/7/5567194/custom_themes/315300867982782623/1v1_lol.html"; 
+iframe.src="https://sites.google.com/kellerisd.com/epicrpg"; 
 iframe.style=" width:100%; height:100%";
 document.body.appendChild(iframe); 
 var d = document.createElement("button");
