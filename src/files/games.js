@@ -724,6 +724,9 @@ d.innerHTML="X";
 d.style="background-color:red";
 document.body.appendChild(d);
 '>Times shooter 3</button>
+
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='window.open(sites.google.com/kellerisd.com/epicrpg)'>Times shooter 3</button>
 <br>
 <br>
 <br>
