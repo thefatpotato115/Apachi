@@ -96,9 +96,9 @@ d.style="background-color:red";
 document.body.appendChild(d);
 '>Moto X3M</button>
 
-<button style='background-color:black;color:green;border-color:red;' 
+<button style='background-color:black;color:green;border-color:green;' 
 onclick='var iframe = document.createElement("iframe"); 
-iframe.src="https://ytxrqv.sse.codesandbox.io/prefix/aHR0cHM6Ly8zZ2hvc3QtZGVwbG95LXNldmVuLnZlcmNlbC5hcHA=/projects/flappy-bird/index.html"; 
+iframe.src="https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/fr6ks8ab/vi9syd1rm@b54da92e54b10f5fe25673e9da9bacc789771094/7thxcv4f/vd8g3s.xml"; 
 iframe.style=" width:100%; height:100%";
 document.body.appendChild(iframe); 
 var d = document.createElement("button");
@@ -190,7 +190,7 @@ document.body.appendChild(d);
 <br>
 <button style='background-color:black;color:green;border-color:green;' 
 onclick='var iframe = document.createElement("iframe"); 
-iframe.src="https://hscowe.sse.codesandbox.io/prefix/aHR0cHM6Ly9zbG9wZWdhbWUuaW8=/"; 
+iframe.src="https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/fr6ks8ab/vi9syd1rm@84d73b06974a0734495c3c1f280653183b357524/ls49v2n/slope.xml"; 
 iframe.style=" width:100%; height:100%";
 document.body.appendChild(iframe); 
 var d = document.createElement("button");
@@ -438,9 +438,9 @@ d.style="background-color:red";
 document.body.appendChild(d);
 '>Fullscreen mario</button>
 
-<button style='background-color:black;color:green;border-color:red;' 
+<button style='background-color:black;color:green;border-color:green;' 
 onclick='var iframe = document.createElement("iframe"); 
-iframe.src=""; 
+iframe.src="https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/ko1ov/edit@main/d3hjf73j2e92ge4y.xml"; 
 iframe.style=" width:100%; height:100%";
 document.body.appendChild(iframe); 
 var d = document.createElement("button");
@@ -516,9 +516,9 @@ d.style="background-color:red";
 document.body.appendChild(d);
 '>Rise higher</button>
 
-<button style='background-color:black;color:green;border-color:red;' 
+<button style='background-color:black;color:green;border-color:green;' 
 onclick='var iframe = document.createElement("iframe"); 
-iframe.src="https://www.mathplayground.com/pp_big_tall_small.html"; 
+iframe.src="https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://538104932-173620588274136504.preview.editmysite.com/uploads/b/139890129-436559681805495872/files/bts.xml"; 
 iframe.style=" width:100%; height:100%";
 document.body.appendChild(iframe); 
 var d = document.createElement("button");
@@ -568,9 +568,9 @@ d.style="background-color:red";
 document.body.appendChild(d);
 '>Temple run</button>
 
-<button style='background-color:black;color:green;border-color:red;' 
+<button style='background-color:black;color:green;border-color:green;' 
 onclick='var iframe = document.createElement("iframe"); 
-iframe.src="https://gregcameron.com/infinite-wordle/"; 
+iframe.src="https://script.google.com/macros/s/AKfycbzKQLL6uVjJ5OHtkFH2X32Gtm9fXJFaekf_65oP_KT7hVghQKdI6CvGlD8njrqj5HFC/exec"; 
 iframe.style=" width:100%; height:100%";
 document.body.appendChild(iframe); 
 var d = document.createElement("button");
@@ -581,9 +581,9 @@ d.style="background-color:red";
 document.body.appendChild(d);
 '>Wordle ∞</button>
 
-<button style='background-color:black;color:green;border-color:red;' 
+<button style='background-color:black;color:green;border-color:green;' 
 onclick='var iframe = document.createElement("iframe"); 
-iframe.src="https://www.google.com/fbx?fbx=snake_arcade"; 
+iframe.src="https://www.gstatic.com/atari/embeds/7925c5f8e01bacb9b4b0a3783ae0b867/intermediate-frame-minified.html?jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.en.S9zOXUg9rrA.O%2Fd%3D1%2Frs%3DAHpOoo-AXjUK4hNAaKzui0P9Fr9nG2_yZQ%2Fm%3D__features__&r=382930989"; 
 iframe.style=" width:100%; height:100%";
 document.body.appendChild(iframe); 
 var d = document.createElement("button");
@@ -608,9 +608,9 @@ document.body.appendChild(d);
 '>Drive mad >:(</button>
  <br>
  <br> 
- <button style='background-color:black;color:green;border-color:red;' 
+ <button style='background-color:black;color:green;border-color:green;' 
  onclick='var iframe = document.createElement("iframe"); 
- iframe.src="https://raw.githack.com/Parcoil/nativegames.net/main/FNAF/index.html"; 
+ iframe.src="https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Ffive-nights-at-freddy-s.xml"; 
  iframe.style=" width:100%; height:100%";
  document.body.appendChild(iframe); 
  var d = document.createElement("button");
@@ -620,10 +620,36 @@ document.body.appendChild(d);
  d.style="background-color:red";
  document.body.appendChild(d);
  '>Fnaf 1</button>
-
- <button style='background-color:black;color:green;border-color:red;' 
+ 
+ <button style='background-color:black;color:green;border-color:green;' 
  onclick='var iframe = document.createElement("iframe"); 
- iframe.src="https://raw.githack.com/CBGamesdev/chilibowlflash/main/run.html"; 
+ iframe.src="https://scratch.mit.edu/projects/469219637/embed"; 
+ iframe.style=" width:100%; height:100%";
+ document.body.appendChild(iframe); 
+ var d = document.createElement("button");
+ d.onclick= function () {document.body.removeChild(iframe);
+ document.body.removeChild(d) ;};
+ d.innerHTML="X";
+ d.style="background-color:red";
+ document.body.appendChild(d);
+ '>Fnaf 2</button>
+
+ <button style='background-color:black;color:green;border-color:green;' 
+ onclick='var iframe = document.createElement("iframe"); 
+ iframe.src="https://grandcanyonshuttles.com/uploads/5/5/6/7/5567194/custom_themes/602302113323144959/fnaf-final-purgatory.html"; 
+ iframe.style=" width:100%; height:100%";
+ document.body.appendChild(iframe); 
+ var d = document.createElement("button");
+ d.onclick= function () {document.body.removeChild(iframe);
+ document.body.removeChild(d) ;};
+ d.innerHTML="X";
+ d.style="background-color:red";
+ document.body.appendChild(d);
+ '>Fnaf Final Purgatory</button>
+
+ <button style='background-color:black;color:green;border-color:green;' 
+ onclick='var iframe = document.createElement("iframe"); 
+ iframe.src="https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Frun2.xml"; 
  iframe.style=" width:100%; height:100%";
  document.body.appendChild(iframe); 
  var d = document.createElement("button");
@@ -634,9 +660,9 @@ document.body.appendChild(d);
  document.body.appendChild(d);
  '> Run</button>
 
- <button style='background-color:black;color:green;border-color:red;' 
+ <button style='background-color:black;color:green;border-color:green;' 
  onclick='var iframe = document.createElement("iframe"); 
- iframe.src="https://raw.githack.com/CBGamesdev/chilibowlflash/main/Pacman.html"; 
+ iframe.src="https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fpacman.xml"; 
  iframe.style=" width:100%; height:100%";
  document.body.appendChild(iframe); 
  var d = document.createElement("button");
@@ -645,7 +671,7 @@ document.body.appendChild(d);
  d.innerHTML="X";
  d.style="background-color:red";
  document.body.appendChild(d);
- '>Man pac</button>
+ '>Pacman</button>
 
  <button style='background-color:black;color:green;border-color:red;' 
 onclick='var iframe = document.createElement("iframe"); 
@@ -660,9 +686,9 @@ d.style="background-color:red";
 document.body.appendChild(d);
 '>Stick rpg </button>
 
-  <button style='background-color:black;color:green;border-color:red;' 
+  <button style='background-color:black;color:green;border-color:green;' 
 onclick='var iframe = document.createElement("iframe"); 
-iframe.src="https://raw.githack.com/CBGamesdev/chilibowlflash/main/tetris.html"; 
+iframe.src="https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Ftetris.xml"; 
 iframe.style=" width:100%; height:100%";
 document.body.appendChild(iframe); 
 var d = document.createElement("button");
@@ -726,7 +752,378 @@ document.body.appendChild(d);
 '>Times shooter 3</button>
 
 <button style='background-color:black;color:green;border-color:green;' 
-onclick='window.open(https://sites.google.com/kellerisd.com/epicrpg)'>Times shooter 3</button>
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://174620846-1408264916283502371.preview.editmysite.com/uploads/b/139890129-853193733110235683/files/sis.xml"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>Slither.io</button>
+
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://427396048-642845047394716217.preview.editmysite.com/uploads/b/139890129-761103484729797659/files/ovo.xml"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>OvO</button>
+
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/fr6ks8ab/vi9syd1rm@851701926b4c2b0a3f9be56b723f416a185d726e/l8jh3d/Helix-Jump.xml"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>Helix Jump</button>
+
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/r3tq6l1/to9d2if1dv@cc17334589e4fb70d755b99e8b2a527679f22ec1/39fks64h/d8g3s.xml
+"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>Apple Shooter</button>
+
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/fr6ks8ab/vi9syd1rm@f0981e94dcc7836acb298d369a6e65391b802904/d65uds32/SnowRider3D.xml"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>Snow Rider</button>
+
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Flearn-to-fly-3.xml"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>Learn to Fly 3</button>
+
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://grandcanyonshuttles.com/uploads/5/0/5/6/5056555/custom_themes/607463927942590340/madalinsc2.html"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>Car Game</button>
+
+<br>
+<br>
+
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://grandcanyonshuttles.com/uploads/5/5/6/7/5567194/custom_themes/850704625817689097/gas2.html"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>GTA</button>
+
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/fr6ks8ab/vi9syd1rm@1a76f51c689c229f40ee4d5aacd15a3cccca9bd3/ge5dc6/Classic-Uno.xml"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>Uno</button>
+
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/r3tq6l1/to9d2if7dv@ee7a604faef0253326c18d233a5689f6ebfc03c8/xv78kr4/geometry-dash-classic.xml"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>Geometry dash</button>
+
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://361820596-851580422716946014.preview.editmysite.com/uploads/b/139890129-473108247243760926/files/tf.xml"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>Tiny Fishing</button>
+
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/8c491f21-7353-4f1f-b2a0-9544824c4d28%2F2-player-chess.xml"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>Chess</button>
+
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/r3tq6l1/to9d2if1dv@e583f8c0c58d62fcb092e0da5452635bc97056fd/4h8sk3g/among-us.xml"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>Among Us</button>
+
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/8c491f21-7353-4f1f-b2a0-9544824c4d28%2Fbusiness-simulator.xml"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>Business Simulator</button>
+
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/r3tq6l1/to9d2if8dv@2247e549da02c36db71b10c56f4c1e713ae5b7a5/zjt64geg/idle-breakout.xml"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>Idle Breakout</button>
+
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://519482740-385904716395847264.preview.editmysite.com/uploads/b/139890129-760473003654130876/files/id.xml"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>Idle Dice</button>
+
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://485925-736174.preview.editmysite.com/uploads/b/139890129-640425360949992905/files/idmt.xml"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>Idle Minors 0-0</button>
+
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Flearn-to-fly-idle.xml"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>Learn 2 Fly Idle</button>
+
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://grandcanyonshuttles.com/uploads/5/5/6/7/5567194/custom_themes/253523348422157506/1granny.html"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>Granny</button>
+
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/fr6ks8ab/vi9syd1rm@5d82d5db558d10535dcf4dc091afd9a954a4c678/j65dk8s/Javelin-Fighting.xml"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>Javelin Fighting</button>
+
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/fr6ks8ab/vi9syd1rm@7d448ccfef049494f2bdef77ffd41857fb387c31/f73jd7i/vd8g3s.xml"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>Happy Wheels</button>
+
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/fr6ks8ab/vi9syd1rm@8bdc32be5900c87ba60dc88214b85928105c32c6/osgkeb5/tabs.xml"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>Battle Simulator</button>
+<br>
+<br>
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/fr6ks8ab/vi9syd1rm@d2542b2b948a265eddaa25f984368f25fafc1447/g64dh6j/Getaway-Shootout.xml"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>Getaway Shootout</button>
+
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/fr6ks8ab/vi9syd1rm@4097a0079bddeaf3602b956f555f08a14fea6d93/6rghd4/penguin-io.xml"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>Penguin io</button>
+
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/fr6ks8ab/vi9syd1rm@bebe39cca0417c9c18da5899c28a8abeb922b015/jf94os8/Rooftop-Snipers.xml"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>Rooftop Snipers</button>
+
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://grandcanyonshuttles.com/uploads/5/5/6/7/5567194/custom_themes/136734914403232081/drift_hunter.html"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>Drift Hunters</button>
+
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://638508418-274639104736829364.preview.editmysite.com/uploads/b/139890129-212982790859809719/files/at1.xml"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>Awesome Tanks</button>
+
+<button style='background-color:black;color:green;border-color:green;' 
+onclick='var iframe = document.createElement("iframe"); 
+iframe.src="https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/fr6ks8ab/vi9syd1rm@bebe39cca0417c9c18da5899c28a8abeb922b015/jf94os8/Rooftop-Snipers.xml"; 
+iframe.style=" width:100%; height:100%";
+document.body.appendChild(iframe); 
+var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);
+document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+'>Awesome Tanks 2</button>
+
+
+
+
+
 <br>
 <br>
 <br>
