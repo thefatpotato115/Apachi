@@ -425,7 +425,7 @@ d.style="background-color:red";
 document.body.appendChild(d);
 '>Undyne</button>
 
-<button style='background-color:black;color:green;border-color:red;' 
+<button style='background-color:black;color:green;border-color:green;' 
 onclick='var iframe = document.createElement("iframe"); 
 iframe.src="https://s6jf3nx0gk1d6n-opensocial.googleusercontent.com/gadgets/ifr?url=https://395713058-173957204856294731.preview.editmysite.com/uploads/b/139890129-314264279627264120/files/smb.xml"; 
 iframe.style=" width:100%; height:100%";
@@ -699,7 +699,7 @@ d.style="background-color:red";
 document.body.appendChild(d);
 '>Tetris</button>
 
- <button style='background-color:black;color:green;border-color:red;' 
+ <button style='background-color:black;color:green;border-color:green;' 
 onclick='var iframe = document.createElement("iframe"); 
 iframe.src="https://s6jf3nx0gk1d6n-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/8c491f21-7353-4f1f-b2a0-9544824c4d28%2Fmario-kart.xml"; 
 iframe.style=" width:100%; height:100%";
