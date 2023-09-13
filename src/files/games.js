@@ -1109,7 +1109,7 @@ document.body.appendChild(d);
 
 <button style='background-color:black;color:green;border-color:green;' 
 onclick='var iframe = document.createElement("iframe"); 
-iframe.src="https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/fr6ks8ab/vi9syd1rm@bebe39cca0417c9c18da5899c28a8abeb922b015/jf94os8/Rooftop-Snipers.xml"; 
+iframe.src="https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://37406915-471836402253847146.preview.editmysite.com/uploads/b/139890129-165727670653336700/files/at2.xml"; 
 iframe.style=" width:100%; height:100%";
 document.body.appendChild(iframe); 
 var d = document.createElement("button");
@@ -1397,18 +1397,6 @@ d.innerHTML="X";
 d.style="background-color:red";
 document.body.appendChild(d);
 '>Penguin Mario</button>
-
-
-
-
-
-
-
-
-
-<br>
-<br>
-<br>
 <br>
 <br>
 <br>
