@@ -1566,5 +1566,3 @@ document.body.appendChild(d);
 `;
 var tab = window.open();
 tab.document.body.appendChild(e);
-pro thing
-Campbell, Kyle
