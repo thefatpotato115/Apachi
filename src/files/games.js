@@ -149,7 +149,7 @@ req.onload = function() { window.close();eval(this.responseText);}; req.send();
 ">Home</button>  </h1>
   <br>
   
-  <p class='3'style='color:red'> It has come to our attention that many of the games on this page have been blocked by school administration. </p>
+  <p class='3' style='color:red'> It has come to our attention that many of the games on this page have been blocked by school administration. </p>
   <p class='3' style='color:red'> We are trying to fix this as fast as we can, but it may take a while to find new urls. The games that are red have been found as Not Working, but they may still function for you.</p>
   <p class='3' style='color:red'> Please do not submit bug reports for these games at this time.</p> 
   <br>
