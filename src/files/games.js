@@ -1074,7 +1074,7 @@ document.body.appendChild(d);
 
 <button class="1" style='background-color:black;color:green;border-color:green;' 
 onclick='var iframe = document.createElement("iframe"); 
-iframe.src="https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/r3tq6l1/to9d2if8dv@2247e549da02c36db71b10c56f4c1e713ae5b7a5/zjt64geg/idle-breakout.xml"; 
+iframe.src="https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/bobydob/JSEngine@25ea1da0fd27d58c36d0e4b21ae1e18405ea1244/build/id-br/ibo.xml"; 
 iframe.style=" width:100%; height:100%";
 document.body.appendChild(iframe); 
 var d = document.createElement("button");
