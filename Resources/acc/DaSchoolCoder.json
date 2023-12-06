@@ -1,5 +1,5 @@
 {
-  "DaSchoolCoder": {
+ 
     "name": "DaSchoolCoder",
     "id": 1,
     "loginKey": "C2902-001-oIaS",
@@ -10,5 +10,5 @@
     "payment": "im admin breh",
     "hasPaid": true,
     "accName": "DaRizzler"
-  }
+  
 }
