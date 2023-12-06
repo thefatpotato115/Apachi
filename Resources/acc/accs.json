@@ -1,0 +1,26 @@
+{
+  "DaSchoolCoder": {
+    "name": "DaSchoolCoder",
+    "id": 1,
+    "loginKey": "C2902-001-oIaS",
+    "auth": true,
+    "admin": true,
+    "Bl": false,
+    "accType": "paid",
+    "payment": "im admin breh",
+    "hasPaid": true,
+    "accName": "DaRizzler"
+  },
+  "thefatpotato11": {
+    "name": "thefatpotato11",
+    "id": 2,
+    "loginKey": "C90A1-182-29aP",
+    "auth": true,
+    "admin": true,
+    "Bl": false,
+    "accType": "paid",
+    "payment": "spedness",
+    "hasPaid": true,
+    "accName": "thefatpotato11"
+  }
+}
