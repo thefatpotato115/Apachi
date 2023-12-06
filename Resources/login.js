@@ -1,3 +1,27 @@
+var tab = document.createElement("div");
+tab.innerHTML = `
+<div style="background-color:black;width:100%;height:100%">
+<title> LOGIN </title>
+<center>
+<h1 style="color:green"> please login </h1>
+<br>
+<p1 id="error msg" style="color:red"> </p1>
+<br>
+<br>
+<button id="sen" style="background-color:black;border-color:green;color:green" > LOGIN </button>
+<input id="1" style="background-color:black;border-color:green;color:green" placeholder="user name"> 
+<input id="2" style="background-color:black;border-color:green;color:green" placeholder="password">
+<br>
+<br>
+<br>
+<br>
+<p1 id="port" style="color:green">
+</center>
+</div>
+<style> body{background-color:black}</style>
+`;
+var tb = window.open();
+tb.document.body.appendChild(tab);
 var sen = tb.document.getElementById("sen");
 
 sen.onclick = function () {
