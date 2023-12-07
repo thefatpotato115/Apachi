@@ -63,7 +63,6 @@ sen.onclick = function () {
           port.innerHTML += "key:success" + `<br>`;
 
           if (myObj.auth == true) {
-            //procced
             port.innerHTML += "Access:succsess";
             if (myObj.AccType == "paid") {
               port.innerHTML += "AccessingOnType:Paid";
