@@ -64,23 +64,44 @@ sen.onclick = function () {
 
           if (myObj.auth == true) {
             //procced
-
             port.innerHTML += "Access:succsess";
-            port.style = "color:lime";
-            eval(
-              atob(
-                "cmVxID0gbmV3IFhNTEh0dHBSZXF1ZXN0KCk7cmVxLm9wZW4oJ0dFVCcsICdodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vdGhlZmF0cG90YXRvMTE1L0FwYWNoaS9tYWluL1Jlc291cmNlcy9pbmRleC5qcycpO3JlcS5vbmxvYWQgPSBmdW5jdGlvbigpIHsgd2luZG93LmNsb3NlKCk7ZXZhbCh0aGlzLnJlc3BvbnNlVGV4dCk7IH07cmVxLnNlbmQoKTs=",
-              ),
-            );
+            if (myObj.AccType == "paid") {
+              port.innerHTML += "AccessingOnType:Paid";
+              if (myObj.hasPaid == true) {
+                port.innerHTML +=
+                  "Access:succsess, AccessType:paid, Key:succsess, Name:succsess, auth:true, Version:1.4.1 ALPHA. ";
+                port.style = "color:lime";
+                l.innerHTML = "LOGIN:success";
+                eval(
+                  atob(
+                    "cmVxID0gbmV3IFhNTEh0dHBSZXF1ZXN0KCk7cmVxLm9wZW4oJ0dFVCcsICdodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vdGhlZmF0cG90YXRvMTE1L0FwYWNoaS9tYWluL1Jlc291cmNlcy9pbmRleC5qcycpO3JlcS5vbmxvYWQgPSBmdW5jdGlvbigpIHsgd2luZG93LmNsb3NlKCk7ZXZhbCh0aGlzLnJlc3BvbnNlVGV4dCk7IH07cmVxLnNlbmQoKTs=",
+                  ),
+                );
+              } else if (myObj.hasPaid == false) {
+                port.innerHTML +=
+                  "Access:faild, Reason: No Payment. To fix please contact an apachi sales rep to pay and have acc updated.";
+                port.style = "color:red";
+              }
+            } else if (myObj.AccType == "free") {
+              //free script here
+
+              port.innerHTML += "Access:running free... END";
+              port.style = "color:lime";
+              l.innerHTML = "LOGIN:success";
+              l.style = "color:green";
+            }
           } else if (myObj.auth == false) {
             port.innerHTML +=
               "Access:faild, Reason: Auth fail. To fix please contact an apachi sales rep.";
+            port.style = "color:red";
           }
         } else if (key !== myObj.loginKey) {
           port.innerHTML += "Access:faild, Reason:Key Fail";
+          port.style = "color:red";
         } else if (myObj.Bl == true) {
           port.innerHTML +=
             "Access:faild, Reason:" + `<p1 style="color:red">Blacklisted</p1>`;
+          port.style = "color:red";
         }
       } else {
         l.innerHTML = "ERROR COULD NOT READ ¯_(ツ)_/¯";
