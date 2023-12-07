@@ -4,13 +4,14 @@ tab.innerHTML = `
 <title> LOGIN </title>
 <center>
 <h1 style="color:green"> please login </h1>
-<br>
+</center> <p1 id="version_json" style="color:green"> </p1> <center><br>
 <p1 id="error msg" style="color:red"> </p1>
 <br>
 <br>
 <button id="sen" style="background-color:black;border-color:green;color:green" > LOGIN </button>
 <input id="1" style="background-color:black;border-color:green;color:green" placeholder="user name"> 
 <input id="2" style="background-color:black;border-color:green;color:green" placeholder="password">
+<input id="3" style="background-color:black;border-color:green;color:green;width:40px" placeholder="1.4.1"> <txt style="color:green">version * has to be > than 1.4.1</txt>
 <br>
 <br>
 <br>
@@ -21,6 +22,8 @@ tab.innerHTML = `
 <br>
 <h1 style="color:green"> TO BUY </h1>
 <p1 style="color:green"> product: 2.50$ <br> contact: getapachipro@gmail.com </p1>
+<br>
+<br>
 </center>
 </div>
 <style> body{background-color:black}</style>
@@ -37,6 +40,23 @@ sen.onclick = function () {
   var key = k.value;
   var l = tb.document.getElementById("error msg");
   var log = l.innerHTML;
+  var ver = "",
+    int = tb.document.getElementById("3");
+  port.innerHTML = "";
+
+  req = new XMLHttpRequest();
+  req.open(
+    "GET",
+    "https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/Versions/" +
+      int.value +
+      ".json",
+  );
+  req.onload = function () {
+    port.innerHTML += `<br><br>` + this.responseText;
+    ver = this.responseText;
+  };
+  req.send();
+
   if (acc == null) {
     l.innerHTML = "ERROR COULD NOT PROCCESS READING ---> null <---";
   } else if (acc == undefined) {
@@ -54,7 +74,7 @@ sen.onclick = function () {
   xmlhttp.onload = function () {
     var myObj = JSON.parse(this.responseText);
     if (myObj.Bl == false) {
-      port.innerHTML += "Blacklisted:false" + `<br>`;
+      port.innerHTML += `<br><br>` + "Blacklisted:false" + `<br>`;
 
       if (acc == myObj.name) {
         port.innerHTML += "Name:success" + `<br>`;
@@ -63,25 +83,33 @@ sen.onclick = function () {
           port.innerHTML += "key:success" + `<br>`;
 
           if (myObj.auth == true) {
-            port.innerHTML += "Access:succsess";
-            if (myObj.AccType == "paid") {
-              port.innerHTML += "AccessingOnType:Paid";
+            port.innerHTML += "Access:succsess" + `<br>`;
+            if (myObj.accType == "paid") {
+              port.innerHTML += "AccessingOnType:Paid" + `<br>`;
               if (myObj.hasPaid == true) {
                 port.innerHTML +=
-                  "Access:succsess, AccessType:paid, Key:succsess, Name:succsess, auth:true, Version:1.4.1 ALPHA. ";
+                  "Access:succsess, AccessType:paid, Key:succsess, Name:succsess, auth:true, Version:" +
+                  ver.name;
                 port.style = "color:lime";
                 l.innerHTML = "LOGIN:success";
-                eval(
-                  atob(
-                    "cmVxID0gbmV3IFhNTEh0dHBSZXF1ZXN0KCk7cmVxLm9wZW4oJ0dFVCcsICdodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vdGhlZmF0cG90YXRvMTE1L0FwYWNoaS9tYWluL1Jlc291cmNlcy9pbmRleC5qcycpO3JlcS5vbmxvYWQgPSBmdW5jdGlvbigpIHsgd2luZG93LmNsb3NlKCk7ZXZhbCh0aGlzLnJlc3BvbnNlVGV4dCk7IH07cmVxLnNlbmQoKTs=",
-                  ),
+                l.style = "color:lime";
+                req2 = new XMLHttpRequest();
+                req2.open(
+                  "GET",
+                  "https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/Versions/" +
+                    int.value +
+                    ".js",
                 );
+                req2.onload = function () {
+                  eval(this.responseText);
+                };
+                req2.send();
               } else if (myObj.hasPaid == false) {
                 port.innerHTML +=
                   "Access:faild, Reason: No Payment. To fix please contact an apachi sales rep to pay and have acc updated.";
                 port.style = "color:red";
               }
-            } else if (myObj.AccType == "free") {
+            } else if (myObj.accType == "free") {
               //free script here
 
               port.innerHTML += "Access:running free... END";
