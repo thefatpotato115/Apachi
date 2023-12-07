@@ -91,22 +91,23 @@ p.onclick = function () {
   var bing = tab.document.createElement("div");
 
   bing.innerHTML = `
-  <div id="bg" style="width:100%;height:2.5%"> <title> Apachi Proxy</title>
+  <div id="bgp" style="width:100%;height:2.5%"> <title> Apachi Proxy</title>
     <center> <button id="return"> return </button> <button id="ref"> refresh </button>	
     <txt id="is2"> server: <p1 id="prox"> </txt> </p1></center>
     </div> <div>
     <iframe id="frame" style= "width:100%;height:97.5%"> 
 </div>   
-<style id="prx"></style>
- <style> </style>
+<style id="prx"> </style>
+ <style > 
+ body {background-color:black} 
+ </style>
 `;
 
   tab.document.body.removeChild(E);
   tab.document.body.appendChild(bing);
-  var bgpg = tab.document.getElementById("bg");
+  var bgpg = tab.document.getElementById("bgp");
   var frame = tab.document.getElementById("frame"),
     ref = tab.document.getElementById("ref"),
-    txt = tab.document.getElementById("is"),
     txt2 = tab.document.getElementById("is2"),
     rgas = tab.document.getElementById("prx"),
     prox = tab.document.getElementById("prox");
@@ -139,7 +140,7 @@ p.onclick = function () {
     prox.style = "color:yellow";
   }
   frame.src = links;
-  frame.style = "width:100%;height:100%";
+  frame.style = "width:100%;height:97.5%";
 
   var retur = tab.document.getElementById("return");
   retur.onclick = function () {
@@ -177,7 +178,7 @@ p.onclick = function () {
       ";color:" +
       c2l +
       ";width:60px;height:50px";
-    bg.style = "background-color:" + c1l + ";width:100%;height:100%";
+    bgpg.style = "background-color:" + c1l + ";width:100%;height:100%";
   };
   console.log("proxy");
 
@@ -221,7 +222,7 @@ s.onclick = function () {
   //load pg
   var system_pg = tab.document.createElement("div");
   system_pg.innerHTML = `
-  <div id="bg" style="width:100%;height:100%">
+  <div id="bgt" style="width:100%;height:100%">
     <center> <button id="home"> return </button></center>
 <title> Apachi System</title>
 <button class="b"> theme carry-over </button> <txt class="txt"> </txt> 
@@ -248,23 +249,27 @@ s.onclick = function () {
 <br>
 <br>
 <button class="b"> rgb theme </button> <txt class="txt">
-
-
-
+<br>
+<br>
 </div>
+
+
+
 	<style id="systemS"> </style>
-  <style > body{background-color:black}</style>
+  <style > body {background-color:black}</style>
+ 
 `;
 
   tab.document.body.removeChild(E);
   tab.document.body.appendChild(system_pg);
-  var syst_bg = tab.document.getElementById("bg");
+  var syst_bg = tab.document.getElementById("bgt");
 
   //get elements
 
   var btns = tab.document.getElementsByClassName("b");
   var divi = tab.document.getElementsByClassName("divider");
   var home = tab.document.getElementById("home");
+  var str = tab.document.getElementById("systemS")
   home.onclick = function () {
     tab.document.body.removeChild(system_pg);
     tab.document.body.appendChild(E);
@@ -329,8 +334,11 @@ s.onclick = function () {
     syst_bg.style.background = "black";
 
     if (rgb == true) {
-      systS.innerHTML = rgbT + rgbstr;
+    console.log("rgb")
+      str.innerHTML = "body{background: linear-gradient(-90deg, #FF0000, #FFFF00, #00FF00,#0000FF,#A020F0,#FF0000);background-size: 4000% 400%;animation: gradient 10s ease infinite;}@keyframes gradient {0% {	background-position: 0% 50%;} 50% {background-position: 100% 50%;}100%{background-position: 0% 0%;}}";
+    if(rgbT == "#bg") {syst_bg.style = "background: linear-gradient(-90deg, #FF0000, #FFFF00, #00FF00,#0000FF,#A020F0,#FF0000);background-size: 4000% 400%;animation: gradient 10s ease infinite;}@keyframes gradient {0% {	background-position: 0% 50%;} 50% {background-position: 100% 100%;}100%{background-position: 0% 0%;};width:100%;height:100%" }
     }
+    
     console.log("theme false rought");
   } else {
     divi[0].style = "color:" + c2l;
@@ -402,7 +410,8 @@ s.onclick = function () {
     syst_bg.style.background = c1l;
     var systS = tab.document.getElementById("systemS");
     if (rgb == true) {
-      systS.innerHTML = systS + rgbstr;
+      str.innerHTML = rgbT +   "{background: linear-gradient(-90deg, #FF0000, #FFFF00, #00FF00,#0000FF,#A020F0,#FF0000);background-size: 4000% 400%;animation: gradient 10s ease infinite;}@keyframes gradient {0% {	background-position: 0% 50%;} 50% {background-position: 100% 50%;}100%{background-position: 0% 0%;}}";
+      if(rgbT == "#bg") {syst_bg.style = "background: linear-gradient(-90deg, #FF0000, #FFFF00, #00FF00,#0000FF,#A020F0,#FF0000);background-size: 4000% 400%;animation: gradient 10s ease infinite;}@keyframes gradient {0% {	background-position: 0% 50%;} 50% {background-position: 100% 100%;}100%{background-position: 0% 0%;};width:100%;height:100%" }
     }
     console.log("else rought");
   }
