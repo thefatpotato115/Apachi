@@ -95,7 +95,7 @@ p.onclick = function () {
     <center> <button id="return"> return </button> <button id="ref"> refresh </button>	
     <txt id="is2"> server: <p1 id="prox"> </txt> </p1></center>
     </div> <div>
-    <iframe id="frame" style= "width:100%;height:97.5%"> 
+    <iframe id="frame" style= "width:100%;height:97.5%"> </iframe>
 </div>   
 <style id="prx"> </style>
  <style > 
@@ -209,84 +209,100 @@ p.onclick = function () {
 
 //iframe onclick src
 i.onclick = function () {
-  var ifr = document.createElement("div")
+  var ifr = document.createElement("div");
   ifr.innerHTML = `
-<div id="ifbg" style="width:100%;height:2.5%>
+<div id="ifbg" style="width:100%;height:5%">
 <center>
-<button id="retu">return </button> <button id="re"> enter </button>
-<br> <input id="link" placeholder="https://wikipedia.org"></center>
+
+<button id="retu"> return </button> 
+
+<button id="re"> enter </button>
+
+<br> 
+
+<input id="link" placeholder="https://wikipedia.org">
+
+</center>
 </div>
-<iframe id="iframe"> 
+<iframe id="iframe" style="width:100%;height:100%">
 
-
+</iframe>
 
 <style id="ifr_sty"> </style>
 
-<style> body{background-color:black}
+<style> body{background-color:black} </style>
   `;
-tab.document.body.appendChild(ifr)
-tab.document.removeChild(E);
+  tab.document.body.appendChild(ifr);
+  tab.document.body.removeChild(E);
 
-var retu = tab.document.getElementById("retu"),
-ifbg = tab.document.getElementById("ifbg"),
-iframe = tab.document.getElementById("iframe"),
-re = tab.document.getElementById("re");
+  var retu = tab.document.getElementById("retu"),
+    ifbg = tab.document.getElementById("ifbg"),
+    iframe = tab.document.getElementById("iframe"),
+    re = tab.document.getElementById("re"),
+    link = tab.document.getElementById("link"),
+    rgs = tab.document.getElementById("ifr_sty");
 
-retu.onclick = function () {
-  tab.document.body.removeChild(system_pg);
-  tab.document.body.appendChild(E);
-  p.style =
-    "background-color:" +
-    c4l +
-    " ;border-color:" +
-    c3l +
-    ";color:" +
-    c2l +
-    ";width:60px;height:50px";
-  i.style =
-    "background-color:" +
-    c4l +
-    " ;border-color:" +
-    c3l +
-    ";color:" +
-    c2l +
-    ";width:60px;height:50px";
-  g.style =
-    "background-color:" +
-    c4l +
-    " ;border-color:" +
-    c3l +
-    ";color:" +
-    c2l +
-    ";width:60px;height:50px";
-  s.style =
-    "background-color:" +
-    c4l +
-    " ;border-color:" +
-    c3l +
-    ";color:" +
-    c2l +
-    ";width:60px;height:50px";
-  bg.style = "background-color:" + c1l + ";width:100%;height:100%";
-  if (rgb == true) {
-    st.innerHTML = rgbT + rgbstr;
-  }
+  retu.onclick = function () {
+    tab.document.body.removeChild(ifr);
+    tab.document.body.appendChild(E);
+    p.style =
+      "background-color:" +
+      c4l +
+      " ;border-color:" +
+      c3l +
+      ";color:" +
+      c2l +
+      ";width:60px;height:50px";
+    i.style =
+      "background-color:" +
+      c4l +
+      " ;border-color:" +
+      c3l +
+      ";color:" +
+      c2l +
+      ";width:60px;height:50px";
+    g.style =
+      "background-color:" +
+      c4l +
+      " ;border-color:" +
+      c3l +
+      ";color:" +
+      c2l +
+      ";width:60px;height:50px";
+    s.style =
+      "background-color:" +
+      c4l +
+      " ;border-color:" +
+      c3l +
+      ";color:" +
+      c2l +
+      ";width:60px;height:50px";
+    bg.style = "background-color:" + c1l + ";width:100%;height:100%";
+    if (rgb == true) {
+      st.innerHTML = rgbT + rgbstr;
+    }
+  };
   if (themeC == false) {
     ifbg.style = "background-color:black";
-    link.style = "width:95%;background-color:black ;border-color:green;color:green;";
+    link.style =
+      "width:95%;background-color:black ;border-color:green;color:green;";
     retu.style = "background-color:black ;border-color:green;color:green;";
     re.style = "background-color:black;border-color:green;color:green";
-
   } else {
     ifbg.style.background = c1l;
 
     link.style =
-      "width:95%;background-color:" + c4l + ";border-color:" + c3l + ";color:" + c2l + "";
+      "width:95%;background-color:" +
+      c4l +
+      ";border-color:" +
+      c3l +
+      ";color:" +
+      c2l +
+      "";
     retu.style =
       "background-color:" + c4l + ";border-color:" + c3l + ";color:" + c2l + "";
     re.style =
       "background-color:" + c4l + ";border-color:" + c3l + ";color:" + c2l + "";
-
   }
 
   re.onclick = function () {
@@ -294,14 +310,6 @@ retu.onclick = function () {
   };
 
   console.log("else rought");
-};
-
-};
-
-
-
-
-  console.log("iframe");
 };
 
 //games onclick src
