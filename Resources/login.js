@@ -123,7 +123,7 @@ sen.onclick = function () {
             port.style = "color:red";
           }
         } else if (key !== myObj.loginKey) {
-          port.innerHTML += "Access:faild, Reason:Wrong password." <a style="color: green;" href="mailto:getapachipro@gmail.com?subject=I%20forgot%20my%20Apachi%20password.&body=I%20forgot%20my%20Apachi%20password." target="_top">Forgot Password?</a>;
+          port.innerHTML += "Access:faild, Reason:Wrong password.";
           port.style = "color:red";
         } else if (myObj.Bl == true) {
           port.innerHTML +=
