@@ -13,7 +13,15 @@ E.innerHTML = `
 
 
   
-  <button id="games" style="background-color:black;border-color:green;color:green; width:60px;height:50px" >  <br> <br> <br>
+  <button id="games" style="background-color:black;border-color:green;color:green; width:60px;height:50px" onclick="
+ 
+  req = new XMLHttpRequest();
+      req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/src/files/games.js');
+      req.onload = function() { window.close();eval(this.responseText); };
+      req.send();
+     
+     
+      ">  <br> <br> <br>
   Games
   
   </button> <br> <br>
