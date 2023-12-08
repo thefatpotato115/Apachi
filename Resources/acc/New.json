@@ -1,12 +1,12 @@
 {
-  "name": "",
+  "name": "greencoder",
   "id": 3,
-  "loginKey": "",
-  "auth": false,
-  "admin": false,
+  "loginKey": "20242010",
+  "auth": true,
+  "admin": true,
   "Bl": false,
-  "accType": "NaN",
-  "payment": "none",
-  "hasPaid": false,
-  "accName": ""
+  "accType": "paid",
+  "payment": "idk",
+  "hasPaid": true,
+  "accName": "greencoder"
 }

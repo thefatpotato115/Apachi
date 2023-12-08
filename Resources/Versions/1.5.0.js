@@ -46,7 +46,7 @@ E.innerHTML = `
 </div>
  
    
-  <title>Apachi 1.4.1</title>
+  <title>Apachi 1.5.0</title>
   
 
 
@@ -94,13 +94,12 @@ p.onclick = function () {
   <div id="bgp" style="width:100%;height:2.5%"> <title> Apachi Proxy</title>
     <center> <button id="return"> return </button> <button id="ref"> refresh </button>	
     <txt id="is2"> server: <p1 id="prox"> </txt> </p1></center>
-    </div> <div>
+    </div> 
     <iframe id="frame" style= "width:100%;height:97.5%"> </iframe>
 </div>   
-<style id="prx"> </style>
- <style > 
- body {background-color:black} 
- </style>
+<style id="prx">  body{background-color:black} </style>
+<style >  body{background-color:black} </style>
+
 `;
 
   tab.document.body.removeChild(E);
@@ -179,6 +178,16 @@ p.onclick = function () {
       c2l +
       ";width:60px;height:50px";
     bgpg.style = "background-color:" + c1l + ";width:100%;height:100%";
+
+    if (rgb == true) {
+      st.innerHTML =
+        rgbT +
+        "{background: linear-gradient(-90deg, #FF0000, #FFFF00, #00FF00,#0000FF,#A020F0,#FF0000);background-size: 4000% 400%;animation: gradient 10s ease infinite;}@keyframes gradient {0% {	background-position: 0% 50%;} 50% {background-position: 100% 50%;}100%{background-position: 0% 0%;}}";
+      if (rgbT == "#bg") {
+        st.style =
+          "body {background: linear-gradient(-90deg, #FF0000, #FFFF00, #00FF00,#0000FF,#A020F0,#FF0000);background-size: 4000% 400%;animation: gradient 10s ease infinite;}@keyframes gradient {0% {	background-position: 0% 50%;} 50% {background-position: 100% 100%;}100%{background-position: 0% 0%;};width:100%;height:100%}";
+      }
+    }
   };
   console.log("proxy");
 
@@ -190,6 +199,15 @@ p.onclick = function () {
     retur.style = "background-color:black ;border-color:green;color:green;";
     ref.style = "background-color:black;border-color:green;color:green";
     txt2.style = "color:green";
+    if (rgb == true) {
+      rgas.innerHTML =
+        rgbT +
+        "{background: linear-gradient(-90deg, #FF0000, #FFFF00, #00FF00,#0000FF,#A020F0,#FF0000);background-size: 4000% 400%;animation: gradient 10s ease infinite;}@keyframes gradient {0% {	background-position: 0% 50%;} 50% {background-position: 100% 50%;}100%{background-position: 0% 0%;}}";
+      if (rgbT == "#bg") {
+        rgas.style =
+          "#bgp {background: linear-gradient(-90deg, #FF0000, #FFFF00, #00FF00,#0000FF,#A020F0,#FF0000);background-size: 4000% 400%;animation: gradient 10s ease infinite;}@keyframes gradient {0% {	background-position: 0% 50%;} 50% {background-position: 100% 100%;}100%{background-position: 0% 0%;};width:100%;height:100%}";
+      }
+    }
   } else {
     bgpg.style.background = c1l;
 
@@ -198,6 +216,15 @@ p.onclick = function () {
     ref.style =
       "background-color:" + c4l + ";border-color:" + c3l + ";color:" + c2l + "";
     txt2.style = "color:" + c2l;
+    if (rgb == true) {
+      rgas.innerHTML =
+        rgbT +
+        "{background: linear-gradient(-90deg, #FF0000, #FFFF00, #00FF00,#0000FF,#A020F0,#FF0000);background-size: 4000% 400%;animation: gradient 10s ease infinite;}@keyframes gradient {0% {	background-position: 0% 50%;} 50% {background-position: 100% 50%;}100%{background-position: 0% 0%;}}";
+      if (rgbT == "#bg") {
+        rgas.style =
+          "bgp {background: linear-gradient(-90deg, #FF0000, #FFFF00, #00FF00,#0000FF,#A020F0,#FF0000);background-size: 4000% 400%;animation: gradient 10s ease infinite;}@keyframes gradient {0% {	background-position: 0% 50%;} 50% {background-position: 100% 100%;}100%{background-position: 0% 0%;};width:100%;height:100%}";
+      }
+    }
   }
 
   ref.onclick = function () {
@@ -288,6 +315,15 @@ i.onclick = function () {
       "width:95%;background-color:black ;border-color:green;color:green;";
     retu.style = "background-color:black ;border-color:green;color:green;";
     re.style = "background-color:black;border-color:green;color:green";
+    if (rgb == true) {
+      rgs.innerHTML =
+        rgbT +
+        "{background: linear-gradient(-90deg, #FF0000, #FFFF00, #00FF00,#0000FF,#A020F0,#FF0000);background-size: 4000% 400%;animation: gradient 10s ease infinite;}@keyframes gradient {0% {	background-position: 0% 50%;} 50% {background-position: 100% 50%;}100%{background-position: 0% 0%;}}";
+      if (rgbT == "#bg") {
+        rgs.style =
+          "#ifbg {background: linear-gradient(-90deg, #FF0000, #FFFF00, #00FF00,#0000FF,#A020F0,#FF0000);background-size: 4000% 400%;animation: gradient 10s ease infinite;}@keyframes gradient {0% {	background-position: 0% 50%;} 50% {background-position: 100% 100%;}100%{background-position: 0% 0%;};width:100%;height:100%}";
+      }
+    }
   } else {
     ifbg.style.background = c1l;
 
@@ -303,6 +339,15 @@ i.onclick = function () {
       "background-color:" + c4l + ";border-color:" + c3l + ";color:" + c2l + "";
     re.style =
       "background-color:" + c4l + ";border-color:" + c3l + ";color:" + c2l + "";
+    if (rgb == true) {
+      rgs.innerHTML =
+        rgbT +
+        "{background: linear-gradient(-90deg, #FF0000, #FFFF00, #00FF00,#0000FF,#A020F0,#FF0000);background-size: 4000% 400%;animation: gradient 10s ease infinite;}@keyframes gradient {0% {	background-position: 0% 50%;} 50% {background-position: 100% 50%;}100%{background-position: 0% 0%;}}";
+      if (rgbT == "#bg") {
+        rgs.style =
+          "#ifbg {background: linear-gradient(-90deg, #FF0000, #FFFF00, #00FF00,#0000FF,#A020F0,#FF0000);background-size: 4000% 400%;animation: gradient 10s ease infinite;}@keyframes gradient {0% {	background-position: 0% 50%;} 50% {background-position: 100% 100%;}100%{background-position: 0% 0%;};width:100%;height:100%}";
+      }
+    }
   }
 
   re.onclick = function () {
