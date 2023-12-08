@@ -10,7 +10,7 @@ req = new XMLHttpRequest();
 " style="color:green;border-color:green;background-color:black"> Back to launcher </button>
 <br>
 <br>
-<h1 style="color:red">Apachi IPv4 verification is currently offline. If you have paid for Apachi Pro,</h1>
+<h1 style="color:red">Apachi IPv4 verification is currently offline due to a security breach. If you have paid for Apachi Pro,</h1>
 <h1 style="color:red"> contact someone on the Apachi Dev Team. Be ready to show proof of your purchace.</h1>
 <br>
 <br>
