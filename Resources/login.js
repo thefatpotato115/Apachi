@@ -26,8 +26,9 @@ tab.innerHTML = `
 <br>
 <br>
 <h1 style="color:green"> TO BUY </h1>
-<p1 style="color:green"> product: 2.50$ <br> contact: getapachipro@gmail.com </p1>
+<p1 style="color:green"> product: $2.50 <br> contact: getapachipro@gmail.com </p1>
 <br>
+<a style="color: green;" href="https://ue5efofn6p4.typeform.com/to/gD2rupjg" target="_top">Create Account</a>
 <br>
 </center>
 </div>
