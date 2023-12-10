@@ -1,6 +1,6 @@
 var tab = document.createElement("div");
 tab.innerHTML = `
-<div style="background-color:black;width:100%;height:100%">
+<div style="background-color:black;width:100%;height:90%">
 <title> LOGIN </title>
 <center>
 <h1 style="color:green"> Please login. </h1>
