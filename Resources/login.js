@@ -127,7 +127,7 @@ sen.onclick = function () {
             port.style = "color:red";
           }
         } else if (key !== myObj.loginKey) {
-          port.innerHTML += "Access:faild, Reason:Wrong password.";
+          port.innerHTML += "Access:faild, Reason:Wrong key.";
           port.style = "color:red";
         } else if (myObj.Bl == true) {
           port.innerHTML +=
