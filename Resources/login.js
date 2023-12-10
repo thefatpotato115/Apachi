@@ -31,6 +31,32 @@ tab.innerHTML = `
 <br>
 </center>
 </div>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<style>
+  div {
+    text-align: right;
+  }
+</style>
+<div id="logo">
+  <img src="https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/logo.png" />
+</div>
 <style> body{background-color:black}</style>
 `;
 var tb = window.open();
