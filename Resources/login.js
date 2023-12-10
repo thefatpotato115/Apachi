@@ -3,7 +3,7 @@ tab.innerHTML = `
 <div style="background-color:black;width:100%;height:100%">
 <title> LOGIN </title>
 <center>
-<h1 style="color:green"> please login </h1>
+<h1 style="color:green"> Please login. </h1>
 </center> <p1 id="version_json" style="color:green"> </p1> <center><br>
 <p1 id="error msg" style="color:red"> </p1>
 <br>
