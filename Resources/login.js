@@ -35,20 +35,6 @@ tab.innerHTML = `
 <br />
 <br />
 <br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
 <style>
   div {
     text-align: right;
