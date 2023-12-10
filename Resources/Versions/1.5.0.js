@@ -400,10 +400,10 @@ s.onclick = function () {
 <br>
 <p1 class="divider"> Support </p1>
 <br>
-<a style="color: green;" href="/thefatpotato115/Apachi/main/Support/Contact.html" target="_top">Contact us!</a>
+<a style="color: green;" href="https://rawcdn.githack.com/thefatpotato115/Apachi/main/Support/Contact.html" target="_top">Contact us!</a>
 <br>
 <br>
-<a style="color: green;" href="/thefatpotato115/Apachi/main/Support/terms.html" target="_top">Terms of service</a>
+<a style="color: green;" href="https://rawcdn.githack.com/thefatpotato115/Apachi/main/Support/terms.html" target="_top">Terms of service</a>
 </div>
 
 
