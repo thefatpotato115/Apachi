@@ -396,6 +396,14 @@ s.onclick = function () {
 <button class="b"> rgb theme </button> <txt class="txt">
 <br>
 <br>
+<br>
+<br>
+<p1 class="divider"> Support </p1>
+<br>
+<a style="color: green;" href="/Support/Contact.html" target="_top">Contact us!</a>
+<br>
+<br>
+<a style="color: green;" href="/Support/terms.html" target="_top">Terms of service</a>
 </div>
 
 
