@@ -1,7 +1,7 @@
 var tab = document.createElement("div");
 tab.innerHTML = `
 <div style="background-color:black;width:100%;height:90%">
-<title> LOGIN </title>
+<title> Login </title>
 <center>
 <h1 style="color:green"> Please login. </h1>
 </center> <p1 id="version_json" style="color:green"> </p1> <center><br>
