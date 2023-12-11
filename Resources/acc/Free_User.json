@@ -1,7 +1,7 @@
 {
   "name": "Free_User",
   "id": 5,
-  "loginKey": "",
+  "loginKey": "NaN",
   "auth": true,
   "admin": false,
   "Bl": false,
