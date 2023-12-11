@@ -1,12 +1,12 @@
 {
-  "name": "",
+  "name": "Free_User",
   "id": 5,
   "loginKey": "",
   "auth": false,
   "admin": false,
   "Bl": false,
-  "accType": "NaN",
+  "accType": "Free",
   "payment": "none",
   "hasPaid": false,
-  "accName": ""
+  "accName": "Free_User"
 }
