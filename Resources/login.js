@@ -32,7 +32,7 @@ tab.innerHTML = `
 <a style="color: green;" href="https://ue5efofn6p4.typeform.com/to/gD2rupjg" target="_top">Create Account</a>
 <br>
 <br>
-<a style="color: green;" href="https://rawcdn.githack.com/thefatpotato115/Apachi/main/Support/Contact.html" target="_top">Contact us!</a>
+<a style="color: green;" href="https://raw.githack.com/thefatpotato115/Apachi/main/Support/Contact.html" target="_top">Contact us!</a>
 </center>
 </div>
 <style>
