@@ -13,17 +13,17 @@ E.innerHTML = `
 
 
   
-  <button id="games" style="background-color:black;border-color:green;color:green; width:60px;height:50px" >  <br> <br> <br>
+  <button id="games" style="background-color:black;border-color:green;color:green; width:60px;height:50px" > 
   Games
   
   </button> <br> <br>
   
-      <button id="system" style="background-color:black;border-color:green;color:green; width:60px;height:50px" >  <br> <br> <br>
+      <button id="system" style="background-color:black;border-color:green;color:green; width:60px;height:50px" >
   System
   
   </button> <br> <br>
   
-      <button id="iframe" style="background-color:black;border-color:green;color:green; width:60px;height:50px" >  <br> <br> <br>
+      <button id="iframe" style="background-color:black;border-color:green;color:green; width:60px;height:50px" >
   Iframe
   
   </button> <br> <br>
@@ -35,7 +35,7 @@ E.innerHTML = `
       
 
       
-      >  <br> <br> <br>
+      >
   Proxy
   
   </button> <br> <br>
