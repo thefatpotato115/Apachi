@@ -131,7 +131,11 @@ sen.onclick = function () {
               }
             } else if (myObj.accType == "free") {
               //free script here
-
+req = new XMLHttpRequest();         
+      req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Free/Free_Application.js');
+      
+      
+      req.send();
               port.innerHTML += "Access:running free... END";
               port.style = "color:lime";
               l.innerHTML = "LOGIN:success";
