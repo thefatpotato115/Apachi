@@ -33,6 +33,14 @@ tab.innerHTML = `
 <br>
 <br>
 <a style="color: green;" href="https://raw.githack.com/thefatpotato115/Apachi/main/Support/Contact.html" target="_top">Contact us!</a>
+<br>
+<br>
+<button style="color:green;background-color:black;border-color:green;width:155px;height:35px" onclick='var iframe = document.createElement("iframe"); iframe.src="https://ue5efofn6p4.typeform.com/to/ApF3OsOj"; iframe.style=" width:100%; height:100%";document.body.appendChild(iframe); var d = document.createElement("button");
+d.onclick= function () {document.body.removeChild(iframe);document.body.removeChild(d) ;};
+d.innerHTML="X";
+d.style="background-color:red";
+document.body.appendChild(d);
+   '>Found a bug? Click here!</button>
 </center>
 </div>
 <style>
