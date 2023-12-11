@@ -8,6 +8,7 @@ var c1l, c2l, c3l, c4l;
 E.innerHTML = `
   <html>
   <body>
+  <center>
   
     <div style="width: 100%; height: 90%; background-color: black;" id="bg">
 
@@ -42,7 +43,7 @@ E.innerHTML = `
   <button style="color:green;background-color:black;border-color:green;width:155px;height:35px" onclick='window.open("https://ue5efofn6p4.typeform.com/to/ApF3OsOj")'>Found a bug? Click here!</button>
   
  
-
+</center>
 </div>
 <style>
 div {
