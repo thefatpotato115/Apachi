@@ -9,7 +9,7 @@ E.innerHTML = `
   <html>
   <body>
   
-    <div style="width: 100%; height: 100%; background-color: black;" id="bg">
+    <div style="width: 100%; height: 90%; background-color: black;" id="bg">
 
 
   
@@ -44,7 +44,16 @@ E.innerHTML = `
  
 
 </div>
- 
+<style>
+div {
+  text-align: right;
+}
+</style>
+<div id="logo">
+<a href="https://raw.githack.com/thefatpotato115/Apachi/main/Support/terms.html">
+  <img src="https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/logo.png" />
+</a>
+</div>
    
   <title>Apachi 1.5.2</title>
   	
