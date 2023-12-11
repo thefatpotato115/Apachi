@@ -44,7 +44,7 @@ tab.innerHTML = `
   }
 </style>
 <div id="logo">
-<a href="/Support/terms.html">
+<a href="https://raw.githack.com/thefatpotato115/Apachi/main/Support/terms.html">
   <img src="https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/logo.png" />
 </a>
   </div>
