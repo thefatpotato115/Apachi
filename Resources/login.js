@@ -44,8 +44,10 @@ tab.innerHTML = `
   }
 </style>
 <div id="logo">
+<a href="/Support/terms.html">
   <img src="https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/logo.png" />
-</div>
+</a>
+  </div>
 <style> body{background-color:black}</style>
 `;
 var tb = window.open();
@@ -133,7 +135,7 @@ sen.onclick = function () {
               //free script here
 req = new XMLHttpRequest();         
       req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Free/Free_Application.js');
-      
+
               port.innerHTML += "Access:running free... END";
               port.style = "color:lime";
               l.innerHTML = "LOGIN:success";
