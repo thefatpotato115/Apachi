@@ -2,7 +2,7 @@
   "name": "Free_User",
   "id": 5,
   "loginKey": "",
-  "auth": false,
+  "auth": true,
   "admin": false,
   "Bl": false,
   "accType": "Free",
