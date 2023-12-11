@@ -87,13 +87,14 @@ var p = tab.document.getElementById("proxy"),
 //on mouse over *quality of life thing :/
 
 p.onmouseover = function () {
-  p.style =
+ if(msu==true) 
+ {p.style =
     "background-color:" +
     c1l +
     ";width:60px;height:50px;color:" +
     c6l +
     ";border-color:" +
-    c6l;
+    c6l;}
 };
 p.onmouseleave = function () {
   p.style =
@@ -106,13 +107,14 @@ p.onmouseleave = function () {
 };
 
 i.onmouseover = function () {
-  i.style =
+ if(msu==true) 
+ {i.style =
     "background-color:" +
     c1l +
     ";width:60px;height:50px;color:" +
     c6l +
     ";border-color:" +
-    c6l;
+    c6l;}
 };
 i.onmouseleave = function () {
   i.style =
@@ -125,13 +127,14 @@ i.onmouseleave = function () {
 };
 
 g.onmouseover = function () {
-  g.style =
+  if(msu == true)
+  {g.style =
     "background-color:" +
     c1l +
     ";width:60px;height:50px;color:" +
     c6l +
     ";border-color:" +
-    c6l;
+    c6l;}
 };
 g.onmouseleave = function () {
   g.style =
@@ -144,13 +147,14 @@ g.onmouseleave = function () {
 };
 
 s.onmouseover = function () {
+if(msu == true){
   s.style =
     "background-color:" +
     c1l +
     ";width:60px;height:50px;color:" +
     c6l +
     ";border-color:" +
-    c6l;
+    c6l;}
 };
 s.onmouseleave = function () {
   s.style =
@@ -188,7 +192,7 @@ p.onclick = function () {
     rgas = tab.document.getElementById("prx"),
     prox = tab.document.getElementById("prox");
   var retur = tab.document.getElementById("return");
-
+if(msu == true) {
   ref.onmouseover = function () {
     ref.style =
       "background-color:" + c1l + ";color:" + c6l + ";border-color:" + c6l;
@@ -206,6 +210,7 @@ p.onclick = function () {
     retur.style =
       "background-color:" + c1l + ";color:" + c2l + ";border-color:" + c3l;
   };
+ }
   var links = "";
 
   if (BproxId == 1) {
@@ -362,7 +367,8 @@ i.onclick = function () {
     re = tab.document.getElementById("re"),
     link = tab.document.getElementById("link"),
     rgs = tab.document.getElementById("ifr_sty");
-
+    
+	if(msu == true) {
   retu.onmouseover = function () {
     retu.style =
       "background-color:" + c1l + ";color:" + c6l + ";border-color:" + c6l;
@@ -380,7 +386,7 @@ i.onclick = function () {
     re.style =
       "background-color:" + c1l + ";color:" + c2l + ";border-color:" + c3l;
   };
-
+}
   retu.onclick = function () {
     tab.document.body.removeChild(ifr);
     tab.document.body.appendChild(E);
@@ -505,7 +511,13 @@ s.onclick = function () {
 <button class="b"> proxy server: </button> <txt class="txt"> </txt>
 <br>
 <br>
+<p1 class="divider"> MORE THEMES </p1>
+<br>
+<br>
 <button class="b"> rgb theme </button> <txt class="txt"> </txt>
+<br>
+<br>
+<button class="b"> highlight color </button> <txt class="txt"> </txt>
 <br>
 <br>
 <button class="b"> mouse highlight </button> <txt class="txt"> </txt>
@@ -568,11 +580,22 @@ s.onclick = function () {
       st.innerHTML = rgbT + rgbstr;
     }
   };
+  if(msu == true) {
+  home.onmouseover = function () {
+			home.style =
+      "background-color:" + c1l + ";color:" + c6l + ";border-color:" + c6l + ';width:100px;height:40px';
+  };
+  home.onmouseleave = function () {
+    home.style =
+      "background-color:" + c1l + ";color:" + c2l + ";border-color:" + c3l + ';width:100px;height:40px';
+  };
+ }
   //set up themes
 
   if (themeC == false) {
     divi[0].style = "color:green";
     divi[1].style = "color:green";
+    divi[2].style = "color:green";
     btns[0].style =
       "background-color:black ;border-color:green;color:green;width:100px;height:40px";
     btns[1].style =
@@ -588,6 +611,8 @@ s.onclick = function () {
     btns[6].style =
       "background-color:black ;border-color:green;color:green;width:100px;height:40px";
     btns[7].style =
+      "background-color:black ;border-color:green;color:green;width:100px;height:40px";
+    btns[8].style =
       "background-color:black ;border-color:green;color:green;width:100px;height:40px";
     home.style =
       "background-color:black ;border-color:green;color:green;width:100px;height:40px";
@@ -607,6 +632,7 @@ s.onclick = function () {
   } else {
     divi[0].style = "color:" + c2l;
     divi[1].style = "color:" + c2l;
+    divi[2].style = "color:" + c2l;
     btns[0].style =
       "background-color:" +
       c4l +
@@ -664,6 +690,14 @@ s.onclick = function () {
       c2l +
       ";width:100px;height:40px";
     btns[7].style =
+      "background-color:" +
+      c4l +
+      ";border-color:" +
+      c3l +
+      ";color:" +
+      c2l +
+      ";width:100px;height:40px";
+ 		btns[8].style =
       "background-color:" +
       c4l +
       ";border-color:" +
@@ -903,7 +937,7 @@ s.onclick = function () {
       "background-color:" +
       c6l +
       ";border-color:green;color:gold;width:100px;height:40px";
-    btns[id].innerHTML = "button inner color: " + c6l;
+    btns[id].innerHTML = "highlight color: " + c6l;
   }
   function updateCols5(id) {
     if (c5i == 1) {
@@ -1017,6 +1051,16 @@ s.onclick = function () {
   btns[7].onclick = function () {
     changeCol6();
   };
+  btns[8].onclick = function () {
+   if (msu == true) {
+   		msu = false;
+      setStatOff(8);
+    } else {
+    	msu = true
+      setStatOn(8);
+    }
+  
+  }
   //on pg loads
 
   if (themeC == true) {
@@ -1030,6 +1074,13 @@ s.onclick = function () {
   } else {
     setStatOff(6);
   }
+  
+  
+   if (msu == false) {
+      setStatOff(8);
+    } else {
+      setStatOn(8);
+    }
 
   updateCols(1);
   updateCols2(2);
@@ -1058,6 +1109,7 @@ var c1l = "black",
   rgb = false,
   rgbT = "",
   Bproxy = "taco",
+  msu = true,
   BproxId = 1;
 
 var rgbstr =
