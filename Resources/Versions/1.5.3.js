@@ -9,7 +9,7 @@ E.innerHTML = `
   <html>
   <body>
   
-    <div style="width: 100%; height: 100%; background-image: url('https://imagehost9.online-image-editor.com/oie_upload/images/111713141A82yiG/11181143b7g4JHz4.png')" id="bg">
+    <div style="width: 100%; height: 100%;" id="bg">
 
 
   
@@ -1286,7 +1286,7 @@ var c1l = "black",
   c6i = 4,
   c7i = 1,
   imgbg = true,
-  oglink = "https://imagehost9.online-image-editor.com/oie_upload/images/111713141A82yiG/11181143b7g4JHz4.png",
+  oglink = "https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/wallpaper.png",
   linke = "",
   textL = "og",
   themeC = true,
