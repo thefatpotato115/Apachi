@@ -10,7 +10,7 @@ tab.innerHTML = `
 <br>
 <button id="sen" style="background-color:black;border-color:green;color:green" > LOGIN </button>
 <input id="1" style="background-color:black;border-color:green;color:green" placeholder="user name"> 
-<input id="2" style="background-color:black;border-color:green;color:green" placeholder="password">
+<input id="2" style="background-color:black;border-color:green;color:green" type="password" placeholder="login key">
 <select name="Version" id="3" style="background-color:black;border-color:green;color:green">
 <option value="og">Original (v1.2.7)</option>
 <option value="1.4.1">v1.4.1</option>
