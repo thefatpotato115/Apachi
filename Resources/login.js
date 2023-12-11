@@ -16,7 +16,8 @@ tab.innerHTML = `
 <option value="1.4.1">v1.4.1</option>
 <option value="1.5.0">v1.5.0</option>
 <option value="1.5.1">v1.5.1 *Recomended</option>
-<option value="1.5.2">v1.5.2 *Beta</option>
+<option value="1.5.2">v1.5.2</option>
+<option value="1.5.3">v1.5.3 *Beta</option>
 </select>
 <br>
 <br>
