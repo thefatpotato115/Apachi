@@ -3,6 +3,11 @@ tab.innerHTML = `
 <div style="background-color:black;width:100%;height:90%">
 <title> Login </title>
 <center>
+<a href="https://ue5efofn6p4.typeform.com/to/gD2rupjg">
+<img src="https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/notification.png" />
+</a>
+<br>
+<br>
 <h1 style="color:green"> Please login. </h1>
 </center> <p1 id="version_json" style="color:green"> </p1> <center><br>
 <p1 id="error msg" style="color:red"> </p1>
