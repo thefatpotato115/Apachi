@@ -1087,7 +1087,7 @@ syst_bg.style="background-image: url('"+linke+"');width:100%;height:100%"
   }
    function updateCols7(id) {
     if (c7i == 1) {
-      linkog = "https://imagehost9.online-image-editor.com/oie_upload/images/111713141A82yiG/11181143b7g4JHz4.png";
+      linkog = "https://raw.githubusercontent.com/ApachiPro/Wallpapers/main/defualt.png";
       imgbg = true;
       textL = "og"
     } else if (c7i == 2) {
@@ -1286,7 +1286,7 @@ var c1l = "black",
   c6i = 4,
   c7i = 1,
   imgbg = true,
-  oglink = "https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/wallpaper.png",
+  oglink = "https://raw.githubusercontent.com/ApachiPro/Wallpapers/main/defualt.png",
   linke = "",
   textL = "og",
   themeC = true,
