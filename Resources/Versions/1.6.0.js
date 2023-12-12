@@ -9,7 +9,7 @@ E.innerHTML = `
   <html>
   <body>
   
-    <div style="width: 100%; height: 100%; background-image: url('https://imagehost9.online-image-editor.com/oie_upload/images/111713141A82yiG/11181143b7g4JHz4.png')" id="bg">
+    <div style="width: 100%; height: 100%; background-image: url('https://raw.githubusercontent.com/ApachiPro/Wallpapers/main/defualt.png')" id="bg">
 
 
   
