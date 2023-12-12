@@ -1,0 +1,12 @@
+{
+  "name": "Black-test",
+  "id": 6,
+  "loginKey": "abc",
+  "auth": true,
+  "admin": false,
+  "Bl": true,
+  "accType": "paid",
+  "payment": "test acc",
+  "hasPaid": true,
+  "accName": "Black-test"
+}
