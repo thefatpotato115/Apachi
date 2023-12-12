@@ -15,9 +15,10 @@ tab.innerHTML = `
 <option value="og">Original (v1.2.7)</option>
 <option value="1.4.1">v1.4.1</option>
 <option value="1.5.0">v1.5.0</option>
-<option value="1.5.1">v1.5.1 *Recomended</option>
+<option value="1.5.1">v1.5.1</option>
 <option value="1.5.2">v1.5.2</option>
-<option value="1.5.3">v1.5.3 *Beta</option>
+<option value="1.5.3">v1.5.3 *Recomended</option>
+<option value="1.6.0">v1.6.0 *Beta</option>
 </select>
 <br>
 <br>
@@ -150,15 +151,17 @@ req = new XMLHttpRequest();
         } else if (key !== myObj.loginKey) {
           port.innerHTML += "Access:faild, Reason:Wrong key.";
           port.style = "color:red";
-        } else if (myObj.Bl == true) {
+        }
+      } 
+       else if (myObj.Bl == true) {
           port.innerHTML +=
             "Access:faild, Reason:" + `<p1 style="color:red">Blacklisted</p1>`;
           port.style = "color:red";
         }
-      } else {
+    }
+    else {
         l.innerHTML = "ERROR COULD NOT READ ¯_(ツ)_/¯";
       }
-    }
   };
   xmlhttp.open(
     "GET",
