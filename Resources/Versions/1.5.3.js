@@ -602,8 +602,11 @@ s.onclick = function () {
 <option value="https://raw.githubusercontent.com/ApachiPro/Wallpapers/main/Smiles.png">Smiles</option>
 <option value="https://raw.githubusercontent.com/ApachiPro/Wallpapers/main/mrbeast.png">Mr. Beast certified</option>
 <option value="https://raw.githubusercontent.com/ApachiPro/Wallpapers/main/potatoes.png">Potatoes</option>
+<option value="">Custom</option>
 </select>
-<button class="b"> upload </button>
+<br>
+<br>
+<input class="b" placeholder="Paste custom URL here.">  <button class="b"> upload </button>
 </div>
 
 
@@ -1092,13 +1095,9 @@ syst_bg.style="background-image: url('"+linke+"');width:100%;height:100%"
     btns[id].innerHTML = "rgb:" + rgbT;
   }
    function updateCols7(id) {
-    if (c7i == 1) {
-      linkog = "https://imagehost9.online-image-editor.com/oie_upload/images/111713141A82yiG/11181143b7g4JHz4.png";
-      imgbg = true;
-      textL = "og"
-    } else if (c7i == 2) {
+if (c7i == 1) {
     	btns[10].value = linke
-      textL = "custom"
+      textL = "On"
     }
 
     btns[id].innerHTML = "img bg " + textL ;
@@ -1156,7 +1155,7 @@ syst_bg.style="background-image: url('"+linke+"');width:100%;height:100%"
    function changeCol7() {
     c7i = c7i + 1;
 
-    if (c7i > 2) {
+    if (c7i > 1) {
   		textL = "off"
       imgbg = false
       btns[9].innerHTML = "";
