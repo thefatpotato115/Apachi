@@ -9,21 +9,21 @@ E.innerHTML = `
   <html>
   <body>
   
-    <div style="width: 100%; height: 100%;" id="bg">
+    <div style="width: 100%; height: 100%; background-image: url('https://imagehost9.online-image-editor.com/oie_upload/images/111713141A82yiG/11181143b7g4JHz4.png')" id="bg">
 
 
   
-  <button id="games" style="background-color:black;border-color:green;color:green; width:60px;height:50px" > 
+  <button id="games" style="background-color:black;border-color:green;color:green; width:60px;height:50px" >  <br> <br> <br>
   Games
   
   </button> <br> <br>
   
-      <button id="system" style="background-color:black;border-color:green;color:green; width:60px;height:50px" >
+      <button id="system" style="background-color:black;border-color:green;color:green; width:60px;height:50px" >  <br> <br> <br>
   System
   
   </button> <br> <br>
   
-      <button id="iframe" style="background-color:black;border-color:green;color:green; width:60px;height:50px" >
+      <button id="iframe" style="background-color:black;border-color:green;color:green; width:60px;height:50px" >  <br> <br> <br>
   Iframe
   
   </button> <br> <br>
@@ -35,7 +35,7 @@ E.innerHTML = `
       
 
       
-      >
+      >  <br> <br> <br>
   Proxy
   
   </button> <br> <br>
@@ -597,16 +597,7 @@ s.onclick = function () {
 <button class="b"> img bg </button> <txt class="txt"> </txt>
 <br>
 <br>
-<select class="b" placeholder="Image URL">
-<option value="https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/wallpaper.png">Original</option>
-<option value="https://raw.githubusercontent.com/ApachiPro/Wallpapers/main/Smiles.png">Smiles</option>
-<option value="https://raw.githubusercontent.com/ApachiPro/Wallpapers/main/mrbeast.png">Mr. Beast certified</option>
-<option value="https://raw.githubusercontent.com/ApachiPro/Wallpapers/main/potatoes.png">Potatoes</option>
-<option value="">Custom</option>
-</select>
-<br>
-<br>
-<input class="b" placeholder="Paste custom URL here.">  <button class="b"> upload </button>
+<input class="b" placeholder="insert img url here">  <button class="b"> upload </button>
 </div>
 
 
@@ -1095,9 +1086,13 @@ syst_bg.style="background-image: url('"+linke+"');width:100%;height:100%"
     btns[id].innerHTML = "rgb:" + rgbT;
   }
    function updateCols7(id) {
-if (c7i == 1) {
+    if (c7i == 1) {
+      linkog = "https://imagehost9.online-image-editor.com/oie_upload/images/111713141A82yiG/11181143b7g4JHz4.png";
+      imgbg = true;
+      textL = "og"
+    } else if (c7i == 2) {
     	btns[10].value = linke
-      textL = "on"
+      textL = "custom"
     }
 
     btns[id].innerHTML = "img bg " + textL ;
@@ -1155,7 +1150,7 @@ if (c7i == 1) {
    function changeCol7() {
     c7i = c7i + 1;
 
-    if (c7i >= 2) {
+    if (c7i > 2) {
   		textL = "off"
       imgbg = false
       btns[9].innerHTML = "";
@@ -1291,7 +1286,7 @@ var c1l = "black",
   c6i = 4,
   c7i = 1,
   imgbg = true,
-  oglink = "https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/wallpaper.png",
+  oglink = "https://imagehost9.online-image-editor.com/oie_upload/images/111713141A82yiG/11181143b7g4JHz4.png",
   linke = "",
   textL = "og",
   themeC = true,
