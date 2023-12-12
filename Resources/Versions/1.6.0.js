@@ -291,7 +291,7 @@ if(msu == true) {
     if(imgbg == true)
 {
 if(textL == "og") {
-bg.style="background-image: url('');width:100%;height:100%"; console.log("yay")}
+bg.style="background-image: url('"+oglink+"');width:100%;height:100%"; console.log("yay")}
 else {
 bg.style="background-image: url('"+linke+"');width:100%;height:100%"
 
