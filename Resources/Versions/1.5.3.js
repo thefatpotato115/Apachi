@@ -597,7 +597,13 @@ s.onclick = function () {
 <button class="b"> img bg </button> <txt class="txt"> </txt>
 <br>
 <br>
-<input class="b" placeholder="insert img url here">  <button class="b"> upload </button>
+<select class="b" placeholder="Image URL">
+<option value="https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/wallpaper.png">Original</option>
+<option value="https://raw.githubusercontent.com/ApachiPro/Wallpapers/main/Smiles.png">Smiles</option>
+<option value="https://raw.githubusercontent.com/ApachiPro/Wallpapers/main/mrbeast.png">Mr. Beast certified</option>
+<option value="https://raw.githubusercontent.com/ApachiPro/Wallpapers/main/potatoes.png">Potatoes</option>
+</select>
+<button class="b"> upload </button>
 </div>
 
 
