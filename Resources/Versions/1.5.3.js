@@ -1155,7 +1155,7 @@ if (c7i == 1) {
    function changeCol7() {
     c7i = c7i + 1;
 
-    if (c7i > 1) {
+    if (c7i = 2) {
   		textL = "off"
       imgbg = false
       btns[9].innerHTML = "";
