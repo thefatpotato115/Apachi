@@ -1097,7 +1097,7 @@ syst_bg.style="background-image: url('"+linke+"');width:100%;height:100%"
    function updateCols7(id) {
 if (c7i == 1) {
     	btns[10].value = linke
-      textL = "On"
+      textL = "on"
     }
 
     btns[id].innerHTML = "img bg " + textL ;
@@ -1155,7 +1155,7 @@ if (c7i == 1) {
    function changeCol7() {
     c7i = c7i + 1;
 
-    if (c7i > 2) {
+    if (c7i == 2) {
   		textL = "off"
       imgbg = false
       btns[9].innerHTML = "";
