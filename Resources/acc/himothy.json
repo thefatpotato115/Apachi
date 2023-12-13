@@ -1,0 +1,12 @@
+{
+  "name": "Jacob",
+  "id": 4,
+  "loginKey": "himothy",
+  "auth": true,
+  "admin": false,
+  "Bl": false,
+  "accType": "paid",
+  "payment": "none",
+  "hasPaid": false,
+  "accName": "iamhim"
+}
