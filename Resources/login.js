@@ -23,7 +23,8 @@ tab.innerHTML = `
 <option value="1.5.1">v1.5.1</option>
 <option value="1.5.2">v1.5.2</option>
 <option value="1.5.3">v1.5.3</option>
-<option value="1.6.0">v1.6.0 *Beta</option>
+<option value="1.6.0">v1.6.0</option>
+<option value="1.6.1">v1.6.1 *beta</option>
 </select>
 <br>
 <br>
@@ -44,18 +45,10 @@ tab.innerHTML = `
 <br>
 <button style="color:green;background-color:black;border-color:green;width:155px;height:35px" onclick='window.open("https://ue5efofn6p4.typeform.com/to/ApF3OsOj')>Found a bug? Click here!</button>
 </center>
-</div>
+
 <style>
-  div {
-    text-align: right;
-  }
+body{background-color:black}
 </style>
-<div id="logo">
-<a href="https://raw.githack.com/thefatpotato115/Apachi/main/Support/terms.html">
-  <img src="https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/logo.png" />
-</a>
-  </div>
-<style> body{background-color:black}</style>
 `;
 var tb = window.open();
 tb.document.body.appendChild(tab);
@@ -92,6 +85,17 @@ sen.onclick = function () {
     l.innerHTML = "ERROR COULD NOT PROCCESS READING ---> undefined <---";
   } else if (acc == "") {
     l.innerHTML = "ERROR COULD NOT PROCCESS READING --->  <---";
+  } else if (acc == " ") {
+    l.innerHTML = "ERROR COULD NOT PROCCESS READING --->   <---";
+  }
+    if (key == null) {
+    l.innerHTML = "ERROR COULD NOT PROCCESS READING ---> null <---";
+  } else if (key == undefined) {
+    l.innerHTML = "ERROR COULD NOT PROCCESS READING ---> undefined <---";
+  } else if (key == "") {
+    l.innerHTML = "ERROR COULD NOT PROCCESS READING --->  <---";
+  } else if (key == " ") {
+    l.innerHTML = "ERROR COULD NOT PROCCESS READING --->   <---";
   }
   var xmlhttp = new XMLHttpRequest();
   xmlhttp.open(
@@ -139,6 +143,7 @@ sen.onclick = function () {
                 port.style = "color:red";
               }
             } else if (myObj.accType == "free") {
+            
               //free script here
 req = new XMLHttpRequest();         
       req.open('GET', 'https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Free/Free_Application.js');
@@ -157,15 +162,17 @@ req = new XMLHttpRequest();
           port.innerHTML += "Access:faild, Reason:Wrong key.";
           port.style = "color:red";
         }
-      } 
-       else if (myObj.Bl == true) {
-          port.innerHTML +=
+      }
+      else {port.innerHTML = "";port.style.color = "green"}
+    }
+    
+    else if (myObj.Bl == true) {
+          port.innerHTML =
             "Access:faild, Reason:" + `<p1 style="color:red">Blacklisted</p1>`;
           port.style = "color:red";
         }
-    }
     else {
-        l.innerHTML = "ERROR COULD NOT READ ¯_(ツ)_¯";
+        l.innerHTML = "ERROR 101 UNEXPLAINED CRASH";
       }
   };
   xmlhttp.open(
@@ -175,4 +182,5 @@ req = new XMLHttpRequest();
       ".json",
   );
   xmlhttp.send();
-};
+}; 
+//end
