@@ -165,7 +165,7 @@ req = new XMLHttpRequest();
         }
     }
     else {
-        l.innerHTML = "ERROR COULD NOT READ ¯_(ツ)_/¯";
+        l.innerHTML = "ERROR COULD NOT READ ¯_(ツ)_¯";
       }
   };
   xmlhttp.open(
