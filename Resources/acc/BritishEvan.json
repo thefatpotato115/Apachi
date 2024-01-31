@@ -1,12 +1,12 @@
 {
-  "name": "",
+  "name": "Evan Hillcox",
   "id": 7,
-  "loginKey": "",
+  "loginKey": "gigi123!",
   "auth": false,
   "admin": false,
   "Bl": false,
-  "accType": "NaN",
+  "accType": "paid",
   "payment": "none",
   "hasPaid": false,
-  "accName": ""
+  "accName": "BritishEvan"
 }
