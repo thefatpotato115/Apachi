@@ -6,7 +6,7 @@
   "admin": false,
   "Bl": false,
   "accType": "paid",
-  "payment": "none",
-  "hasPaid": false,
+  "payment": "cash",
+  "hasPaid": true,
   "accName": "BritishEvan"
 }
