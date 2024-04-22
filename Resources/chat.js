@@ -48,13 +48,15 @@ xh2r.onload = function() {
 var element = document.createElement("div");
 element.innerHTML = `<div id="bg" style="background-color:black">
 	<title> Apachi Chatroom </title>
-	<center> 	<button class="button" id="config_lib" style="top:0%;left:95%;position:absolute">settings </button>
-	
-	 <font size="5" style="color:green"> Chat room </font><button id="ssd" style="background-color:black;border-color:green;color:green">	return</button>
-	 
-	 <button id="sd" style="background-color:black;border-color:green;color:green">	enable notifications</button> <br>
+	<center>
+    <div>
+        <button class="button" id="config_lib" style="background-color:black;border-color:green;color:green;width:50px;height:30px;top:2%;left:95%;position:absolute">settings </button>
+        <button id="name_changer" style="background-color:black;border-color:green;color:green;width:80px;height:30px;top:12%;left:95%;position:absolute">Change Name</button> 
+	</div
+	 <font size="5" style="color:green"> Chat room </font><button id="ssd" style="background-color:black;border-color:green;color:green">return</button>
+	 <button id="sd" style="background-color:black;border-color:green;color:green">enable notifications</button> <br>
 
-<p1 style="color:green"> Please read <button style="border-color:green;background-color:black;color:green" onclick="window.open("https://raw.githack.com/thefatpotato115/Apachi/main/Support/terms.html");">Terms of service</button> befour using the chat service. <b> PLEASE USE RESPONSIBLY</b> To change your name from an random number click <button id="name_changer" style="background-color:black;border-color:green;color:green">here</button> </p1>
+<p1 style="color:green"> Please read <button style="border-color:green;background-color:black;color:green" onclick="window.open("https://raw.githack.com/thefatpotato115/Apachi/main/Support/terms.html");">Terms of service</button> befour using the chat room.. <b> PLEASE USE RESPONSIBLY</b></p1>
 	<br>
 	<br>
 	
