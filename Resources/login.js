@@ -49,6 +49,18 @@ tab.innerHTML = `
 <style>
 body{background-color:black}
 </style>
+<br>
+<br>
+<style>
+      div {
+        text-align: right;
+      }
+    </style>
+    <div id="logo">
+      <a href="https://raw.githack.com/thefatpotato115/Apachi/main/Support/terms.html">
+        <img src="https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/logo.png" />
+      </a>
+    </div>
 `;
 var tb = window.open();
 tb.document.body.appendChild(tab);
