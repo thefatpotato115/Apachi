@@ -49,14 +49,27 @@ var element = document.createElement("div");
 element.innerHTML = `<div id="bg" style="background-color:black">
 	<title> Apachi Chatroom </title>
 	<center>
-    <div>
-        <button class="button" id="config_lib" style="background-color:black;border-color:green;color:green;width:50px;height:30px;top:2%;left:95%;position:absolute">settings </button>
+    <div id="config">
+        <button class="button" id="config_lib" style="background-color:black;border-color:green;color:green;width:50px;height:30px;top:2%;left:95%;position:absolute">Settings</button>
         <button id="name_changer" style="background-color:black;border-color:green;color:green;width:80px;height:30px;top:12%;left:95%;position:absolute">Change Name</button> 
-	</div
+	</div>
 	 <font size="5" style="color:green"> Chat room </font><button id="ssd" style="background-color:black;border-color:green;color:green">return</button>
 	 <button id="sd" style="background-color:black;border-color:green;color:green">enable notifications</button> <br>
 
-<p1 style="color:green"> Please read <button style="border-color:green;background-color:black;color:green" onclick="window.open("https://raw.githack.com/thefatpotato115/Apachi/main/Support/terms.html");">Terms of service</button> befour using the chat room.. <b> PLEASE USE RESPONSIBLY</b></p1>
+<p1 style="color:green">
+    Please read the
+    <button style="border-color:green;background-color:black;color:green" onclick="window.open("https://raw.githack.com/thefatpotato115/Apachi/main/Support/terms.html");">
+        Terms of service
+    </button>
+    before using the chat room.
+    <b>
+        PLEASE USE RESPONSIBLY
+    </b>
+    <br>
+    <b>
+    Messages reset every seventeen messages.
+    </b>
+    </p1>
 	<br>
 	<br>
 	
@@ -99,13 +112,13 @@ var x = tab.document.createElement('div')
 x.innerHTML =`<div class="collum"><b style="color:lime"> apperance</b>
 <br>
 <br>
-<button class="button"> text color</button><br>
-<button class="button"> border color</button><br>
-<button class="button"> inner button color </button>
+<button class="button">Text color</button><br>
+<button class="button">Border color</button><br>
+<button class="button">Button Background color</button>
 </div>
 
 
-<title> Apachi chat configs </title>
+<title> Apachi chat config</title>
 <style> body{background-color:black}</style>
 `
 tab.document.body.appendChild(x)
@@ -202,7 +215,7 @@ tab.document
   });
 name_change.onclick = function() {
   anonymous_user_id = tab.prompt(
-    "Please enter your new name here. Please follow the TOS *wont save when you close the whole proggram.",
+    "What would you like your name to be? *Please keep it appropriate* *This will not save if you close the tab*",
   );
 };
 let xhr = new XMLHttpRequest();
