@@ -67,6 +67,11 @@ E.innerHTML = `
   <style > body{background-color:black}</style>
 
  </button>
+ <div id="logo" style="top:90%;left:93%;position:absolute">
+ <a href="https://raw.githack.com/thefatpotato115/Apachi/main/Support/terms.html">
+   <img src="https://raw.githubusercontent.com/thefatpotato115/Apachi/main/Resources/logo.png" />
+ </a>
+</div>
 </html>
 
 
