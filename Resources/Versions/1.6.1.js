@@ -46,7 +46,7 @@ E.innerHTML = `
 </div>
  
    
-  <title>Apachi 1.6.0</title>
+  <title>Apachi 1.6.1</title>
   	
 
 

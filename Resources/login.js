@@ -24,7 +24,7 @@ tab.innerHTML = `
 <option value="1.5.2">v1.5.2</option>
 <option value="1.5.3">v1.5.3</option>
 <option value="1.6.0">v1.6.0</option>
-<option value="1.6.1">v1.6.1 *beta</option>
+<option value="1.6.1">v1.6.1</option>
 </select>
 <br>
 <br>
